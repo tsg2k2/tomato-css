@@ -1,11 +1,8 @@
 A quick and dirty edit of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
 Modified to a condensed dark theme for use with Fresh Tomato.
 
-## Old Info
-
-Custom CSS for older routers running Tomato Firmware (that are unsupported by AdvancedTomato firmware). Design inspired by [AdvancedTomato](https://advancedtomato.com/).
-
-![Screenshot](http://tomato-design.dot26.sk/tomato-design-screenshot.png)
+## Screenshot
+![Screenshot](https://raw.githubusercontent.com/theredhood13/tomato-css-dark/master/Screenshot.png)
 
 ## Installation
 
