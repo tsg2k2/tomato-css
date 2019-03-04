@@ -1,4 +1,6 @@
-# tomato-design
+This is a fork of mReXiTuS's custom css. Changed to a dark theme for use with Fresh Tomato.
+
+
 Custom CSS for older routers running Tomato Firmware (that are unsupported by AdvancedTomato firmware). Design inspired by [AdvancedTomato](https://advancedtomato.com/).
 
 ![Screenshot](http://tomato-design.dot26.sk/tomato-design-screenshot.png)
