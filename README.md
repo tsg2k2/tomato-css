@@ -1,4 +1,5 @@
-This is a fork of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). Changed to a dark theme for use with Fresh Tomato.
+A quick and dirty edit of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
+Modified to a condensed dark theme for use with Fresh Tomato.
 
 ## Old Info
 
