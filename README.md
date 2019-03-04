@@ -11,13 +11,14 @@ Modified to a condensed dark theme for use with Fresh Tomato.
 #### 1. Upload script
 1. Navigate to __Administration__ > __Scripts__
 2. Choose __WAN Up__
-3. Paste content of __tomato_wanup.sh__ script
+3. Paste content of [__tomato_wanup.sh__](https://github.com/theredhood13/tomato-css-dark/blob/master/tomato_wanup.sh) script
 4. Save changes
 
 #### 2. Enable Custom CSS
 1. Navigate to __Administration__ > __Admin Access__
 2. Change color scheme to __custom.css__
 3. Save changes and reboot router
+4. You may need to erase your brower's cache before the new UI appears.
 
 ### Using SSH
 
@@ -31,5 +32,6 @@ Modified to a condensed dark theme for use with Fresh Tomato.
 1. Navigate to __Administration__ > __Admin Access__
 2. Change color scheme to __custom.css__
 3. Save changes and reboot router
+4. You may need to erase your brower's cache before the new UI appears.
 
 _After every reboot, this needs to be performed again. Router will automatically remove custom.css file after reboot_
