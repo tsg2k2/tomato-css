@@ -1,5 +1,5 @@
 A quick and dirty edit of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
-Modified to a condensed dark theme for use with Fresh Tomato.
+Modified to a condensed dark/light theme for use with Fresh Tomato.
 
 ## Screenshot
 ![Screenshot](https://raw.githubusercontent.com/theredhood13/tomato-css-dark/master/Screenshot.png)
