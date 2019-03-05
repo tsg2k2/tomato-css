@@ -1,4 +1,4 @@
-A quick and dirty edit of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
+A quick edit of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
 Modified to a condensed dark/light theme for use with Fresh Tomato.
 
 ## Screenshot
