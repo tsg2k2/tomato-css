@@ -11,7 +11,7 @@ Modified to a condensed dark theme for use with Fresh Tomato.
 #### 1. Upload script
 1. Navigate to __Administration__ > __Scripts__
 2. Choose __WAN Up__
-3. Paste content of [__tomato_wanup.sh__](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup.sh) script
+3. Paste the contents of [tomato_wanup_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_dark) or [tomato_wanup_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_light)
 4. Save changes
 
 #### 2. Enable Custom CSS
