@@ -358,6 +358,16 @@ span#footer-msg {
     width: 85px;
 }
 
+td#footer input {
+    margin-bottom: 18px;
+    margin-right: 41px;
+    width: 85px;
+}
+
+#refresh-spinner {
+    filter: invert(100%)!important;
+}
+
 div#rstats {
     background-color: #2b323a;
     color: #fff;
@@ -387,6 +397,12 @@ ul#tabs li a.active {
 
 ul#tabs li a:hover {
     background-color: #181c21;
+}
+
+div#graph {
+    border: 0!important;
+    padding: 8px!important;
+    filter: invert(100%) hue-rotate(180deg);
 }
 
 td#navi a.indent1[href*=about]:hover,
