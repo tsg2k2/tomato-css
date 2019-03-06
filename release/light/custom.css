@@ -353,9 +353,15 @@ td#footer div {
 }
 
 span#footer-msg {
-    display: block;
-    float: left;
-    width: 85px;
+    background-color:#0000;
+    color:#000;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    float: none;
+    width: 100px;
+    padding: 10px 15px;
 }
 
 div#rstats {
