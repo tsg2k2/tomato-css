@@ -348,14 +348,20 @@ td#footer:before {
 
 td#footer div {
     text-align: right!important;
-    margin-bottom: 18px;
-    margin-right: 41px;
+    margin-bottom: 15px;
+    margin-right: 44px;
 }
 
 span#footer-msg {
-    display: block;
-    float: right;
-    width: 85px;
+    background-color:#0000;
+    color:#fff;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    float: none;
+    width: 100px;
+    padding: 10px 15px;
 }
 
 td#footer input {
@@ -366,6 +372,12 @@ td#footer input {
 
 #refresh-spinner {
     filter: invert(100%)!important;
+}
+
+.as-script {
+    color:#fff;
+    background-color:#000!important;
+    border:0;
 }
 
 div#rstats {
@@ -414,7 +426,6 @@ td#navi a.indent1[href*="javascript:logout()"]:hover {
 }
 
 div#ident,
-table#container td#header div.title small,
-span#dtime {
+table#container td#header div.title small {
     display: none;
 }
