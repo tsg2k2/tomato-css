@@ -332,14 +332,14 @@ div.section div {
 
 td#footer {
     border: none;
-    background-color: #2b323a;
-    text-align: left;
+    background-color: #252b31;
+    text-align: right;
     padding: 0;
 }
 
 td#footer:before {
     display: block;
-    background-color: #2b323a;
+    background-color: #181c21;
     width: 240px;
     min-height: 50px;
     content: "";
@@ -347,14 +347,14 @@ td#footer:before {
 }
 
 td#footer div {
-    text-align: left!important;
-    margin-bottom: 10px;
-    margin-left: 290px;
+    text-align: right!important;
+    margin-bottom: 18px;
+    margin-right: 41px;
 }
 
 span#footer-msg {
     display: block;
-    float: left;
+    float: right;
     width: 85px;
 }
 
