@@ -1,18 +1,8 @@
-.fa,
-td#navi a.indent2:before {
-    font: normal normal normal 14px/1 FontAwesome;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700');
 
 small a,
 small a:hover {
     color: #fff!important;
-}
-
-.fa,
-td#navi a.indent2:before,
-td#navi a:first-of-type:before {
-    display: inline-block;
-    text-rendering: auto;
 }
 
 body,
@@ -20,12 +10,9 @@ html {
     background-color: #2b323a;
 }
 
-@font-face {
-    font-family: FontAwesome;
-    src: url(http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format(embedded-opentype), url(http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0) format(woff2), url(http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0) format(woff), url(http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0) format(truetype), url(http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format(svg);
-    font-weight: 400;
-    font-style: normal;
-}
+* {
+    font-family: Roboto;
+  }
 
 .fa {
     font-size: inherit;
@@ -136,6 +123,7 @@ table#container td#header {
 }
 
 table#container td#header div.title {
+    font-family: Montserrat;
     font-size: 16px;
     height: 60px;
     display: block;
@@ -157,11 +145,13 @@ table#container td#header div.version {
     line-height: 60px;
     padding-left: 20px;
     color: #fff;
+    font-family: Montserrat;
     font-weight: 400;
     font-size: 13px;
 }
 
 td#navi {
+    font-size: 13px;
     width: 240px!important;
     max-width: 240px;
     background-color: #2b323a;
@@ -186,8 +176,8 @@ td#navi a.indent1 {
     height: 30px;
     line-height: 35px;
     font-weight: 400;
-    font-size: 13px;
-    padding: 0 0 0 25px;
+    font-size: 14px;
+    padding: 0 0 3px 25px;
 }
 
 td#navi a.indent1.active {
