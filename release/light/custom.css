@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 small a,
 small a:hover {
@@ -11,7 +11,7 @@ html {
 }
 
 * {
-    font-family: Roboto;
+    font-family: 'Work Sans', sans-serif;
   }
 
 .fa {
@@ -188,8 +188,8 @@ td#navi a.indent1.active {
 
 td#navi a.indent2 {
     margin-left: 0;
-    height: 25px;
-    line-height: 25px;
+    height: 30px;
+    line-height: 30px;
     padding: 0 0 0 55px;
 }
 
@@ -200,26 +200,25 @@ td#navi a.indent2.active {
 
 td#content {
     width: auto;
-    background-color: #ddd;
+    /* background-color: #ddd; */
     color:#000;
 }
 
 div.section,
 div.section-title {
-    background-color: #fbfbfb;
     color: #444;
     padding-left: 20px;
-    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+    border: 1px solid #cfd8dc;
 }
 
 div.section-title {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
     padding-top: 14px;
     padding-bottom: 12px;
     border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     color: #2180de;
-    font-weight: 700;
+    font-weight:bold;
     font-size: 15px;
     margin: 20px 40px 0;
 }
@@ -227,15 +226,16 @@ div.section-title {
 div.section {
     padding-right: 20px;
     padding-top: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin: 0 40px 10px;
+
 }
 
 table.tomato-grid {
     border-spacing: 0;
-    border: none;
     margin: 0;
+    border:0px;    
 }
 
 table.tomato-grid tr td,
@@ -243,7 +243,6 @@ table.tomato-grid tr.header td {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
-    border-bottom: 1px solid #ddd;
 }
 
 table.tomato-grid tr.even,
@@ -252,14 +251,13 @@ table.tomato-grid tr.odd {
 }
 
 table.tomato-grid tr.header td {
-    background-color: #fbfbfb!important;
     font-size: 13px;
     color: #000;
 }
 
 table.tomato-grid tr td,
 table.tomato-grid tr.odd {
-    background-color: #fbfbfb!important;
+    /* background-color: #fbfbfb!important; */
 }
 
 table.tomato-grid tr td {
@@ -273,15 +271,14 @@ table.tomato-grid tr td small {
 
 table.tomato-grid tr td small a {
     display: inline-block;
-    background-color: #fbfbfb;
-    color: #000;
+    background-color: #ababab;
     font-size: 11px;
-    border-radius: 0px;
-    padding: 4px 7px;
+    border-radius: 3px;
+    padding: 3px 3px;
 }
 
 table.tomato-grid tr td small a:hover {
-    background-color: #76838f;
+    background-color: #e6e6e6;
 }
 
 table.tomato-grid .controls,
@@ -299,7 +296,9 @@ input[type=button] {
     border: none;
     color: #fff;
     font-size: 12px;
-    padding: 10px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
 }
 
 input[type=button]:hover {
@@ -308,20 +307,9 @@ input[type=button]:hover {
     transition:background-color .5s;
 }
 
-div.section div {
-    background-color: transparent;
-    float: none!important;
-    color: #76838f;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border-bottom: 1px solid #e4eaec;
-    border-left:0;
-    border-right:0;
-    border-top:0;
-}
 
 td#footer {
-    border: none;
+    border: 0px;
     background-color: #ddd;
     text-align: right;
     padding: 0;
@@ -338,8 +326,8 @@ td#footer:before {
 
 td#footer div {
     text-align: right!important;
-    margin-bottom: 15px;
-    margin-right: 44px;
+    margin-top: 8px;
+    margin-right: 50px;
 }
 
 span#footer-msg {
@@ -403,3 +391,4 @@ table#container td#header div.title small,
 span#dtime {
     display: none;
 }
+
