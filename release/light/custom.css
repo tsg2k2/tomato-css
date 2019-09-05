@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700');
 
 small a,
 small a:hover {
@@ -11,7 +11,7 @@ html {
 }
 
 * {
-    font-family: 'Work Sans', sans-serif;
+    font-family: Roboto;
   }
 
 .fa {
