@@ -499,8 +499,8 @@ td#footer {
 }
 
 .controls {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
 }
 
 #content  {
