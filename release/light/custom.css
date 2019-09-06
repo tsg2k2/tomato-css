@@ -645,6 +645,7 @@ td#navi a.indent1[href*='shutdown']::before {
 
 td#navi a {
     height: unset !important;
+    line-height: 25px !important;
 }
 
 
