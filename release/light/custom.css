@@ -19,11 +19,11 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-br {
-#    height: 0;
-#    display: none;
-#    margin: 0;
-#    padding: 0;
+#navi br {
+    height: 0;
+    display: none;
+    margin: 0;
+    padding: 0;
 }
 
 table#container {
