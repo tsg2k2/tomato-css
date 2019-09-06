@@ -524,6 +524,15 @@ div.section-title {
     transition-delay: 0s;
 }
 
+#ports tr:hover {
+    background: none;
+    transition: none;
+}
+
+#ports td.title {
+    width: 100px;
+}
+
 .section .section-title {
     padding: 0px;
     padding-top: 0px;
