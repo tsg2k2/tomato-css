@@ -414,25 +414,21 @@ span#dtime {
     box-shadow: none;
     color: #2180de;
     margin-bottom: 20px;
-border-bottom: none;
+    border-bottom: none;
 }		
 
 
 [id^="eth"] {
-
     display: block;
     float: inherit;
     margin: auto;
-        margin-bottom: auto;
-    margin-bottom: 10px;
-
+    margin-bottom: auto;
+    margin-bottom: 5px;
 }
 
 td {
-
     font: revert;
-        font-family: revert;
-
+    font-family: revert;
 }
 
 #b_dhcpc input {
@@ -443,13 +439,12 @@ input[type="button"] {
    margin-right: 10px;
 }
 
-small a{
+small a {
  color: gray !important;
  padding: 0px !important;
 }
 
 .note-disabled, .note-disabledw, .note-warning {
-
     background: #f7f7f7;
     font-size: 0.9em;
     padding-top: 14px;
@@ -458,13 +453,13 @@ small a{
     color: gray;
     padding-left: 20px;
     box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
-border: none;
-margin: 0px;
-width: auto;
+    border: none;
+    margin: 0px;
+    width: auto;
 }
 
 .note-disabled b {
-margin-right: 1em;
+    margin-right: 1em;
 }
 input[type="text"], input[type="password"] {
     padding: revert;
@@ -473,25 +468,24 @@ input[type="text"], input[type="password"] {
 }
 
 input, select {
-font: inherit !important;
+    font: inherit !important;
 }
 
 div.section div {
-border :none;
+    border :none;
 }
 
 div#rstats {
-min-height: 600px;
-margin: 0px;
+    min-height: 600px;
+    margin: 0px;
 }
 
 td#footer div {
     margin-right: 0px;
-
 }
 
 td#footer {
-   padding-right: 11px;
+    padding-right: 11px;
 }
 
 .fields td.title {
@@ -505,48 +499,42 @@ td#footer {
 
 #content  {
     padding: 20px;
-padding-bottom: 0px;
-
+    padding-bottom: 0px;
 }
 div.section {
    margin: 0px;
    margin-bottom: 20px;
-
 }
 
 div.section-title {
    border-bottom: none;
    margin: 0px 0px 0;
-
 }
 
 #survey-msg {
    position: unset;
-
 }
-.fields tr:hover {
 
+.fields tr:hover {
     background: rgba(127,127,127,0.1);
     transition: ease-in-out 0.1s;
-        transition-property: all;
-        transition-duration: 0.1s;
-        transition-timing-function: ease-in-out;
-        transition-delay: 0s;
-
+    transition-property: all;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 
 .section .section-title {
     padding: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     color: #2180de !important;
     box-shadow: none;
-
 }
 .section .section{
     padding: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     box-shadow: none;
 }
 
@@ -623,6 +611,10 @@ textarea {
     box-sizing: border-box;
 }
 input[type="text"], input[type="password"] {
-  height: 1.3em;
-  padding: 2px;
+    height: 1.3em;
+    padding: 2px;
+}
+.tomato-grid .controls input {
+   width: 90px;
+   min-width: 90px;
 }
