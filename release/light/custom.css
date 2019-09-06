@@ -627,3 +627,24 @@ input[type="text"], input[type="password"] {
    width: 90px;
    min-width: 90px;
 }
+
+#ports tr:hover {
+    background: none;
+    transition: none;
+}
+
+#ports td.title {
+    width: 100px;
+}
+
+td#navi a.indent1[href*='shutdown']::before {
+    width: 20px;
+#    content: "\23FB"; 
+    font: Symbola;
+}
+
+td#navi a {
+    height: unset !important;
+}
+
+
