@@ -20,10 +20,10 @@ html {
 }
 
 br {
-    height: 0;
-    display: none;
-    margin: 0;
-    padding: 0;
+#    height: 0;
+#    display: none;
+#    margin: 0;
+#    padding: 0;
 }
 
 table#container {
