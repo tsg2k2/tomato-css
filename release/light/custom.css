@@ -39,6 +39,9 @@ input, select, option, textarea {
     width: unset;
     vertical-align: middle;
 }
+.error {
+    border: 1px solid;
+}
 
 a[href*="toggle"]::before {
     content: '\1F5D8';
