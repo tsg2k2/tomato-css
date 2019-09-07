@@ -29,7 +29,11 @@ li {
 i {
     font-style: normal;
 }    
-    
+
+a[href*="toggle"] {
+    font-weight: lighter;
+    font-style: normal;
+}    
     
 #navi br {
     height: 0;
