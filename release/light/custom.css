@@ -197,6 +197,7 @@ td#content {
     background-color: #ddd;
 }
 
+div#status_table,
 div.section,
 div.section-title,
 div.tomato-grid {
@@ -512,6 +513,7 @@ div.section-title {
 
 #survey-msg {
    position: unset;
+   padding: 0px !important;
 }
 
 .fields tr:hover {
@@ -754,7 +756,7 @@ td#navi a.indent2::before {
     object-position: -100px -100px;
     border-radius: 50%;
     border: 5px solid #fff;
-    border-color: #fff transparent #fff transparent;
+    border-color: #2180de transparent #2180de transparent;
     animation: dual-ring 1.2s linear infinite;
     margin: 4px;
 }
