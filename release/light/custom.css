@@ -448,11 +448,6 @@ small a {
 .note-disabled b {
     margin-right: 1em;
 }
-input[type="text"], input[type="password"] {
-    padding: revert;
-    margin: 1px;
-
-}
 
 input, select {
     font: inherit !important;
@@ -607,8 +602,9 @@ textarea {
 }
 input[type="text"], input[type="password"] {
     height: 1.3em;
-    padding: 2px;
+    padding-left: 0.3em;
 }
+
 .tomato-grid .controls input {
    width: 90px;
    min-width: 90px;
