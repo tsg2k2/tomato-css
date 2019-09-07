@@ -650,3 +650,87 @@ td#navi a {
 }
 
 
+td#navi a[href*="shutdown"],
+td#navi a[href*="about"],
+td#navi a[href*="reboot"],
+td#navi a[href*="logout"] {
+position: absolute;
+    top: 0px !important;
+    color: white;
+    line-height: 60px !important;
+}
+
+td#navi a::before
+{
+    font-family: Symbola !important;
+    font: unset;
+    font-size: larger !important;
+    padding-right: 3px !important;
+    display: unset !important;
+}
+
+td#navi a[href*="about"]::before {
+    content: '\2139';
+}
+
+td#navi a[href*="shutdown"]::before {
+    content: '\23FB';
+}
+td#navi a[href*="logout"]::before {
+    content: '\1F80A';
+}
+td#navi a[href*="reboot"]::before {
+    content: '\1F504';
+}
+td#navi a[href="/"]::before {
+    content: '\1F6C8';
+}
+td#navi a[href*="devices"]::before {
+    content: '\1F4BB';
+}
+
+td#navi a[href*="ipt-"]::before {
+    content: '\1F5A7';
+}
+td#navi a[href*="tools"]::before {
+    content: '\2692';
+}
+td#navi a[href*="bwm"]::before {
+    content: '\1F4C8';
+}
+td#navi a[href*="qos"]::before {
+    content: '\2696';
+}
+td#navi a[href*="bwlimit"]::before {
+    content: '\2700';
+}
+td#navi a[href*="web"]::before {
+    content: '\1F310';
+}
+td#navi a[href*="nas"]::before {
+    content: '\1F5B4';
+}
+td#navi a[href*="vpn"]::before {
+    content: '\1F575';
+}
+td#navi a[href*="admin"]::before {
+    content: '\2699';
+}
+td#navi a[href*="forward"]::before {
+    content: '\1F500';
+}
+td#navi a[href*="restrict"]::before {
+    content: '\1F512';
+}
+td#navi a[href*="basic"]::before {
+    content: '\2776';
+}
+td#navi a[href*="advanced"]::before {
+    content: '\277F';
+}
+td#navi a.indent2::before {
+    content: unset;
+}
+
+
+
