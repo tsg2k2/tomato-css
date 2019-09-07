@@ -757,3 +757,9 @@ td#navi a.indent2::before {
     border-color: #fff transparent #fff transparent;
     animation: dual-ring 1.2s linear infinite;
 }
+
+img[src^="bar"] {
+    filter: grayscale();
+    height: 15px;
+    width: 19px;
+}
