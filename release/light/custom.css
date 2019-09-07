@@ -101,7 +101,7 @@ table#container td#header div.version {
     left: 240px;
     line-height: 60px;
     padding-left: 20px;
-    color: #fff;
+    color: #ffffff4a;
     font-family: Montserrat;
     font-weight: 400;
     font-size: 13px;
@@ -545,7 +545,7 @@ select {
     color: #444;
     line-height: 1.3;
     padding: .1em ;
-    width: 100%;
+    min-width: 45%;
     max-width: 100%; 
     box-sizing: border-box;
     margin: 0;
