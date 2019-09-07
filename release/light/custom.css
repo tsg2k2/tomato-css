@@ -31,6 +31,11 @@ i {
     font-style: normal;
 }    
 
+.fields td.content {
+    width: unset;
+    vertical-align: middle;
+}
+
 a[href*="toggle"] {
     font-weight: lighter;
     font-style: normal;
