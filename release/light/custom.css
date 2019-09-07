@@ -269,7 +269,7 @@ table.tomato-grid tr td {
 }
 
 table.tomato-grid tr td small {
-    display: block;
+ #   display: block;
 }
 
 table.tomato-grid tr td small a {
@@ -618,6 +618,7 @@ textarea {
 }
 input[type="text"], input[type="password"] {
     padding: 0.2em;
+    box-sizing: border-box;
 }
 
 .tomato-grid .controls input {
@@ -778,6 +779,10 @@ ul.tabs a, #tabs a {
     min-width: 70px;
 }
 
-input[size=66] {
+input[size='66'] {
     max-width: 80%;
+}
+
+img[src^="rp"] {
+    filter: grayscale();
 }
