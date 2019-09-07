@@ -54,64 +54,20 @@ td#navi a.active.indent1:before {
     color: #3498db;
 }
 
-td#navi a.indent1[href*=tools]:before,
-td#navi a.indent1[href*=basic]:before {
-    font: normal normal normal 14px/1 FontAwesome;
-    padding-right: 10px;
-    display: inline-block;
-    text-rendering: auto;
-}
-
-td#navi a.indent1[href*=qos]:before,
-td#navi a.indent1[href*=restrict]:before {
-    font: normal normal normal 14px/1 FontAwesome;
-    display: inline-block;
-    text-rendering: auto;
-    padding-right: 10px;
-}
-
 td#navi a.indent1[href*=about] {
-    color: #fff;
-    position: absolute;
-    display: inline-block;
-    top: 12px;
     right: 350px;
-    text-shadow: none;
-    font-size: 13px;
-}
-
-td#navi a.active[href*=about] {
-    color: #fff!important;
 }
 
 td#navi a.indent1[href*="javascript:reboot()"] {
-    color: #fff;
-    position: absolute;
-    display: inline-block;
-    top: 12px;
-    right: 250px;
-    text-shadow: none;
-    font-size: 13px;
+    right: 240px;
 }
 
 td#navi a.indent1[href*="javascript:shutdown()"] {
-    color: #fff;
-    position: absolute;
-    display: inline-block;
-    top: 12px;
-    right: 140px;
-    text-shadow: none;
-    font-size: 13px;
+    right: 10px;   
 }
 
 td#navi a.indent1[href*="javascript:logout()"] {
-    color: #fff;
-    position: absolute;
-    display: inline-block;
-    top: 12px;
-    right: 50px;
-    text-shadow: none;
-    font-size: 13px;
+    right: 25px;
 }
 
 table#container td#header {
