@@ -186,9 +186,14 @@ div.section-title,
 div.tomato-grid {
     background-color: #fbfbfb;
     color: #444;
-    padding-left: 20px;
+    padding: 20px;
     box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
     width: auto !important;
+}
+
+div.section div.tomato-grid {
+    padding: 0px;
+    box-shadow: none;
 }
 
 div.section-title {
@@ -215,7 +220,6 @@ table.tomato-grid {
     border-spacing: 0;
     border: none;
     margin: 0;
-    width: unset !important;
     background: unset;
     padding: 10px;
     border-collapse: collapse;
@@ -720,4 +724,8 @@ td#navi a.indent2::before {
 
 #termDiv table {
     width: 100%;
+}
+
+#survey-msg {
+   background: unset !important;
 }
