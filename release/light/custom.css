@@ -353,7 +353,6 @@ span#footer-msg {
 
 div#rstats {
     background-color: #fbfbfb;
-    color: #222;
     border-radius: 0px;
     margin: 20px 40px 0;
     padding: 20px;
@@ -600,7 +599,6 @@ select:hover {
 }
 select:focus {
     border-color: #aaa;
-    color: #222; 
     outline: none;
 }
 select option {
@@ -609,6 +607,7 @@ select option {
 
 select[disabled] {
     color: lightgray;
+    filter: grayscale();
 }
 textarea {
     width: 100% !important;
@@ -616,8 +615,7 @@ textarea {
     box-sizing: border-box;
 }
 input[type="text"], input[type="password"] {
-    height: 1.3em;
-    padding-left: 0.3em;
+    padding: 0.2em;
 }
 
 .tomato-grid .controls input {
