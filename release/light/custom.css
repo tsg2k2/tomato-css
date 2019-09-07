@@ -708,5 +708,6 @@ td#navi a.indent2::before {
     color: #444;
     box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
     padding: 20px;
+    margin: 0px !important;
 }
 
