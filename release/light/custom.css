@@ -532,6 +532,7 @@ div.section-title {
 
 #ports td.title {
     width: 100px;
+    white-space: nowrap;
 }
 
 .section .section-title {
