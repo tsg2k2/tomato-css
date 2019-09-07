@@ -63,11 +63,11 @@ td#navi a.indent1[href*="javascript:reboot()"] {
 }
 
 td#navi a.indent1[href*="javascript:shutdown()"] {
-    right: 10px;   
+    right: 120px;   
 }
 
 td#navi a.indent1[href*="javascript:logout()"] {
-    right: 250px;
+    right: 25px;
 }
 
 table#container td#header {
