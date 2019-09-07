@@ -756,6 +756,7 @@ td#navi a.indent2::before {
     border: 5px solid #fff;
     border-color: #fff transparent #fff transparent;
     animation: dual-ring 1.2s linear infinite;
+    margin: 4px;
 }
 
 img[src^="bar"] {
@@ -763,3 +764,7 @@ img[src^="bar"] {
     height: 15px;
     width: 19px;
 }
+
+div#wait {
+    line-height: 2.6;
+}    
