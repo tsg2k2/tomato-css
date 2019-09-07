@@ -768,3 +768,7 @@ img[src^="bar"] {
 div#wait {
     line-height: 2.6;
 }    
+
+pre#stats {
+    white-space: normal;
+}
