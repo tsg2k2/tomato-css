@@ -182,7 +182,8 @@ td#content {
 }
 
 div.section,
-div.section-title {
+div.section-title,
+div.tomato-grid {
     background-color: #fbfbfb;
     color: #444;
     padding-left: 20px;
@@ -213,6 +214,7 @@ table.tomato-grid {
     border-spacing: 0;
     border: none;
     margin: 0;
+    width: unset !important;
 }
 
 table.tomato-grid tr td,
