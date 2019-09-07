@@ -226,7 +226,6 @@ table.tomato-grid tr.odd {
 table.tomato-grid tr.header td {
     background-color: #fbfbfb!important;
     font-size: 13px;
-    color: #000;
 }
 
 table.tomato-grid tr td,
@@ -236,7 +235,6 @@ table.tomato-grid tr.odd {
 
 table.tomato-grid tr td {
     font-size: 12px;
-    color: #222;
 }
 
 table.tomato-grid tr td small {
@@ -595,7 +593,7 @@ select[disabled] {
     color: lightgray;
 }
 textarea {
-    width: 100%;
+    width: 100% !important;
     height: 15em;
     box-sizing: border-box;
 }
