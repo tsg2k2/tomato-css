@@ -40,10 +40,19 @@ input, select, option, textarea {
     vertical-align: middle;
 }
 
+a[href*="toggle"]::before {
+    content: '\1F5D8';
+    font-family: Symbola;
+}
+
 a[href*="toggle"] {
     font-weight: lighter;
     font-style: normal;
-}    
+} 
+
+a[href*="toggle"] span {
+    display: none;
+} 
     
 #navi br {
     height: 0;
@@ -70,12 +79,12 @@ small a:hover {
     background-color: #76838f!important;
 }
 
-td#navi a.indent1:before {
-    width: 20px;
+td#navi a.indent1::before {
+    min-width: 1.1em;
+    display: inline-block;
 }
 
-td#navi a.active.indent1:before {
-    width: 20px;
+td#navi a.active.indent1::before {
     color: #3498db;
 }
 
@@ -443,13 +452,9 @@ small a {
 }
 
 .note-disabled, .note-disabledw, .note-warning {
-    background: #f7f7f7;
-    font-size: 0.9em;
-    padding-top: 14px;
-    padding-bottom: 12px;
+    background: #fbfbfb;
+    padding: 20px;
     border-bottom: none;
-    color: gray;
-    padding-left: 20px;
     box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
     border: none;
     margin: 0px;
@@ -647,10 +652,8 @@ td#navi a[href*="logout"] {
 td#navi a::before
 {
     font-family: Symbola !important;
-    font: unset;
-    font-size: larger !important;
-    padding-right: 3px !important;
-    display: unset !important;
+    font-size: larger;
+    padding-right: 3px;
 }
 
 td#navi a[href*="about"]::before {
