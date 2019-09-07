@@ -188,6 +188,7 @@ div.tomato-grid {
     color: #444;
     padding-left: 20px;
     box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+    width: auto !important;
 }
 
 div.section-title {
@@ -215,6 +216,9 @@ table.tomato-grid {
     border: none;
     margin: 0;
     width: unset !important;
+    background: unset;
+    padding: 10px;
+    border-collapse: collapse;
 }
 
 table.tomato-grid tr td,
