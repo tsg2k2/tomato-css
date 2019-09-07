@@ -426,6 +426,10 @@ span#dtime {
     margin-bottom: 5px;
 }
 
+table.fields {
+    width: 100%;
+}
+
 td {
     font: revert;
     font-family: revert;
