@@ -750,7 +750,7 @@ td#navi a.indent2::before {
   }
 }
 
-#refresh-spinner {
+#refresh-spinner, img[src^='spin'] {
     object-position: -100px -100px;
     border-radius: 50%;
     border: 5px solid #fff;
