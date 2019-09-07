@@ -9,6 +9,7 @@ small a:hover {
 body,
 html {
     background-color: #2b323a;
+    color: #444;
 }
 
 * {
@@ -702,5 +703,10 @@ td#navi a.indent2::before {
     content: unset;
 }
 
-
+.about {
+    background-color: #fbfbfb;
+    color: #444;
+    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+    padding: 20px;
+}
 
