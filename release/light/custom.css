@@ -734,3 +734,26 @@ td#navi a.indent2::before {
 #survey-msg {
    background: unset !important;
 }
+
+.as-script {
+    font: 12px monospace !important;
+    overflow: auto !important;
+    border: 1px solid #9e9b9b;
+}
+
+@keyframes dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#refresh-spinner {
+    object-position: -100px -100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: dual-ring 1.2s linear infinite;
+}
