@@ -770,3 +770,8 @@ div#wait {
 pre#stats {
     white-space: normal;
 }
+
+ul.tabs a, #tabs a {
+    width: unset !important;
+    min-width: 70px;
+}
