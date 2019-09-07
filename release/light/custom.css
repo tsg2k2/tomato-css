@@ -196,15 +196,16 @@ td#content {
     width: auto;
     background-color: #ddd;
 }
-
-div#status_table,
-div.section,
-div.section-title,
-div.tomato-grid {
+div#status_table, 
+div.section, 
+div.section-title, 
+div.tomato-grid, 
+td#content > i {
     background-color: #fbfbfb;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
     width: auto !important;
+    display: block; 
 }
 
 div.section div.tomato-grid {
