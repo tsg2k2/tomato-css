@@ -67,7 +67,7 @@ td#navi a.indent1[href*="javascript:shutdown()"] {
 }
 
 td#navi a.indent1[href*="javascript:logout()"] {
-    right: 25px;
+    right: 250px;
 }
 
 table#container td#header {
