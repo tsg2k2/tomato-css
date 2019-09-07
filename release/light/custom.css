@@ -9,7 +9,7 @@ small a:hover {
 body,
 html {
     background-color: #2b323a;
-    color: #4f4f4f;
+    color: #76838f;
 }
 
 * {
@@ -308,7 +308,6 @@ input[type=button]:hover {
 div.section div {
     background-color: transparent;
     float: none!important;
-    color: #76838f;
     padding-top: 0px;
     padding-bottom: 0px;
     border-bottom: 1px solid #e4eaec;
