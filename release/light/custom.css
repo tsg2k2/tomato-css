@@ -407,10 +407,6 @@ span#dtime {
 
 #ports .section-title {
     margin: 0;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
     padding: 0;
     box-shadow: none;
     color: #2180de;
@@ -418,6 +414,9 @@ span#dtime {
     border-bottom: none;
 }		
 
+#ports .title.indent1 {
+    padding: 0px;
+}
 
 [id^="eth"] {
     display: block;
@@ -438,6 +437,12 @@ td {
 
 input[type="button"] {
    margin-right: 10px;
+}
+
+.fields input[type="button"] {
+    padding: 4px 10px;
+    margin-left: 5px;
+    margin-right: 0px;
 }
 
 small a {
@@ -576,8 +581,6 @@ ul.tabs a.active, #tabs a.active {
 }
 
 select {
-    font-family: sans-serif;
-    font-weight: 700;
     color: #444;
     line-height: 1.3;
     padding: .1em ;
@@ -639,23 +642,16 @@ input[type="text"], input[type="password"] {
     width: 100px;
 }
 
-td#navi a.indent1[href*='shutdown']::before {
-    width: 20px;
-#    content: "\23FB"; 
-    font: Symbola;
-}
-
 td#navi a {
     height: unset !important;
     line-height: 25px !important;
 }
 
-
 td#navi a[href*="shutdown"],
 td#navi a[href*="about"],
 td#navi a[href*="reboot"],
 td#navi a[href*="logout"] {
-position: absolute;
+    position: absolute;
     top: 0px !important;
     color: white;
     line-height: 60px !important;
