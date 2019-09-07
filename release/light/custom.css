@@ -354,14 +354,6 @@ span#footer-msg {
     padding: 10px 15px;
 }
 
-div#rstats {
-    background-color: #fbfbfb;
-    border-radius: 0px;
-    margin: 20px 40px 0;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
-}
-
 div#tab-area {
     margin-bottom: 10px;
 }
@@ -476,8 +468,12 @@ div.section div {
 }
 
 div#rstats {
-    min-height: 600px;
+    min-height: 530px;
+    background-color: #fbfbfb;
     margin: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
 }
 
 td#footer div {
