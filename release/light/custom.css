@@ -717,3 +717,6 @@ td#navi a.indent2::before {
     margin: 0px !important;
 }
 
+#termDiv table {
+    width: 100%;
+}
