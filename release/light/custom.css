@@ -467,7 +467,9 @@ div.section div {
     border :none;
 }
 
-div#rstats {
+div#rstats,
+div#cstats
+{
     min-height: 530px;
     background-color: #fbfbfb;
     margin: 0px;
@@ -774,4 +776,8 @@ pre#stats {
 ul.tabs a, #tabs a {
     width: unset !important;
     min-width: 70px;
+}
+
+input[size=66] {
+    max-width: 80%;
 }
