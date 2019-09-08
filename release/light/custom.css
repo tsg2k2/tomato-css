@@ -789,7 +789,7 @@ img[src^="rp"] {
 .editor div[class^='x'] {
   display: inline-block;
   padding: 5px !important;
-  width: 40% !important;
+  width: 30% !important;
 }
 .editor div[class^="x5"] {
     display: inline-block;
