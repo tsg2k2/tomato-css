@@ -355,7 +355,6 @@ span#footer-msg {
     font-size: 12px;
     text-align: center;
     margin: auto;
-    display: inline-block;
     float: none;
     padding: 10px 15px;
     color: unset !important;
@@ -660,6 +659,7 @@ td#navi a::before
     font-family: Symbola !important;
     font-size: larger;
     padding-right: 3px;
+    filter: grayscale();
 }
 
 td#navi a[href*="about"]::before {
