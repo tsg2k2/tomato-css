@@ -633,6 +633,7 @@ input[type="text"], input[type="password"] {
 
 select:hover, input:hover {
     border-color: #888;
+    border-width: 1px;
 }
 
 .tomato-grid .controls input {
@@ -857,7 +858,7 @@ td.co2 small a[href*=":addWF"]::before {
   right: 20px;
   margin: 10px;
   width: 0px;
-  color: transparent;
+  color: transparent !importnat;
 }
 
 div#ports {
