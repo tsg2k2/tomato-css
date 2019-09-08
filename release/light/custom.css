@@ -150,8 +150,8 @@ table#container td#header div.version {
 
 td#navi {
     font-size: 13px;
-    width: 240px!important;
-    max-width: 240px;
+    width: 210px!important;
+    max-width: 210px;
     background-color: #2b323a;
     padding: 10px 0 0;
     border: 0;
@@ -175,7 +175,7 @@ td#navi a.indent1 {
     line-height: 35px;
     font-weight: 400;
     font-size: 14px;
-    padding: 0 0 3px 15px;
+    padding: 0 0 3px 20px;
 }
 
 td#navi a.indent1.active {
@@ -188,7 +188,7 @@ td#navi a.indent2 {
     margin-left: 0;
     height: 25px;
     line-height: 25px;
-    padding: 0 0 0 45px;
+    padding: 0 0 0 50px;
 }
 
 td#navi a.indent2.active {
@@ -258,7 +258,7 @@ table.tomato-grid tr.header td {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #f0f1f4;
 }
 
 table.tomato-grid tr.even,
@@ -334,7 +334,7 @@ div.section div {
 
 td#footer {
     border: none;
-    background-color: #ddd;
+    background-color: #f0f1f4;
     text-align: right;
     padding: 0;
 }
@@ -342,7 +342,7 @@ td#footer {
 td#footer:before {
     display: block;
     background-color: #2b323a;
-    width: 240px;
+    width: 210px;
     min-height: 50px;
     content: "";
     float: left;
