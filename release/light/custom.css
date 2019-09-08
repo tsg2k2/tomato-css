@@ -79,11 +79,11 @@ td#content a {
 
 td#content a:hover {
     background: 0 0;
-    color: #2ab7eb;
+    color: white !important;
 }
 
 small a:hover {
-    background-color: #76838f!important;
+    background-color: #76838f !important;
 }
 
 td#navi a.indent1::before {
@@ -820,3 +820,28 @@ div#cstats > div.section-title {
     box-shadow: none;
 }
 
+td.co2 small a[href*="api"],
+td.co2 small a[href*=":add"]
+{
+    display: inline-block;
+    overflow: hidden;
+    width: 1em;
+    height: 1.3em;
+}
+
+td.co2 small a[href*="api"]::before {
+  content: '\1F3ED';
+  font-family: Symbola;
+}
+td.co2 small a[href*=":addbw"]::before {
+  content: '\2700';
+  font-family: Symbola;
+}
+td.co2 small a[href*=":addSt"]::before {
+  content: '\1F4CC';
+  font-family: Symbola;
+}
+td.co2 small a[href*=":addWF"]::before {
+  content: '\1F6AA';
+  font-family: Symbola;
+}
