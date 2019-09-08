@@ -709,7 +709,7 @@ td#navi a[href*="forward"]::before {
 td#navi a[href*="restrict"]::before {
     content: '\1F512';
 }
-td#navi a[href*="basic"]::before {
+td#navi a[href^="basic"]::before {
     content: '\2776';
 }
 td#navi a[href*="advanced"]::before {
