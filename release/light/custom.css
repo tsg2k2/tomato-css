@@ -850,3 +850,28 @@ td.co2 small a[href*=":addWF"]::before {
   content: '\1F6AA';
   font-family: Symbola;
 }
+
+#ports td.indent1 a {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  margin: 10px;
+  width: 0px;
+  color: transparent;
+}
+
+div#ports {
+    position: relative;
+}
+
+#ports td.indent1 a:before {
+  font-family: Symbola;
+  content: '\2699';
+  color: gray;
+}
+
+#ports .title.indent1 {
+    color: transparent;
+}
+
+
