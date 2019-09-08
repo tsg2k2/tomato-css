@@ -2,7 +2,7 @@
 @import url('https://fontlibrary.org/face/symbola');
 
 small a,
-small a:hover {
+small a:hover {sp
     color: #fff!important;
 }
 
@@ -763,6 +763,7 @@ td#navi a.indent2::before {
     border-color: #2180de transparent #2180de transparent;
     animation: dual-ring 1.2s linear infinite;
     margin: 4px;
+    margin-right: 10px;
 }
 
 img[src^="bar"] {
