@@ -43,8 +43,12 @@ input, select, option, textarea {
     border: 1px solid;
 }
 
+.section-title small {
+    float: right;
+}
+
 a[href*="toggle"]::before {
-    content: '\1F5D8';
+    content: '\2BB7';
     font-family: Symbola;
 }
 
@@ -194,8 +198,9 @@ td#navi a.indent2.active {
 
 td#content {
     width: auto;
-    background-color: #ddd;
+    background-color: #f0f1f4;
 }
+
 div#status_table, 
 div.section, 
 div.section-title, 
@@ -203,7 +208,7 @@ div.tomato-grid,
 td#content > i {
     background-color: #fbfbfb;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     width: auto !important;
     display: block; 
 }
@@ -455,7 +460,7 @@ small a {
     background: #fbfbfb;
     padding: 20px;
     border-bottom: none;
-    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     border: none;
     margin: 0px;
     width: auto;
@@ -481,7 +486,7 @@ div#cstats
     margin: 0px;
     margin-bottom: 20px;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
 }
 
 td#footer div {
@@ -728,7 +733,7 @@ td#navi a.indent2::before {
 .about {
     background-color: #fbfbfb;
     color: #444;
-    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     padding: 20px;
     margin: 0px !important;
 }
