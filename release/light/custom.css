@@ -255,8 +255,8 @@ table.tomato-grid {
 
 table.tomato-grid tr td,
 table.tomato-grid tr.header td {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 5px;
     border-bottom: 1px solid #f0f1f4;
 }
