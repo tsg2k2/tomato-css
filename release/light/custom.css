@@ -344,15 +344,15 @@ td#footer div {
 }
 
 span#footer-msg {
+    width: 400px;
     background-color:#0000;
-    color:#000;
     font-size: 12px;
     text-align: center;
     margin: auto;
     display: inline-block;
     float: none;
-    width: 100px;
     padding: 10px 15px;
+    color: unset !important;
 }
 
 div#tab-area {
@@ -553,9 +553,7 @@ input[type="checkbox"] {
     margin: 1px 0 2px 0;
     vertical-align: sub;
 }
-span#footer-msg {
-    width: 300px;
-}
+
 #afu-upgrade-button {
     height: auto !important;
 }
@@ -786,4 +784,19 @@ input[size='66'] {
 
 img[src^="rp"] {
     filter: grayscale();
+}
+
+.editor div[class^='x'] {
+  display: inline-block;
+  padding: 5px !important;
+  width: 40% !important;
+}
+.editor div[class^="x5"] {
+    display: inline-block;
+    padding: 5px !important;
+    width: 20% !important;
+}
+.editor div[class^="x"] input,
+.editor div[class^="x"] select{
+    width: 100% !important;
 }
