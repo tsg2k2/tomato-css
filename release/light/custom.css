@@ -683,8 +683,9 @@ td#navi a[href*="reboot"]::before {
 td#navi a[href="/"]::before {
     content: '\1F6C8';
 }
-td#navi a[href*="devices"]::before {
-    content: '\1F4BB';
+
+td#navi a[href*="status_log"]::before {
+    content: '\1F586';
 }
 
 td#navi a[href*="ipt-"]::before {
