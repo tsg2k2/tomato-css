@@ -175,7 +175,7 @@ td#navi a.indent1 {
     line-height: 35px;
     font-weight: 400;
     font-size: 14px;
-    padding: 0 0 3px 25px;
+    padding: 0 0 3px 15px;
 }
 
 td#navi a.indent1.active {
@@ -188,7 +188,7 @@ td#navi a.indent2 {
     margin-left: 0;
     height: 25px;
     line-height: 25px;
-    padding: 0 0 0 55px;
+    padding: 0 0 0 45px;
 }
 
 td#navi a.indent2.active {
