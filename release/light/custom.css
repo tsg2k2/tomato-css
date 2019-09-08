@@ -208,6 +208,12 @@ td#content > i {
     display: block; 
 }
 
+div.cstats > dic.section,
+div.cstats > dic.section_title {
+   padding: 0px;
+    box-shadow: none;
+}
+
 div.section div.tomato-grid {
     padding: 0px;
     box-shadow: none;
@@ -800,3 +806,10 @@ img[src^="rp"] {
 .editor div[class^="x"] select{
     width: 100% !important;
 }
+
+div#cstats > div.section,
+div#cstats > div.section-title {
+    padding-right: : 0px;
+    box-shadow: none;
+}
+
