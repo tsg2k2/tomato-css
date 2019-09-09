@@ -875,4 +875,32 @@ div#ports {
     color: transparent;
 }
 
+input[type='checkbox'] {
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin: 0px;
+}
+
+input[type='checkbox']:hover {
+    background-color: #599fe4;
+    transition:background-color .5s;
+}
+
+input[type='checkbox']::focus {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+input[type='checkbox']:checked {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 28 28"><path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>') ;
+}
+
+input[type='checkbox']:disabled {
+    background-color: gray;    
+}
+
 
