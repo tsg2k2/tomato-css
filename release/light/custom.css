@@ -161,7 +161,7 @@ td#navi {
     font-size: 13px;
     width: 210px!important;
     max-width: 210px;
-    background-color: #2b323a;
+    background-color: var(--tomato-accent-color-dark);
     padding: 10px 0 0;
     border: 0;
 }
@@ -184,7 +184,7 @@ td#navi a.indent1 {
     line-height: 35px;
     font-weight: 400;
     font-size: 14px;
-    padding: 2px 0 2px 20px;
+    padding: 0 0 3px 20px;
 }
 
 td#navi a.indent1.active {
@@ -909,4 +909,8 @@ input[type='checkbox']:disabled {
     background-color: gray;    
 }
 
-
+td.term,
+textarea.as-script{
+    background-color: var(--tomato-background);
+    color: white;
+}
