@@ -637,7 +637,7 @@ textarea {
     box-sizing: border-box;
 }
 input[type="text"], input[type="password"] {
-    padding: 0.2em;
+    padding: 0.15em;
     padding-left: 0.4em !important;
     box-sizing: border-box;
     margin: 0px !important;
@@ -889,8 +889,8 @@ div#ports {
 input[type='checkbox'] {
   -moz-appearance: none;
   appearance: none;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   background: white;
   border: var(--tomato-controls-border);
   border-radius: var( --tomato-controls-border-radius);
