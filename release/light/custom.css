@@ -687,7 +687,7 @@ td#navi a[href*="reboot"]::before {
     content: '\1F504';
 }
 td#navi a.indent1[href="/"]::before,
-td#navi a.indent1[href="status"]::before {
+td#navi a.indent1[href^="status"]::before {
     content: '\1F6C8';
 }
 
@@ -706,7 +706,7 @@ td#navi a[href*="qos"]::before {
 td#navi a[href*="bwlimit"]::before {
     content: '\2700';
 }
-td#navi a[href*="web"]::before {
+td#navi a[href^="web"]::before {
     content: '\1F310';
 }
 td#navi a[href*="nas"]::before {
