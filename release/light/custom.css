@@ -934,5 +934,8 @@ input[type=button][disabled] {
     background-color: var(--tomato-accent-color-dark);
 }
 
+input + input, select + input {
+    margin-left: 10px;
+}
 
 
