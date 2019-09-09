@@ -8,7 +8,8 @@
   --tomato-accent-color: #27ae60;
   --tomato-accent-color-dark: #2b323a;  
 #  --tomato-accent-color: #2180de;
-   
+   --tomato-controls-border: 1px solid lightgrey;
+   --tomato-controls-border-radius: 1.5px;      
 }
 small a,
 small a:hover {sp
@@ -322,6 +323,7 @@ input[type=button] {
     color: #fff;
     font-size: 12px;
     padding: 10px 15px;
+    border-radius: var( --tomato-controls-border-radius);
 }
 
 input[type=button]:hover {
@@ -599,9 +601,9 @@ select {
     min-width: 100px;
     box-sizing: border-box;
     margin: 0;
-    border: 1px solid #aaa;
+    border: var(--tomato-controls-border);
     # box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
-    border-radius: 0em;
+    border-radius: var( --tomato-controls-border-radius);
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -639,6 +641,8 @@ input[type="text"], input[type="password"] {
     padding-left: 0.4em !important;
     box-sizing: border-box;
     margin: 0px !important;
+    border: var(--tomato-controls-border);
+    border-radius: var( --tomato-controls-border-radius);
 }
 
 select:hover, input:hover {
@@ -888,8 +892,8 @@ input[type='checkbox'] {
   width: 16px;
   height: 16px;
   background: white;
-  border: 1px solid gray;
-  border-radius: 2px;
+  border: var(--tomato-controls-border);
+  border-radius: var( --tomato-controls-border-radius);
   margin: 0px;
 }
 
