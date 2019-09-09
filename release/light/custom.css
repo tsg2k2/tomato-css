@@ -325,9 +325,10 @@ input[type=button] {
 }
 
 input[type=button]:hover {
-    background-color: #599fe4;
+    background-color: var(--tomato-accent-color);
     cursor: pointer;
-    transition:background-color .5s;
+    filter: brightness(1.2);
+    transition:all .5s;
 }
 
 div.section div {
