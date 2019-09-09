@@ -686,12 +686,9 @@ td#navi a[href*="logout"]::before {
 td#navi a[href*="reboot"]::before {
     content: '\1F504';
 }
-td#navi a[href="/"]::before {
+td#navi a.indent1[href="/"]::before,
+td#navi a.indent1[href="status"]::before {
     content: '\1F6C8';
-}
-
-td#navi a[href*="status_log"]::before {
-    content: '\1F586';
 }
 
 td#navi a[href*="ipt-"]::before {
@@ -858,7 +855,7 @@ td.co2 small a[href*=":addWF"]::before {
   right: 20px;
   margin: 10px;
   width: 0px;
-  color: transparent !importnat;
+  color: transparent !important;
 }
 
 div#ports {
