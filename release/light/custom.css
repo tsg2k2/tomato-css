@@ -325,12 +325,12 @@ input[type=button] {
     border: none;
     color: #fff;
     font-size: 12px;
-    padding: 10px 15px;
-    border-radius: var(--tomato-controls-border-radius);
+    padding: 10px 10px;
+    border-radius: var( --tomato-controls-border-radius);
 }
 
 input[type=button]:hover {
-    background-color: var(--tomato-accent-color);
+    background-color: var(--tomato-accent-color-dark);
     cursor: pointer;
     filter: brightness(1.2);
     transition:all .5s;
@@ -445,19 +445,12 @@ span#dtime {
 table.fields {
     width: 100%;
     max-width: 1100px;
+    margin-bottom: 10px;
 }
 
 td {
     font: revert;
     font-family: revert;
-}
-
-#b_dhcpc input {
-    margin-right: 5px;
-}
-
-input[type="button"] {
-   margin-right: 10px;
 }
 
 .fields input[type="button"] {
@@ -509,7 +502,7 @@ td#footer div {
 }
 
 td#footer {
-    padding-right: 11px;
+    padding-right: 20px;
 }
 
 .fields td.title {
@@ -517,8 +510,6 @@ td#footer {
 }
 
 .controls {
-    margin-top: 10px !important;
-    margin-bottom: 0px !important;
 }
 
 #content  {
@@ -604,9 +595,8 @@ select {
     min-width: 100px;
     box-sizing: border-box;
     margin: 0;
-    # box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
-
     border: var(--tomato-controls-border);
+    # box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
     border-radius: var( --tomato-controls-border-radius);
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -639,9 +629,6 @@ textarea {
     width: 100% !important;
     height: 15em;
     box-sizing: border-box;
-    border: var(--tomato-controls-border);
-    border-radius: var( --tomato-controls-border-radius);
-    font-size: 12px;
 }
 input[type="text"], input[type="password"] {
     padding: 0.15em;
@@ -788,7 +775,6 @@ td#navi a.indent2::before {
     border-color: var(--tomato-accent-color) transparent var(--tomato-accent-color) transparent;
     animation: dual-ring 1.2s linear infinite;
     margin: 4px;
-    margin-right: 10px;
 }
 
 img[src^="bar"] {
@@ -934,4 +920,19 @@ select:hover, input:hover {
     border-width: 1px;
     transition: border-color ease-in-out 0.5s;
 }
+
+
+input[type=button]:hover:not([disabled]) {
+    background-color: var(--tomato-accent-color);
+    cursor: pointer;
+    filter: brightness(1.2);
+    transition:all .5s;
+}
+
+input[type=button][disabled] {
+    color: unset;
+    background-color: var(--tomato-accent-color-dark);
+}
+
+
 
