@@ -492,7 +492,6 @@ div.section div {
 div#rstats,
 div#cstats
 {
-    min-height: 530px;
     background-color: var(--tomato-panel-background);
     margin: 0px;
     margin-bottom: 20px;
@@ -955,4 +954,11 @@ input + input, select + input {
 
 #b_dhcpc input {
     font-size: 12px !important;
+}
+
+#rstats::after,
+#cstats::after{
+    content: '';
+    clear: both;
+    display: block;
 }
