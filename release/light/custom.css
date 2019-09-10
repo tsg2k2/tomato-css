@@ -85,6 +85,7 @@ a[href*="toggle"] span {
 table#container {
     width: 100% !important;
     margin: 0;
+    height: 100vh;
 }
 
 td#content a {
@@ -350,21 +351,23 @@ div.section div {
     border-top:0;
 }
 
+#navi::after {
+    content: "";
+    height: 50px;
+    position: relative;
+    bottom: -50px;
+    display: block;
+}
+
 td#footer {
     border: none;
     background-color: #f0f1f4;
     text-align: right;
     padding: 0;
+    min-height: 50px;
+
 }
 
-td#footer:before {
-    display: block;
-    background-color: #2b323a;
-    width: 210px;
-    min-height: 50px;
-    content: "";
-    float: left;
-}
 
 td#footer div {
     text-align: right!important;
