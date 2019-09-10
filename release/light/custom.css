@@ -355,6 +355,8 @@ td#footer {
     background-color: #f0f1f4;
     text-align: right;
     min-height: 50px;
+    margin: 0px;
+    padding: 0px;
 }
 
 td#footer div {
@@ -489,11 +491,12 @@ div#cstats
 }
 
 td#footer div {
-    margin-right: 0px;
+    margin: 20px;
+    margin-top: 0px;
 }
 
 td#footer {
-    padding: 20px;
+    /*! padding: 20px; */
 }
 
 .fields td.title {
@@ -962,10 +965,20 @@ table#container {
  
 }
 #navi::after {
-    content: "";
+    /*! content: ""; */
     height: 100%;
     display: block;
     background-color: var(--tomato-background);
     width: 100%;
     margin-bottom: 100%;
 }
+
+#footer::before {
+    content: '';
+    width: 210px;
+    height: 55px;
+    display: block;
+    background-color: var(--tomato-background);
+    float: left;
+}
+
