@@ -512,6 +512,8 @@ td#footer {
 }
 
 .controls {
+   margin-top: 0px !important;
+   margin-bottom: 0px !important;
 }
 
 #content  {
@@ -943,4 +945,12 @@ input + input, select + input {
 #spin {
     float: right;
     padding: 0px !important;
+}
+
+#b_dhcpc {
+    font-size: 0px;
+}
+
+#b_dhcpc input {
+    font-size: 12px !important;
 }
