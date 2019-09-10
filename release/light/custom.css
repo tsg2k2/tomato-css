@@ -350,7 +350,6 @@ div.section div {
     border-top:0;
 }
 
-
 td#footer {
     border: none;
     background-color: #f0f1f4;
@@ -358,11 +357,8 @@ td#footer {
     min-height: 50px;
 }
 
-
 td#footer div {
     text-align: right!important;
-    margin-bottom: 15px;
-    margin-right: 44px;
 }
 
 span#footer-msg {
