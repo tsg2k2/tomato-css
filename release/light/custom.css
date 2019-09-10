@@ -3,7 +3,7 @@
 
 :root {
   --tomato-background: #2b323a;
-  --tomato-panel-background: #fbfbfb;
+#  --tomato-panel-background: #fbfbfb;
   --tomato-panel-background: #fff;
   --tomato-color: #76838f;
   --tomato-accent-color: #27ae60;
@@ -262,6 +262,7 @@ table.tomato-grid {
     border-spacing: 0;
     border: none;
     margin: 0;
+    margin-bottom: 10px;
     background: unset;
     padding: 10px;
     border-collapse: collapse;
@@ -702,7 +703,7 @@ td#navi a[href*="tools"]::before {
     content: '\2692';
 }
 td#navi a[href*="bwm"]::before {
-    content: '\1F4C8';
+    content: '\1F4CA';
 }
 td#navi a[href*="qos"]::before {
     content: '\2696';
@@ -939,4 +940,6 @@ input + input, select + input {
     margin-left: 10px;
 }
 
-
+#spin {
+    float: right;
+}
