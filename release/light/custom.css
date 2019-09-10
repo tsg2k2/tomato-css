@@ -508,7 +508,7 @@ td#footer {
 }
 
 .fields td.title {
-    width: 260px;
+    width: 200px;
 }
 
 .controls {
@@ -942,4 +942,5 @@ input + input, select + input {
 
 #spin {
     float: right;
+    padding: 0px !important;
 }
