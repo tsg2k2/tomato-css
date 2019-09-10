@@ -965,3 +965,21 @@ input + input, select + input {
     clear: both;
     display: block;
 }
+
+
+
+table#container {
+    overflow: hidden;
+}
+#navi {
+    height: 100%;
+ 
+}
+#navi::after {
+    content: "";
+    height: 100%;
+    display: block;
+    background-color: var(--tomato-background);
+    width: 100%;
+    margin-bottom: -100%;
+}
