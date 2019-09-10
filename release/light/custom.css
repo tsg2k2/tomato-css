@@ -962,7 +962,7 @@ table#container {
 }
 #navi {
     height: 100%;
- 
+    min-width: 210px;
 }
 #navi::after {
     /*! content: ""; */
