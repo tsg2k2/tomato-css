@@ -103,6 +103,7 @@ small a:hover {
 td#navi a.indent1::before {
     min-width: 1.1em;
     display: inline-block;
+    text-align: center;
 }
 
 td#navi a.active.indent1::before {
@@ -800,8 +801,8 @@ ul.tabs a, #tabs a {
     min-width: 70px;
 }
 
-input[size='66'] {
-    max-width: 80%;
+input[size] {
+    max-width: 40%;
 }
 
 img[src^="rp"] {
