@@ -154,14 +154,13 @@ table#container td#header div.title {
 }
 
 table#container td#header div.version {
-    height: 60px;
     position: absolute;
     top: 40px;
     left: 81px;
     color: #ffffff80;
     font-weight: 400;
     font-size: 11px;
-    width: 80px;
+    width: 77px;
     white-space: nowrap;
     overflow: hidden;
 }
