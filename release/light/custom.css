@@ -910,7 +910,8 @@ input[type='radio']:checked {
 }
 
 
-input[type='checkbox']:disabled {
+input[type='checkbox']:disabled,
+input[type='radio']:disabled {
     background-color: #e3e3e3;    
     opacity: 1.0;
     filter: grayscale();
