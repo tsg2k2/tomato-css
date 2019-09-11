@@ -207,7 +207,7 @@ td#navi a.indent2.active {
     color: #fff;
 }
 
-td#content {
+#container {
     width: auto;
     background-color: #f0f1f4;
     /*! padding-bottom: 20px; */
@@ -365,7 +365,6 @@ div.section div {
 
 td#footer {
     border: none;
-    background-color: #f0f1f4;
     text-align: right;
     min-height: 50px;
     margin: 0px;
