@@ -1000,5 +1000,6 @@ table#container {
     width: 100%;
 }
 
-
-
+#version.section-title {
+    box-shadow: none;
+}
