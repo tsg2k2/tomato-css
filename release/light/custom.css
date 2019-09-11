@@ -96,12 +96,8 @@ td#content a {
 }
 
 td#content a:hover {
-    background: var(--tomato-accent-color-dark); 
-    color: white !important; */
-}
-
-small a:hover {
-    background-color: var(--tomato-color) !important;
+    background-color: var(--tomato-accent-color); 
+    color: white !important; 
 }
 
 td#navi a.indent1::before {
@@ -841,7 +837,7 @@ td.co2 small a[href*=":add"]
 }
 
 td.co2 small a[href*="api"]::before {
-  content: '\1F50E';
+  content: '\1F3ED';
   font-family: Symbola;
 }
 td.co2 small a[href*=":addbw"]::before {
@@ -849,18 +845,18 @@ td.co2 small a[href*=":addbw"]::before {
   font-family: Symbola;
 }
 td.co2 small a[href*=":addSt"]::before {
-  content: '\1F588';
+  content: '\1F4CC';
   font-family: Symbola;
 }
 td.co2 small a[href*=":addWF"]::before {
-  content: '\1F511';
+  content: '\1F6AA';
   font-family: Symbola;
 }
 
 #ports td.indent1 a {
   position: absolute;
   top: 5px;
-  right: 20px;
+  right: 24px;
   margin: 10px;
   width: 0px;
   color: transparent !important;
