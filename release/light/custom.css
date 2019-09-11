@@ -218,7 +218,7 @@ td#content {
     /*! padding-bottom: 20px; */
 }
 
-td#content > *:not(script):last-of-type {
+td#content > *:last-child {
     margin-bottom: 0px;
 }
 
@@ -911,7 +911,9 @@ input[type='radio']:checked {
 
 
 input[type='checkbox']:disabled {
-    background-color: gray;    
+    background-color: #e3e3e3;    
+    opacity: 1.0;
+    filter: grayscale();
 }
 
 input[type='radio'] {
