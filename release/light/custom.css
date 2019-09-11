@@ -933,7 +933,7 @@ input[type='radio'] {
 }
 
 .term {
-  font-size: inherit;
+  font-size: unset !important;
 }
 
 td.term,
