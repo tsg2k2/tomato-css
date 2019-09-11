@@ -141,7 +141,7 @@ table#container td#header {
 
 table#container td#header div.title {
     font-family: inherit;
-    font-size: 16px;
+    font-size: larger;
     height: 60px;
     display: block;
     width: 180px;
@@ -156,17 +156,16 @@ table#container td#header div.title {
 table#container td#header div.version {
     position: absolute;
     top: 40px;
-    left: 81px;
+    left: 79px;
     color: #ffffff80;
     font-weight: 400;
-    font-size: 11px;
-    width: 77px;
+    font-size: smaller;
+    width: 80px;
     white-space: nowrap;
     overflow: hidden;
 }
 
 td#navi {
-    font-size: 13px;
     width: 210px!important;
     max-width: 210px;
     background-color: var(--tomato-accent-color-dark);
@@ -190,14 +189,13 @@ td#navi a.indent1 {
     margin-left: 0;
     height: 30px;
     line-height: 35px;
-    font-weight: 400;
-    font-size: 14px;
+    font-size: larger;
     padding: 0 0 3px 20px;
 }
 
 td#navi a.indent1.active {
     color: #fff;
-    font-weight: 700;
+    font-weight: bolder;
     background-color: #0000;
 }
 
@@ -253,8 +251,8 @@ div.section-title {
     padding-bottom: 12px;
     border-bottom: none;
     color: var(--tomato-accent-color);
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: bolder;
+    font-size: larger;
     margin: 20px 40px 0;
 }
 
@@ -291,7 +289,8 @@ table.tomato-grid tr.odd {
 
 table.tomato-grid tr.header td {
     background-color: var(--tomato-panel-background)!important;
-    font-size: 13px;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 table.tomato-grid tr td,
@@ -300,7 +299,7 @@ table.tomato-grid tr.odd {
 }
 
 table.tomato-grid tr td {
-    font-size: 12px;
+    font-size: inherit !important;
 }
 
 table.tomato-grid tr td small {
@@ -310,10 +309,9 @@ table.tomato-grid tr td small {
 table.tomato-grid tr td small a {
     display: inline-block;
     background-color: var(--tomato-panel-background);
-    color: #000;
-    font-size: 11px;
-    border-radius: 0px;
-    padding: 4px 7px;
+    font-size: smaller;
+    border-radius: 2px;
+    padding: 3px;
 }
 
 table.tomato-grid tr td small a:hover {
@@ -334,7 +332,7 @@ input[type=button] {
     background-color: var(--tomato-accent-color);
     border: none;
     color: #fff;
-    font-size: 12px;
+    font-size: inherit !important;
     padding: 10px 10px;
     border-radius: var( --tomato-controls-border-radius);
 }
@@ -377,7 +375,7 @@ td#footer {
 span#footer-msg {
     width: 400px;
     background-color:#0000;
-    font-size: 12px;
+    font-size: inherit !important;
     text-align: center;
     margin: auto;
     float: none;
@@ -417,7 +415,6 @@ ul#tabs li a.active {
 ul#tabs li a:hover {
     background-color: var(--tomato-accent-color);
     color:#fff;
-    font-weight: 400;
     transition: background-color 0.5s;
 }
 
