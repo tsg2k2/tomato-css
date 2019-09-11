@@ -932,6 +932,10 @@ input[type='radio'] {
     border-radius: 50%;
 }
 
+.term {
+  font-size: inherit;
+}
+
 td.term,
 textarea.as-script{
     background-color: var(--tomato-background);
