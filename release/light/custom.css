@@ -186,7 +186,7 @@ td#navi a.indent1 {
     height: 30px;
     line-height: 35px;
     font-size: larger;
-    padding: 0 0 3px 20px;
+    padding: 0px 20px 0px 20px;
 }
 
 td#navi a.indent1.active {
