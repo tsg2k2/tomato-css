@@ -218,7 +218,7 @@ td#content {
     /*! padding-bottom: 20px; */
 }
 
-td#content > *:last-child {
+td#content > *:not(script):last-of-type {
     margin-bottom: 0px;
 }
 
