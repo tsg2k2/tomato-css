@@ -585,7 +585,7 @@ ul.tabs a {
 ul.tabs a.active, #tabs a.active {
     background: var(--tomato-accent-color);
     color: #fff !important;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .section ul {
     padding-left: 0px;
@@ -624,7 +624,7 @@ select:focus {
     outline: none;
 }
 select option {
-    font-weight:normal;
+    
 }
 
 select[disabled] {
@@ -961,7 +961,7 @@ input + input, select + input {
 }
 
 #b_dhcpc input {
-    font-size: 12px !important;
+    font-size: 1rem !important;
 }
 
 #rstats::after,
