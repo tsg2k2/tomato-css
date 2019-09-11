@@ -218,7 +218,8 @@ td#content {
     /*! padding-bottom: 20px; */
 }
 
-td#content > *:last-child {
+td#content > *:last-child,
+div#bwlimit > *:last-child {
     margin-bottom: 0px;
 }
 
