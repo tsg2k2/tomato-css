@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700'); */
 @import url('https://fontlibrary.org/face/symbola');
+@import url('https://fonts.googleapis.com/css?family=Play:400');
 
 :root {
   --tomato-background: #2b323a;
@@ -28,7 +29,8 @@ html {
 }
 
 * {
-    font-family: Montserrat !important;
+    font-family: play !important;
+    font-size: 14px;
   }
 
 .fa {
@@ -138,7 +140,7 @@ table#container td#header {
 }
 
 table#container td#header div.title {
-    font-family: Montserrat;
+    font-family: inherit;
     font-size: 16px;
     height: 60px;
     display: block;
