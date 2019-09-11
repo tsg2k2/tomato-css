@@ -165,7 +165,7 @@ td#navi {
     width: 210px!important;
     max-width: 210px;
     background-color: var(--tomato-accent-color-dark);
-    padding: 15px 0 0;
+    padding: 10px 0 0;
     border: 0;
 }
 
@@ -985,5 +985,10 @@ table#container {
     width: 100%;
 }
 
+#rstats select {
+    width: 120px !important;
+    margin: 5px;
+    margin-right: 0px;
+}
 
 
