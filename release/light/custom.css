@@ -369,7 +369,7 @@ td#footer div {
     text-align: right!important;
 }
 
-td#footer:has( > *) {
+td#footer {
      padding: 20px;
 }
 
