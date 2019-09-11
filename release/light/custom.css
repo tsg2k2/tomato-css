@@ -841,7 +841,7 @@ td.co2 small a[href*=":add"]
 }
 
 td.co2 small a[href*="api"]::before {
-  content: '\1F3ED';
+  content: '\1F50E';
   font-family: Symbola;
 }
 td.co2 small a[href*=":addbw"]::before {
@@ -849,11 +849,11 @@ td.co2 small a[href*=":addbw"]::before {
   font-family: Symbola;
 }
 td.co2 small a[href*=":addSt"]::before {
-  content: '\1F4CC';
+  content: '\1F588';
   font-family: Symbola;
 }
 td.co2 small a[href*=":addWF"]::before {
-  content: '\1F6AA';
+  content: '\1F511';
   font-family: Symbola;
 }
 
