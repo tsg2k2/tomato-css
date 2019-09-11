@@ -85,6 +85,7 @@ a[href*="toggle"] span {
 table#container {
     width: 100% !important;
     margin: 0;
+    height: 100vh;
 }
 
 td#content a {
@@ -965,7 +966,7 @@ table#container {
  
 }
 #navi::after {
-    /*! content: ""; */
+    content: ""; 
     height: 100%;
     display: block;
     background-color: var(--tomato-background);
@@ -974,7 +975,7 @@ table#container {
 }
 
 #footer::before {
-    content: '';
+    /*! content: ''; */
     width: 210px;
     height: 55px;
     display: block;
@@ -982,6 +983,3 @@ table#container {
     float: left;
 }
 
-#footer > :last-child {
-    margin-right: 20px;
-}
