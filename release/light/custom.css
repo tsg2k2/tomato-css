@@ -215,6 +215,11 @@ td#navi a.indent2.active {
 td#content {
     width: auto;
     background-color: #f0f1f4;
+    /*! padding-bottom: 20px; */
+}
+
+td#content > *:last-child {
+    margin-bottom: 0px;
 }
 
 div#status_table, 
@@ -364,6 +369,10 @@ td#footer div {
     text-align: right!important;
 }
 
+td#footer {
+     padding: 20px;
+}
+
 span#footer-msg {
     width: 400px;
     background-color:#0000;
@@ -373,6 +382,15 @@ span#footer-msg {
     float: none;
     padding: 10px 15px;
     color: unset !important;
+}
+
+#footer::before {
+    /*! content: ''; */
+    width: 210px;
+    height: 55px;
+    display: block;
+    background-color: var(--tomato-background);
+    float: left;
 }
 
 div#tab-area {
@@ -491,14 +509,7 @@ div#cstats
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
 }
 
-td#footer div {
-    margin: 20px;
-    margin-top: 0px;
-}
 
-td#footer {
-    /*! padding: 20px; */
-}
 
 .fields td.title {
     width: 200px;
@@ -974,12 +985,5 @@ table#container {
     margin-bottom: 100%;
 }
 
-#footer::before {
-    /*! content: ''; */
-    width: 210px;
-    height: 55px;
-    display: block;
-    background-color: var(--tomato-background);
-    float: left;
-}
+
 
