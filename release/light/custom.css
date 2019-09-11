@@ -156,9 +156,9 @@ table#container td#header div.version {
     color: #ffffff80;
     font-weight: 400;
     font-size: smaller;
-    width: 80px;
-    white-space: nowrap;
+    width: 85px;
     overflow: hidden;
+    height: 1em;
 }
 
 td#navi {
