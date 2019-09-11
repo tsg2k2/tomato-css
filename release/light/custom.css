@@ -832,25 +832,26 @@ td.co2 small a[href*=":add"]
 {
     display: inline-block;
     overflow: hidden;
-    width: 1em;
+    width: 1.1em;
     height: 1.3em;
 }
 
 td.co2 small a[href*="api"]::before {
-  content: '\1F3ED';
-  font-family: Symbola;
+  content: '\1F50E';
 }
 td.co2 small a[href*=":addbw"]::before {
   content: '\2700';
-  font-family: Symbola;
 }
 td.co2 small a[href*=":addSt"]::before {
-  content: '\1F4CC';
-  font-family: Symbola;
+  content: '\1F588';
 }
 td.co2 small a[href*=":addWF"]::before {
-  content: '\1F6AA';
+  content: '\1F511';
+}
+
+td.co2 small a::before {
   font-family: Symbola;
+   vector-effect:   
 }
 
 #ports td.indent1 a {
