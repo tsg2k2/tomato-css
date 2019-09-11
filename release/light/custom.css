@@ -369,7 +369,7 @@ td#footer div {
     text-align: right!important;
 }
 
-td#footer:not(:empty) {
+td#footer:has( > *) {
      padding: 20px;
 }
 
@@ -638,6 +638,14 @@ textarea {
     height: 15em;
     box-sizing: border-box;
 }
+input[type="text"], input[type="password"] {
+    padding: 0.15em;
+    padding-left: 0.4em !important;
+    box-sizing: border-box;
+    margin: 0px !important;
+    border: var(--tomato-controls-border);
+    border-radius: var( --tomato-controls-border-radius);
+}
 
 .tomato-grid .controls input {
    width: 90px;
@@ -796,6 +804,10 @@ ul.tabs a, #tabs a {
     min-width: 70px;
 }
 
+input[size] {
+    max-width: 40%;
+}
+
 img[src^="rp"] {
     filter: grayscale();
 }
@@ -870,20 +882,6 @@ div#ports {
     color: transparent;
 }
 
-input[size] {
-    max-width: 40%;
-}
-
-input[type='text'], input[type='password'], textarea {
-    padding: 0.15em;
-    padding-left: 0.4em !important;
-    box-sizing: border-box;
-    margin: 0px !important;
-    border: var(--tomato-controls-border);
-    border-radius: var( --tomato-controls-border-radius);
-}
-
-
 input[type='checkbox'],
 input[type='radio']{
   -moz-appearance: none;
@@ -937,10 +935,6 @@ select:hover, input:hover, textarea:hover {
     border-color: var( --tomato-accent-color);
     border-width: 1px;
     transition: border-color ease-in-out 0.5s;
-}
-
-textarea {
-    padding: ;
 }
 
 input[type=button]:hover:not([disabled]) {
