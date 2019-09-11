@@ -1003,4 +1003,6 @@ table#container {
     margin-right: 0px;
 }
 
-
+br + br {
+    display: none;
+}
