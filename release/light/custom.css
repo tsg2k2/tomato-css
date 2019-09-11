@@ -927,12 +927,11 @@ textarea.as-script{
     color: white;
 }
 
-select:hover, input:hover {
+select:hover, input:hover, textarea:hover {
     border-color: var( --tomato-accent-color);
     border-width: 1px;
     transition: border-color ease-in-out 0.5s;
 }
-
 
 input[type=button]:hover:not([disabled]) {
     background-color: var(--tomato-accent-color);
