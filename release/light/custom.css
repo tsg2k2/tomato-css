@@ -982,7 +982,6 @@ table#container {
     display: block;
     background-color: var(--tomato-background);
     width: 100%;
-    margin-bottom: 100%;
 }
 
 
