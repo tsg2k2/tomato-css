@@ -218,8 +218,7 @@ td#content {
     /*! padding-bottom: 20px; */
 }
 
-td#content > *:last-child,
-div#bwlimit > *:last-child {
+td#content > *:last-child {
     margin-bottom: 0px;
 }
 
@@ -293,6 +292,16 @@ table.tomato-grid tr.header td {
     background-color: var(--tomato-panel-background)!important;
     font-size: 13px;
 }
+
+.tomato-grid .sortasc::after {
+    content: " \1F841";
+}
+
+.tomato-grid .sortdes::after {
+    content: " \1F843";
+}
+
+
 
 table.tomato-grid tr td,
 table.tomato-grid tr.odd {
