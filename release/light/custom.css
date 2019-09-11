@@ -151,17 +151,16 @@ table#container td#header div.title {
 }
 
 table#container td#header div.version {
-    background-color: var(--tomato-accent-color);
     height: 60px;
     position: absolute;
-    top: 0;
-    left: 240px;
-    line-height: 60px;
-    padding-left: 20px;
-    color: #ffffff4a;
-    font-family: Montserrat;
+    top: 40px;
+    left: 81px;
+    color: #ffffff80;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 11px;
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 td#navi {
@@ -292,16 +291,6 @@ table.tomato-grid tr.header td {
     background-color: var(--tomato-panel-background)!important;
     font-size: 13px;
 }
-
-.tomato-grid .sortasc::after {
-    content: " \1F841";
-}
-
-.tomato-grid .sortdes::after {
-    content: " \1F843";
-}
-
-
 
 table.tomato-grid tr td,
 table.tomato-grid tr.odd {
@@ -1000,6 +989,5 @@ table#container {
     width: 100%;
 }
 
-#version.section-title {
-    box-shadow: none;
-}
+
+
