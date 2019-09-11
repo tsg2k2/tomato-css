@@ -289,6 +289,18 @@ table.tomato-grid tr.header td {
     font-weight: bolder;
 }
 
+.tomato-grid .sortdes::after {
+    font-size: small
+    float: right;
+    content: " \1F843";
+}
+
+.tomato-grid .sortasc::after {
+    font-size: small
+    float: right;
+    content: " \1F841";
+}
+
 table.tomato-grid tr td,
 table.tomato-grid tr.odd {
     background-color: var(--tomato-panel-background)!important;
