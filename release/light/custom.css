@@ -613,7 +613,8 @@ ul.tabs a.active, #tabs a.active {
     font-weight: bolder;
 }
 .section ul {
-    padding-left: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 #notice1 {
     width: auto;
