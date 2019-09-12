@@ -807,7 +807,7 @@ div#loading{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center
+    align-items: center;
 }
 
 div#loading b {
@@ -818,6 +818,7 @@ div#loading:before {
     width: 20px;
     height: 20px;
     margin: 0px !important;
+    margin-left: 10px !important;
 }
 
 
