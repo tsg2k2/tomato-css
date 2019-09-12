@@ -803,7 +803,27 @@ td#navi a.indent2::before {
   }
 }
 
-#refresh-spinner, img[src^='spin'] {
+div#loading{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center
+}
+
+div#loading b {
+    vertical-align: middle
+}
+div#loading:before {
+    content: " ";
+    width: 20px;
+    height: 20px;
+    margin: 0px !important;
+}
+
+
+div#loading:before,
+#refresh-spinner,
+img[src^='spin'] {
     object-position: -100px -100px;
     border-radius: 50%;
     border: 5px solid #fff;
@@ -1033,7 +1053,8 @@ table#container {
 
 br + br,
 br:last-child,
-#content > br {
+#content > br,
+div#loading > br {
     display: none;
 }
 
