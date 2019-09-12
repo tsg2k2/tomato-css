@@ -1070,3 +1070,10 @@ div#loading > br {
 #sesdiv_system small {
     opacity: 0.5;
 }
+
+td#content > i {
+    display: block;
+    background-color: var(--tomato-panel-background);
+    box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
+    padding: 0 20px 0 20px;
+}
