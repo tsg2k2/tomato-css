@@ -1033,3 +1033,6 @@ br:last-child{
     display: none;
 }
 
+#sesdiv_system small {
+    opacity: 0.5;
+}
