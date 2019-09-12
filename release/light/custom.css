@@ -644,13 +644,13 @@ textarea {
     box-sizing: border-box;
 }
 input[type="text"], input[type="password"], textarea {
-    /* padding: 1.87px; */
+    padding: 2px;
     padding-left: 0.4em !important;
     box-sizing: border-box;
     margin: 0px !important;
     border: var(--tomato-controls-border);
     border-radius: var( --tomato-controls-border-radius);
-    line-height: 18px !important; 
+    line-height: 17px !important;
 }
 
 .tomato-grid .controls input {
