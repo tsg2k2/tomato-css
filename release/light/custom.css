@@ -1025,7 +1025,8 @@ table#container {
 }
 
 br + br,
-br:last-child{
+br:last-child,
+#content > br {
     display: none;
 }
 
