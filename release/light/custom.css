@@ -98,7 +98,6 @@ td#content a {
 td#content a:hover {
     background-color: var(--tomato-accent-color); 
     color: white !important; 
-    border-radius: 1px;
 }
 
 td#navi a.indent1::before {
@@ -471,6 +470,10 @@ table.fields {
     width: 100%;
     max-width: 1100px;
     margin-bottom: 10px;
+}
+
+.fields:last-child {
+    margin-bottom: 0px;
 }
 
 td {
