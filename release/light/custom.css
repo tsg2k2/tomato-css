@@ -1036,3 +1036,7 @@ br:last-child{
 #sesdiv_system small {
     opacity: 0.5;
 }
+
+.fields:last-child {
+    margin-bottom: 0px;
+}
