@@ -77,6 +77,13 @@ a[href*="toggle"] {
 a[href*="toggle"] span {
     display: none;
 } 
+
+a[href*="toggleFilters"] {
+    width: 1em;
+    display: block;
+    overflow: hidden;
+    height: 1em;
+}
     
 #navi br {
     height: 0;
@@ -1026,8 +1033,7 @@ table#container {
 
 br + br,
 br:last-child,
-#content > br,
-#bwlimit > br {
+#content > br {
     display: none;
 }
 
