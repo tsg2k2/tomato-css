@@ -652,7 +652,8 @@ select:focus {
     outline: none;
 }
 select option {
-    
+    color: var(--tomato-color);
+    background-color: var(--tomato-panel-color);
 }
 
 select[disabled] {
