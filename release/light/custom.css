@@ -1028,3 +1028,8 @@ br:last-child{
 .tomato-grid br {
     display: inline;
 }
+
+#rstats hr {
+    display: none;
+}
+
