@@ -1026,7 +1026,8 @@ table#container {
 
 br + br,
 br:last-child,
-#content > br {
+#content > br,
+#bwlimit > br {
     display: none;
 }
 
