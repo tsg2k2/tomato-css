@@ -529,6 +529,7 @@ div#cstats
 #content  {
     padding: 20px;
     padding-bottom: 0px;
+    margin-bottom: 20px;
 }
 div.section {
    margin: 0px;
@@ -1016,10 +1017,16 @@ table#container {
 }
 
 br + br,
+#bwlimit > br, 
 br:last-child{
     display: none;
 }
 
 .tomato-grid br {
     display: inline;
+}
+
+#bwlimit > div:last-child,
+#content > div:last-child {
+    margin-bottom: 0px;
 }
