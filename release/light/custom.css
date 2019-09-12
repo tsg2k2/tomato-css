@@ -11,8 +11,8 @@
   --tomato-accent-color: #27ae60;
 # --tomato-accent-color: #2180de;
   --tomato-accent-color-dark: #2b323a;  
-  --tomato-controls-border: 1px solid lightgrey;
-  --tomato-controls-border-radius: 1.5px;     
+  --tomato-controls-border: 0.7px solid lightgrey;
+  --tomato-controls-border-radius: 1px;     
   --tomato-accent-check: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" viewBox="-2 -2 28 28"><path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>') ; 
   --tomato-accent-radio: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="30%"/></svg>') ;     
   --tomato-accent-select: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60"  width="292.4" height="292.4"><path d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/></svg>');
@@ -57,7 +57,7 @@ input, select, option, textarea {
     vertical-align: middle;
 }
 .error {
-    border: 1px solid;
+    border: 0.7px solid;
 }
 
 .section-title small {
@@ -769,7 +769,6 @@ td#navi a.indent2::before {
 .as-script {
     font: 12px monospace !important;
     overflow: auto !important;
-    border: 1px solid #9e9b9b;
 }
 
 @keyframes dual-ring {
@@ -941,10 +940,12 @@ textarea.as-script{
     color: white;
 }
 
-select:hover, input:hover, textarea:hover {
+select:hover, input:hover, textarea:hover,
+select:focus, input:focus, textarea:focus  {
     border-color: var( --tomato-accent-color);
-    border-width: 1px;
+    border-width: 0.7px;
     transition: border-color ease-in-out 0.5s;
+    outline: none;
 }
 
 input[type=button]:hover:not([disabled]) {
