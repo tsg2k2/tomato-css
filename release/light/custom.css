@@ -1019,3 +1019,7 @@ br + br,
 br:last-child{
     display: none;
 }
+
+.tomato-grid br {
+    display: inline;
+}
