@@ -1030,3 +1030,8 @@ br:last-child{
 #content > div:last-child {
     margin-bottom: 0px;
 }
+
+}
+#version.section-title {
+    box-shadow: none;
+}
