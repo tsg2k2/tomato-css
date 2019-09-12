@@ -98,6 +98,7 @@ td#content a {
 td#content a:hover {
     background-color: var(--tomato-accent-color); 
     color: white !important; 
+    border-radius: 1px;
 }
 
 td#navi a.indent1::before {
@@ -1035,8 +1036,4 @@ br:last-child{
 
 #sesdiv_system small {
     opacity: 0.5;
-}
-
-.fields:last-child {
-    margin-bottom: 0px;
 }
