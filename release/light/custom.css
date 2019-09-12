@@ -156,7 +156,7 @@ table#container td#header div.version {
     color: #ffffff80;
     font-weight: 400;
     font-size: smaller;
-    width: 85px;
+    width: 7em;
     overflow: hidden;
     height: 1em;
 }
@@ -167,6 +167,7 @@ td#navi {
     background-color: var(--tomato-accent-color-dark);
     padding: 10px 0 0;
     border: 0;
+    /*! max-width: 100px; */
 }
 
 td#navi a {
@@ -769,6 +770,7 @@ td#navi a.indent2::before {
 
 #survey-msg {
    background: unset !important;
+   display: contents;
 }
 
 .as-script {
