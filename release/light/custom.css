@@ -720,7 +720,7 @@ td#navi a[href*="tools"]::before {
     content: '\2692';
 }
 td#navi a[href*="bwm"]::before {
-    content: '\1F4CA\FE0E';
+    content: '\1F4CA';
 }
 td#navi a[href*="qos"]::before {
     content: '\2696';
@@ -729,10 +729,10 @@ td#navi a[href*="bwlimit"]::before {
     content: '\2700';
 }
 td#navi a[href^="web"]::before {
-    content: '\1F310\FE0E';
+    content: '\1F578';
 }
 td#navi a[href*="nas"]::before {
-    content: '\1F5B4';
+    content: '\1F5BF';
 }
 td#navi a[href*="vpn"]::before {
     content: '\1F575';
@@ -741,16 +741,16 @@ td#navi a[href*="admin"]::before {
     content: '\2699';
 }
 td#navi a[href*="forward"]::before {
-    content: '\1F500\FE0E';
+    content: '\1F500';
 }
 td#navi a[href*="restrict"]::before {
-    content: '\1F512\FE0E';
+    content: '\1F512';
 }
 td#navi a[href^="basic"]::before {
-    content: '\2776';
+    content: '\1F5B0';
 }
 td#navi a[href*="advanced"]::before {
-    content: '\277F';
+    content: '\1F5AE';
 }
 td#navi a.indent2::before {
     content: unset;
