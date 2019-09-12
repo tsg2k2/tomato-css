@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700'); */
 @import url('https://fontlibrary.org/face/symbola');
-@import url('https://fonts.googleapis.com/css?family=Play:400');
+@import url('https://fonts.googleapis.com/css?family=Play:400'); 
 
 :root {
   --tomato-background: #2b323a;
@@ -644,12 +644,13 @@ textarea {
     box-sizing: border-box;
 }
 input[type="text"], input[type="password"], textarea {
-    padding: 0.15em;
+    /* padding: 1.87px; */
     padding-left: 0.4em !important;
     box-sizing: border-box;
     margin: 0px !important;
     border: var(--tomato-controls-border);
     border-radius: var( --tomato-controls-border-radius);
+    line-height: 18px !important; 
 }
 
 .tomato-grid .controls input {
