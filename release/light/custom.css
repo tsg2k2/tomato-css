@@ -602,16 +602,15 @@ ul.tabs a.active, #tabs a.active {
 }
 
 select {
-    line-height: 17px !important;
-    padding: 2px;
+    line-height: 19px !important;
+    padding: 1px;
     padding-right: 1.5em;
     padding-left: 0.4em !important;
     min-width: 100px;
     box-sizing: border-box;
     margin: 0;
     border: var(--tomato-controls-border);
-    #
-    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    /* box-shadow: 0 1px 0 1px rgba(0,0,0,.04); */
     border-radius: var( --tomato-controls-border-radius);
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -621,6 +620,9 @@ select {
     background-repeat: no-repeat, repeat;
     background-position: right .7em top 50%, 0 0;
     background-size: .65em auto, 100%;
+    /*! line-height: 16px; */
+    /*! vertical-align: middle; */
+    height: 22px;
 }
 select::-ms-expand {
     display: none;
@@ -652,7 +654,8 @@ input[type="text"], input[type="password"], textarea {
     margin: 0px !important;
     border: var(--tomato-controls-border);
     border-radius: var( --tomato-controls-border-radius);
-    line-height: 17px !important;
+    /* line-height: 17px !important; */
+    min-height: 22px;
 }
 
 .tomato-grid .controls input {
