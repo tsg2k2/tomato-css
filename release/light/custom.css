@@ -22,10 +22,6 @@ small a:hover {sp
     color: #fff!important;
 }
 
-.content > small {
-    font-size: smaller;
-}
-
 body,
 html {
     background-color: var(--tomato-background);
@@ -178,7 +174,7 @@ td#navi {
     background-color: var(--tomato-accent-color-dark);
     padding: 10px 0 0;
     border: 0;
-    /*! max-width: 100px; */
+    height: 100% !important;
 }
 
 td#navi a {
@@ -862,7 +858,7 @@ ul.tabs a, #tabs a {
 }
 
 input[size] {
-    max-width: 400px;
+    max-width: 40%;
 }
 
 img[src^="rp"] {
