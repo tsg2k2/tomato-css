@@ -547,6 +547,7 @@ div#cstats
 #content  {
     padding: 20px;
     padding-bottom: 0px;
+    width: unset;
 }
 div.section {
    margin: 0px;
@@ -1049,6 +1050,7 @@ table#container {
     display: block;
     background-color: var(--tomato-background);
     width: 100%;
+    /*! width: 100px; */
 }
 
 #rstats select {
