@@ -60,6 +60,13 @@ input, select, option, textarea {
     vertical-align: middle;
     line-height: 1;
 }
+
+.fields .spacer {
+    height: 4px;
+    font-size: 0px;
+    padding: 0px;
+}
+
 .error {
     border: 0.7px solid;
 }
