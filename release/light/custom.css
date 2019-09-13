@@ -67,6 +67,7 @@ input, select, option, textarea {
 
 a[href*="toggle"]::before {
     font-family: Symbola;
+    content: '\23F7';
 }
 
 a[href*="toggle"] {
