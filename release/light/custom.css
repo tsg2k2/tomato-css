@@ -22,6 +22,10 @@ small a:hover {sp
     color: #fff!important;
 }
 
+.content > small {
+    font-size: smaller;
+}
+
 body,
 html {
     background-color: var(--tomato-background);
