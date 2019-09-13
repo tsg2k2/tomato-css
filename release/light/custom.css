@@ -236,6 +236,12 @@ td#content > *:last-child {
     margin-bottom: 0px;
 }
 
+div#webmon-controls {
+    float: none;
+    margin: 0px;
+}
+
+div#webmon-controls,
 div#status_table, 
 div.section, 
 div.section-title, 
