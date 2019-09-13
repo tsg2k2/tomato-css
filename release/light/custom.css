@@ -1056,6 +1056,7 @@ table#container {
 br + br,
 br:last-child,
 #content > br,
+.section > br,
 div#loading > br {
     display: none;
 }
