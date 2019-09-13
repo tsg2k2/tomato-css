@@ -1074,6 +1074,10 @@ div#loading > br {
     display: none;
 }
 
+label[for*="nginx"] > br {
+    display: initial !important;
+}
+
 #sesdiv_system small {
     opacity: 0.5;
 }
