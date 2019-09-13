@@ -67,9 +67,6 @@ input, select, option, textarea {
 
 a[href*="toggle"]::before {
     font-family: Symbola;
-    content: '\1F783';
-    width: 1em;
-    display: block;
 }
 
 a[href*="toggle"] {
@@ -306,15 +303,17 @@ table.tomato-grid tr.header td {
 }
 
 .tomato-grid .sortdes::after {
-    font-size: small
+    font-size: small;
     float: right;
-    content: " \1F843";
+    content: " \25E5";
+    font-family: Symbola;
 }
 
 .tomato-grid .sortasc::after {
-    font-size: small
+    font-size: small;
     float: right;
-    content: " \1F841";
+    content: " \25E2";
+    font-family: Symbola;
 }
 
 table.tomato-grid tr td,
