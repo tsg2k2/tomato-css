@@ -631,8 +631,20 @@ ul.tabs a.active, #tabs a.active {
     /*! padding-bottom: 0px; */    
     margin: 0px;
 }
+
+#client_commandline_helper {
+    font-weight: bolder;
+}
+
 #notice1 {
     width: auto;
+    background-color: var(--tomato-panel-background);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
+    width: auto !important;
+    display: block;
+    border: 0px;
+    margin-bottom: 20px;
 }
 
 select {
