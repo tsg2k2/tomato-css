@@ -66,7 +66,6 @@ input, select, option, textarea {
 }
 
 a[href*="toggle"]::before {
-    content: '\2BB7';
     font-family: Symbola;
 }
 
@@ -614,6 +613,9 @@ ul.tabs a.active, #tabs a.active {
 }
 .section ul {
     padding-left: 0px;
+    /*! padding-top:  0px; */
+    /*! padding-bottom: 0px; */    
+    margin: 0px;
 }
 #notice1 {
     width: auto;
