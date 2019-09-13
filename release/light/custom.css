@@ -631,7 +631,6 @@ ul.tabs a.active, #tabs a.active {
 select {
     padding: 1px;
     padding-right: 1.5em;
-    padding-left: 0.4em !important;
     min-width: 100px;
     box-sizing: border-box;
     margin: 0;
