@@ -890,21 +890,6 @@ img[src^="rp"] {
     filter: grayscale();
 }
 
-.editor div[class^='x'] {
-  display: inline-block;
-  padding: 5px !important;
-  width: 30% !important;
-}
-.editor div[class^="x5"] {
-    display: inline-block;
-    padding: 5px !important;
-    width: 20% !important;
-}
-.editor div[class^="x"] input,
-.editor div[class^="x"] select{
-    width: 100% !important;
-}
-
 div#cstats > div.section,
 div#cstats > div.section-title {
     padding-right: : 0px;
@@ -1114,3 +1099,47 @@ td#content > i {
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     padding: 0 20px 0 20px;
 }
+
+
+
+tr.editor > td:first-child {
+    display: flex;
+    flex-wrap: wrap;       
+    padding: 0px !important;
+    margin: 0px;
+}
+
+tr.editor > td > div {
+    flex-grow: 00;
+    flex-basis: calc(30% - 10px);
+    flex-shrink: 1;
+    padding: 0px !important;
+    margin: 5px !important;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+tr.editor > td > div > * {
+    width: 100%;
+}
+
+tr.editor > td > div.x1b,
+tr.editor > td > div.x3b,
+tr.editor > td > div.x4b {
+    flex-basis:  calc(70% - 10px);
+} 
+
+tr.editor > td > div.x2c {
+    flex-basis:  calc(40% - 10px);
+} 
+
+tr.editor > td > div.x5b
+{
+    flex-basis: calc(10% - 10px);
+}
+
+tr.editor > td > div.x5b {
+    justify-content: center;
+}
+
