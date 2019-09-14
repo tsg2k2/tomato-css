@@ -13,6 +13,7 @@
   --tomato-accent-color-dark: #2b323a;  
   --tomato-controls-border: 0.7px solid lightgrey;
   --tomato-controls-border-radius: 1px;     
+  --tomato-controls-size: 22px;
   --tomato-accent-check: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" viewBox="-2 -2 28 28"><path d="M9 21.035l-9-8.638 2.791-2.87 6.156 5.874 12.21-12.436 2.843 2.817z"/></svg>') ; 
   --tomato-accent-radio: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="30%"/></svg>') ;     
   --tomato-accent-select: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60"  width="292.4" height="292.4"><path d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/></svg>');
@@ -668,7 +669,7 @@ select {
     background-repeat: no-repeat, repeat;
     background-position: right .7em top 50%, 0 0;
     background-size: .65em auto, 100%;
-    min-height: 22px;
+    min-height: var(--tomato-controls-size);
 }
 select::-ms-expand {
     display: none;
@@ -703,7 +704,7 @@ input[type="text"], input[type="password"], textarea {
     border: var(--tomato-controls-border);
     border-radius: var( --tomato-controls-border-radius);
     /* line-height: 17px !important; */
-    min-height: 22px;
+    min-height: var(--tomato-controls-size);
 }
 
 .tomato-grid .controls input {
@@ -952,8 +953,8 @@ input[type='radio']{
   -moz-appearance: none;
   appearance: none;
   -webkit-appearance: none;
-  width: 22px !important;
-  height: 22px !important;
+  width: var(--tomato-controls-size) !important;
+  height: var(--tomato-controls-size) !important;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;  
