@@ -1323,3 +1323,15 @@ body > div:last-child{
 div#version.section-title {
     box-shadow: none;
 }
+
+input[id*='_f_nr'] {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+input[id*='_f_nr']:first-child {
+    display: inline-block;
+    margin-left: 0px;
+}
+
