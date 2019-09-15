@@ -1123,6 +1123,8 @@ tr.editor > td > div {
     display: -webkit-flex;
     display: flex;
     align-items: center;
+    /*! justify-items: stretch; */
+    justify-content: end;
 }
 
 tr.editor > td > div > * {
@@ -1133,6 +1135,7 @@ tr.editor > td > div.x1b,
 tr.editor > td > div.x3b,
 tr.editor > td > div.x4b {
     flex-basis:  calc(70% - 10px);
+    justify-content: sss;
 } 
 
 tr.editor > td > div.x2c {
@@ -1148,3 +1151,8 @@ tr.editor > td > div.x5b {
     justify-content: center;
 }
 
+tr.editor > td > div.x1c >.fi5,
+tr.editor > td > div.x1c >.fi8 {
+    width: calc(80% - 7px); 
+    margin-left: 5px !important;
+}
