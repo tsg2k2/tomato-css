@@ -75,7 +75,7 @@ input, select, option, textarea {
     background-repeat: no-repeat; 
     background-position: right center;
     background-image: var(--tomato-accent-error);
-    padding-right: var(--tomaoto-controls-size);
+    padding-right: 22px !important;
 }
 
 .section-title small {
@@ -705,7 +705,7 @@ textarea {
 input[type="text"], input[type="password"], textarea {
     padding: 2px;
     padding-left: 0.4em !important;
-    padding-right: 0.4em !important;
+    padding-right: 0.4em;
     box-sizing: border-box;
     margin: 0px !important;
     border: var(--tomato-controls-border);
@@ -1138,7 +1138,7 @@ tr.editor > td {
 }
 
 tr.editor > td > div > * {
-    width: 100%;
+    width: 30%;
 }
 
 tr.editor > td > div.x1b,
