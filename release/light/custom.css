@@ -18,6 +18,8 @@
   --tomato-accent-radio: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="30%"/></svg>') ;     
   --tomato-accent-select: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" width="292.4" height="292.4"><path d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/></svg>');
   --tomato-accent-error: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" viewBox="-4 -4 32 32"><path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029zm-5.971 6h2v8h-2v-8zm1 12.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/></svg>') ; 
+    
+  --icon-home: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 7.093l-3-3v-2.093h3v5.093zm4 5.907h-3v10h-18v-10h-3l12-12 12 12zm-10 2h-4v6h4v-6z"/></svg>');
 }
 small a,
 small a:hover {sp
@@ -127,7 +129,7 @@ td#content a:hover {
 }
 
 td#navi a.indent1::before {
-    min-width: 1.1em;
+    min-width: 1.3em;
     display: inline-block;
     text-align: center;
 }
@@ -749,6 +751,11 @@ td#navi a::before
     font-size: larger;
     padding-right: 3px;
     filter: grayscale();
+    background-color: white;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    mask-size: 60%;
+    color: transparent;
 }
 
 td#navi a[href*="about"]::before {
@@ -767,6 +774,7 @@ td#navi a[href*="reboot"]::before {
 td#navi a.indent1[href="/"]::before,
 td#navi a.indent1[href^="status"]::before {
     content: '\1F6C8';
+    mask-image: var(--icon-home);
 }
 
 td#navi a[href*="ipt-"]::before {
