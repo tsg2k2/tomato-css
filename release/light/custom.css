@@ -992,8 +992,8 @@ td.co2 small a[href*=":addWF"]::before {
    mask-image:var(--icon-key);
 }
 
-td.co2 small a:hover::before {
-    background-color: white !important;
+td.co2 small a::before:hover {
+    background-color: white !important;;
 }
 
 td.co2 small a::before {
@@ -1174,7 +1174,7 @@ div#loading > br {
     display: none;
 }
 
-label[for*="nginx"] > br {
+label > br {
     display: initial !important;
 }
 
