@@ -436,9 +436,8 @@ td#footer {
     padding: 0px;
 }
 
-td#footer > div {
+td#footer div {
     text-align: right!important;
-    min-width: 350px;
 }
 
 td#footer {
@@ -906,16 +905,17 @@ div#loading{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center
+    align-items: center;
 }
 
 div#loading b {
-    vertical-align: middle
+    vertical-align: middle;
+    padding-right: 1em;
 }
 div#loading:before {
     content: " ";
-    width: 20px;
-    height: 20px;
+    width: var(--tomato-controls-size);
+    height: var(--tomato-controls-size);
     margin: 0px !important;
 }
 
