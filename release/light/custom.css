@@ -1138,7 +1138,7 @@ tr.editor > td {
 }
 
 tr.editor > td > div > * {
-    width: 30%;
+    width: 100%;
 }
 
 tr.editor > td > div.x1b,
