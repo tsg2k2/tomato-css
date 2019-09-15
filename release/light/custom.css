@@ -963,26 +963,38 @@ td.co2 small a[href*=":add"]
 {
     display: inline-block;
     overflow: hidden;
-    width: 1.1em;
+    width: 1.3em;
     height: 1.3em;
 }
 
 td.co2 small a[href*="api"]::before {
-  content: '\1F50E';
+    content: '\1F50E';
+    mask-image: var(--icon-lookup);
 }
+
 td.co2 small a[href*=":addbw"]::before {
   content: '\2700';
+  mask-image: var(--icon-bwlimiter);
 }
+
 td.co2 small a[href*=":addSt"]::before {
   content: '\1F588';
+  mask-image: var(--icon-pin);
 }
+
 td.co2 small a[href*=":addWF"]::before {
   content: '\1F511';
+   mask-image:var(--icon-key);
 }
 
 td.co2 small a::before {
   font-family: Symbola;
-   vector-effect:   
+  background-color: var(--tomato-color);
+  mask-position: center;
+  color: transparent;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  2content: "\2" !important;  
 }
 
 #ports td.indent1 a {
