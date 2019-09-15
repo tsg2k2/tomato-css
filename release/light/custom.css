@@ -1213,3 +1213,8 @@ tr.editor > td > div.x1c >.fi8 {
     width: calc(80% - 7px); 
     margin-left: 5px !important;
 }
+
+.about b {
+    padding-top: 10px;
+    display: inline-block;
+}
