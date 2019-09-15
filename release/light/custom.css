@@ -1175,7 +1175,7 @@ div#loading > br {
 }
 
 label > br {
-    display: inline-block !important;
+    display: initial !important;
 }
 
 #sesdiv_system small {
