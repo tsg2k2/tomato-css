@@ -427,6 +427,7 @@ input[type=button] {
     font-size: inherit !important;
     padding: 10px 10px;
     border-radius: var( --tomato-controls-border-radius);
+    min-width: 70px;
 }
 
 input[type=button]:hover {
