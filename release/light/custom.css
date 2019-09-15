@@ -911,9 +911,10 @@ td#navi a.indent2::before {
     content: unset;
 }
 
+.fields > .about,
 #content > .about {
     background-color: var(--tomato-panel-background);
-    color: #444;
+    color: var(--tomato-color);
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     padding: 20px;
     margin: 0px !important;
