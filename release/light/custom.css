@@ -1174,8 +1174,8 @@ div#loading > br {
     display: none;
 }
 
-label[for*="nginx"] > br {
-    display: initial !important;
+label > br {
+    display: inline-block !important;
 }
 
 #sesdiv_system small {
