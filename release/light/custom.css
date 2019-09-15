@@ -870,7 +870,7 @@ td#navi a.indent2::before {
     content: unset;
 }
 
-.about {
+#content > .about {
     background-color: var(--tomato-panel-background);
     color: #444;
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
@@ -1174,7 +1174,7 @@ div#loading > br {
     display: none;
 }
 
-label > br {
+label[for*="nginx"] > br {
     display: initial !important;
 }
 
