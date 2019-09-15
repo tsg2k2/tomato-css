@@ -1317,3 +1317,7 @@ embed[type='image/svg+xml']
 body > div:last-child{
     display: none;
 }
+
+div#version.section-title {
+    box-shadow: none;
+}
