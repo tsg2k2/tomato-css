@@ -1300,3 +1300,8 @@ tr.editor > td > div.x1c >.fi8 {
     padding-top: 10px;
     display: inline-block;
 }
+
+embed[type='image/svg+xml']
+{
+    opacity: 0.7;
+}
