@@ -1153,9 +1153,6 @@ tr.editor > td > div.x5b {
 
 tr.editor > td > div.x1c >.fi5,
 tr.editor > td > div.x1c >.fi8 {
-    sflex: 1 2 1;
     width: calc(80% - 7px); 
     margin-left: 5px !important;
 }
-
-
