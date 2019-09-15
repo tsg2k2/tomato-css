@@ -1311,6 +1311,6 @@ embed[type='image/svg+xml']
     opacity: 0.7;
 }
 
-body div:last-child{
+body > div:last-child{
     display: none;
 }
