@@ -280,6 +280,11 @@ td#content > *:last-child {
     margin-bottom: 0px;
 }
 
+td#content > div:last-of-type {
+    margin-bottom: 0px;
+}
+
+
 div#webmon-controls {
     float: none;
     margin: 0px;
