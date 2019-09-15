@@ -295,8 +295,9 @@ div#status_table,
 div.section, 
 div.section-title, 
 div.tomato-grid, 
-div.bwmg
-td#content > i {
+div.bwmg,
+td#content > i,
+td#content > small{
     background-color: var(--tomato-panel-background);
     padding: 20px;
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
