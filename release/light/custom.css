@@ -1127,6 +1127,10 @@ tr.editor > td > div {
     justify-content: end;
 }
 
+tr.editor > td {
+    vertical-align: middle !important;
+}
+
 tr.editor > td > div > * {
     width: 100%;
 }
