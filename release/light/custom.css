@@ -929,6 +929,8 @@ img[src^='spin'] {
     border-color: var(--tomato-accent-color) transparent var(--tomato-accent-color) transparent;
     animation: dual-ring 1.2s linear infinite;
     margin: 4px;
+    width: var(--tomato-controls-size);
+    height: var(--tomato-controls-size);
 }
 
 img[src^="bar"] {
