@@ -19,7 +19,8 @@
   --tomato-accent-select: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" width="292.4" height="292.4"><path d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/></svg>');
   --tomato-accent-error: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" viewBox="-4 -4 32 32"><path d="M16.142 2l5.858 5.858v8.284l-5.858 5.858h-8.284l-5.858-5.858v-8.284l5.858-5.858h8.284zm.829-2h-9.942l-7.029 7.029v9.941l7.029 7.03h9.941l7.03-7.029v-9.942l-7.029-7.029zm-5.971 6h2v8h-2v-8zm1 12.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/></svg>') ; 
     
-  --icon-home: url('data:image/svg+xml;charset=utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 7.093l-3-3v-2.093h3v5.093zm4 5.907h-3v10h-18v-10h-3l12-12 12 12zm-10 2h-4v6h4v-6z"/></svg>');
+  --icon-home: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M20 7.093l-3-3v-2.093h3v5.093zm4 5.907h-3v10h-18v-10h-3l12-12 12 12zm-10 2h-4v6h4v-6z'/%3e%3c/svg%3e");
+  --icon-bandwidth: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M7 19h-6v-11h6v11zm8-18h-6v18h6v-18zm8 11h-6v7h6v-7zm1 9h-24v2h24v-2z'/%3e%3c/svg%3e");    
 }
 small a,
 small a:hover {sp
@@ -777,15 +778,20 @@ td#navi a.indent1[href^="status"]::before {
     mask-image: var(--icon-home);
 }
 
+td#navi a[href*="bwm"]::before {
+    content: '\1F4CA';
+    mask-image: var(--icon-bandwidth);
+}
+
+
 td#navi a[href*="ipt-"]::before {
     content: '\1F5A7';
 }
 td#navi a[href*="tools"]::before {
     content: '\2692';
 }
-td#navi a[href*="bwm"]::before {
-    content: '\1F4CA';
-}
+
+
 td#navi a[href*="qos"]::before {
     content: '\2696';
 }
