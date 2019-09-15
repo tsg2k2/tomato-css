@@ -153,7 +153,7 @@ td#navi a.indent1::before {
 }
 
 td#navi a.active.indent1::before {
-#    color: #3498db;
+   opacity: 1;
 }
 
 td#navi a.indent1[href*=about] {
@@ -774,6 +774,7 @@ td#navi a::before
     mask-repeat: no-repeat;
     mask-size: 60%;
     color: transparent;
+    opacity: 0.5;
 }
 
 td#navi a[href*="about"]::before {
@@ -797,6 +798,7 @@ td#navi a.indent1[href="/"]::before,
 td#navi a.indent1[href^="status"]::before {
     content: '\1F6C8';
     mask-image: var(--icon-home);
+    /*! opacity: 0.5; */
 }
 
 td#navi a[href*="bwm"]::before {
