@@ -1103,6 +1103,7 @@ label[for*="nginx"] > br {
 
 #sesdiv_system small {
     opacity: 0.5;
+    font-size: 1rem;
 }
 
 td#content > i {
@@ -1111,8 +1112,6 @@ td#content > i {
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     padding: 0 20px 0 20px;
 }
-
-
 
 tr.editor > td:first-child {
     display: flex;
