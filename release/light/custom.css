@@ -280,6 +280,7 @@ td#content > *:last-child {
     margin-bottom: 0px;
 }
 
+div#bwlimit > div:last-of-type,
 div#qosstats > div:last-of-type,
 td#content > div:last-of-type {
     margin-bottom: 0px;
