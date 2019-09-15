@@ -436,8 +436,9 @@ td#footer {
     padding: 0px;
 }
 
-td#footer div {
+td#footer > div {
     text-align: right!important;
+    min-width: 350px;
 }
 
 td#footer {
