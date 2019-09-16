@@ -249,7 +249,7 @@ td#navi a.indent1 {
     height: 30px;
     line-height: 35px;
     font-size: larger;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 10px 0px 10px;
 }
 
 td#navi a.indent1.active {
@@ -897,7 +897,7 @@ td#navi a[href*="forward"]::before {
 td#navi a[href*="restrict"]::before {
     content: '\1F512';
     mask-image: var(--icon-access);
-    -webkit-mask-image: var(--icon-access);
+    -webkit-mask-image: var(--icon-key);
 }
 td#navi a[href^="basic"]::before {
     content: '\1F5B0';
