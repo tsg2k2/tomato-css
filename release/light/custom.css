@@ -962,7 +962,7 @@ div#loading:before {
     margin: 0px !important;
 }
 
-
+.content > #fmsg:before,
 div#loading:before,
 #refresh-spinner,
 img[src^='spin'] {
@@ -1335,3 +1335,28 @@ input[id*='_f_nr']:first-child {
     margin-left: 0px;
 }
 
+.content > #fmsg {
+    background-color: transparent !important;;
+    color: var(--tomamto-accent-color) !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content > #fmsg:before {
+    content: '  ';
+    display: inline-block;
+    max-width: var(--tomamto-control-size);
+    max-height: var(--tomamto-control-size);
+    background-color: white !important;
+    
+    min-width: 20px;
+    min-height: 20px;
+    /*! border-color: white; */
+    /*! color: transparent !important; */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+input#format {
+    padding: 10px;
+}
