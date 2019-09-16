@@ -1021,6 +1021,7 @@ td.co2 small a[href*="api"]::before {
     content: '\1F50E';
     mask-image: var(--icon-lookup);
     -webkit-mask-image: var(--icon-lookup);
+    transform: scaleX(-1);
 }
 
 td.co2 small a[href*=":addbw"]::before {
@@ -1051,10 +1052,10 @@ td.co2 small a::before {
     color: transparent;
 
     mask-position: center;
-    mask-size: 90%;
+    mask-size: 87%;
     mask-repeat: no-repeat;
     -webkit-mask-position: center;
-    -webkit-mask-size: 90%;
+    -webkit-mask-size: 87%;
     -webkit-mask-repeat: no-repeat;
 
     width: 16px;
