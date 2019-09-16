@@ -757,8 +757,9 @@ input[type="text"], input[type="password"], textarea {
     margin: 0px !important;
     border: var(--tomato-controls-border);
     border-radius: var( --tomato-controls-border-radius);
-    /* line-height: 17px !important; */
+    /*! line-height: 17px !important; */
     min-height: var(--tomato-controls-size);
+    vertical-align: middle;
 }
 
 .tomato-grid .controls input {
