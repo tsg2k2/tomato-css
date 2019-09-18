@@ -43,6 +43,7 @@
   --icon-pin: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M6.166 16.943l1.4 1.4-4.622 4.657h-2.944l6.166-6.057zm11.768-6.012c2.322-2.322 4.482-.457 6.066-1.931l-8-8c-1.474 1.584.142 3.494-2.18 5.817-3.016 3.016-4.861-.625-10.228 4.742l9.6 9.6c5.367-5.367 1.725-7.211 4.742-10.228z'/%3e%3c/svg%3e");
   --icon-key: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M12.451 17.337l-2.451 2.663h-2v2h-2v2h-6v-5l6.865-6.949c1.08 2.424 3.095 4.336 5.586 5.286zm11.549-9.337c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zm-3-3c0-1.104-.896-2-2-2s-2 .896-2 2 .896 2 2 2 2-.896 2-2z'/%3e%3c/svg%3e");  
   --icon-down: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z'/%3e%3c/svg%3e");  
+  --icon-filter: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M1 0h22l-9 15.094v8.906l-4-3v-5.906z'/%3e%3c/svg%3e");  
   
 }
 small a,
@@ -160,6 +161,7 @@ td#content a {
 td#content a:hover {
     background-color: var(--tomato-accent-color); 
     color: white !important; 
+    /*! background-color: white; */
 }
 
 td#navi a.indent1::before {
@@ -725,7 +727,7 @@ select {
     background-position: right .5em top 50%, 0 0;
     background-size: .65em auto, 100%;
     min-height: var(--tomato-controls-size);
-    -moz-padding-start: 1.5px;
+    -moz-padding-start: 1px;
 }
 select::-ms-expand {
     display: none;
@@ -899,7 +901,7 @@ td#navi a[href*="forward"]::before {
 td#navi a[href*="restrict"]::before {
     content: '\1F512';
     mask-image: var(--icon-access);
-    -webkit-mask-image: var(--icon-key);
+    -webkit-mask-image: var(--icon-access);
 }
 td#navi a[href^="basic"]::before {
     content: '\1F5B0';
@@ -979,8 +981,9 @@ img[src^='spin'] {
 
 img[src^="bar"] {
     filter: grayscale();
-    height: 15px;
-    width: 19px;
+    height: 22px;
+    width: 22px;
+    line-height: 25p;
 }
 
 div#wait {
@@ -1046,6 +1049,10 @@ td.co2 small a[href*=":addWF"]::before {
 
 td.co2 small a::before:hover {
     background-color: white !important;;
+}
+
+td.co2 small a:hover::before {
+    background-color: white;
 }
 
 td.co2 small a::before {
