@@ -175,19 +175,19 @@ td#navi a.active.indent1::before {
 }
 
 td#navi a.indent1[href*=about] {
-    right: 310px;
+    right: 325px;
 }
 
 td#navi a.indent1[href*="javascript:reboot()"] {
-    right: 210px;
+    right: 225px;
 }
 
 td#navi a.indent1[href*="javascript:shutdown()"] {
-    right: 90px;   
+    right: 105px;   
 }
 
 td#navi a.indent1[href*="javascript:logout()"] {
-    right: 0;
+    right: 15px;
 }
 
 table#container td#header {
@@ -1370,4 +1370,33 @@ input[id*='_f_nr']:first-child {
 
 input#format {
     padding: 10px;
+}
+
+
+
+
+td#content {
+    column-width: 600px;
+    display: block;
+    column-count: 2; 
+    column-gap: 20px; 
+}
+
+td#content > div.section-title {
+    break-after: avoid !important;
+    break-inside: avoid;
+    -webkit-column-break-after: avoid;
+}
+
+td#content > div.section-title:after {
+    content: " ";
+    display: block;
+    height: 200px;
+    margin-bottom: -200px;
+}
+
+td#content > div.section {
+    break-before:avoid !important;
+    break-inside: avoid;
+    -webkit-column-break-before: avoid;
 }
