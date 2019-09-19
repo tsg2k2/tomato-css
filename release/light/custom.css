@@ -1405,3 +1405,22 @@ td#content > div.section {
 }
 
 */
+
+#bwm-controls
+{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+#bwm-controls > * {
+    flex: 0 0 auto;
+}
+
+#bwm-controls > br {
+    width: 81px;
+}
+
+#bwm-controls small:first-child {
+    font-size: smaller
+}
