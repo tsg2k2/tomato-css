@@ -52,9 +52,11 @@ small a:hover {sp
     color: #fff!important;
 }
 
-.content small {
+.content > small {
     font-size: smaller;
+    padding-left: 0.5px;
 }
+
 body,
 html {
     background-color: var(--tomato-background);
@@ -749,6 +751,7 @@ select {
     background-size: .65em auto, 100%;
     min-height: var(--tomato-controls-size);
     -moz-padding-start: 1px;
+    vertical-align: middle;
 }
 select::-ms-expand {
     display: none;
