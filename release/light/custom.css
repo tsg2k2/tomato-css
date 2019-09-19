@@ -1372,13 +1372,13 @@ input#format {
     padding: 10px;
 }
 
-
+/* 
 td#content {
-    column-width: 760px;
+    column-width: 800px;
     display: block;
     column-count: 2; 
     column-gap: 20px; 
-    column-fill: auto;
+    colhumn-fill: auto;
 }
 td#content > div {
     min-width: 760px;
@@ -1403,3 +1403,5 @@ td#content > div.section {
     break-inside: avoid;
     -webkit-column-break-before: avoid;
 }
+
+*/
