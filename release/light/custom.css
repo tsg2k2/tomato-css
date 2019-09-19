@@ -54,7 +54,7 @@ small a:hover {sp
 
 .content > small {
     font-size: smaller;
-    padding-left: 0.5px;
+    padding-left: 0.5em;
 }
 
 body,
