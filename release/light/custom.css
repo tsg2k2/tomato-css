@@ -1422,5 +1422,6 @@ td#content > div.section {
 }
 
 #bwm-controls small:first-child {
-    font-size: smaller
+    font-size: smaller;
+    flex: 0 0 100%;
 }
