@@ -298,7 +298,7 @@ div#webmon-controls {
     margin: 0px;
 }
 
-pre#stats,
+pre#stats:not(:empty),
 div#webmon-controls,
 div#status_table, 
 div.section, 
