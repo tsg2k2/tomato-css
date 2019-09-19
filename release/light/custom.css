@@ -1380,6 +1380,7 @@ td#content {
     display: block;
     column-count: 2; 
     column-gap: 20px; 
+    column-fill: auto;
 }
 
 td#content > div.section-title {
