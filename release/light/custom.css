@@ -1002,9 +1002,8 @@ img[src^='spin'] {
 
 img[src^="bar"] {
     filter: grayscale();
-    height: 22px;
-    width: 22px;
-    line-height: 25p;
+    height: 13px;
+    width: 13px;
 }
 
 div#wait {
@@ -1445,4 +1444,8 @@ td#content > div.section {
 #bwm-controls small:first-child {
     font-size: smaller;
     flex: 0 0 100%;
+}
+
+#dev-grid .co6 > * {
+    vertical-align: middle;
 }
