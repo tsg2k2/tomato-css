@@ -1452,3 +1452,7 @@ td#content > div.section {
 #dev-grid .co6 > * {
     vertical-align: middle;
 }
+
+#_nginxfp_button {
+    margin-left: 45px;
+}
