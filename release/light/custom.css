@@ -229,7 +229,7 @@ td#navi {
     width: 210px!important;
     max-width: 210px;
     background-color: var(--tomato-accent-color-dark);
-    padding: 10px 0 0;
+    padding: 15px 0 0 0;
     border: 0;
     height: 100% !important;
 }
@@ -251,7 +251,7 @@ td#navi a.indent1 {
     height: 30px;
     line-height: 35px;
     font-size: larger;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 15px 0px 15px;
 }
 
 td#navi a.indent1.active {
