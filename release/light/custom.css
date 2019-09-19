@@ -1372,11 +1372,8 @@ input#format {
     padding: 10px;
 }
 
-
-
-
 td#content {
-    column-width: 600px;
+    column-width: 800px;
     display: block;
     column-count: 2; 
     column-gap: 20px; 
