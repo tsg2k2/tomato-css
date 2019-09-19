@@ -1372,13 +1372,18 @@ input#format {
     padding: 10px;
 }
 
+
 td#content {
-    column-width: 800px;
+    column-width: 760px;
     display: block;
     column-count: 2; 
     column-gap: 20px; 
     column-fill: auto;
 }
+td#content > div {
+    min-width: 760px;
+}
+    
 
 td#content > div.section-title {
     break-after: avoid !important;
