@@ -44,7 +44,8 @@
   --icon-key: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M12.451 17.337l-2.451 2.663h-2v2h-2v2h-6v-5l6.865-6.949c1.08 2.424 3.095 4.336 5.586 5.286zm11.549-9.337c0 4.418-3.582 8-8 8s-8-3.582-8-8 3.582-8 8-8 8 3.582 8 8zm-3-3c0-1.104-.896-2-2-2s-2 .896-2 2 .896 2 2 2 2-.896 2-2z'/%3e%3c/svg%3e");  
   --icon-down: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z'/%3e%3c/svg%3e");  
   --icon-filter: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M1 0h22l-9 15.094v8.906l-4-3v-5.906z'/%3e%3c/svg%3e");  
-  
+  --icon-up: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M0 21l12-18 12 18z'/%3e%3c/svg%3e");
+  --icon-down: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M24 3l-12 18-12-18z'/%3e%3c/svg%3e");    
 }
 small a,
 small a:hover {sp
@@ -379,6 +380,16 @@ table.tomato-grid tr.header td {
     float: right;
     content: " \25E5";
     font-family: Symbola;
+    color: transparent;
+    background-color: var(--tomato-color);
+    mask-image: var(--icon-down);
+    mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: var(--icon-down);
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
 }
 
 .tomato-grid .sortasc::after {
@@ -386,6 +397,16 @@ table.tomato-grid tr.header td {
     float: right;
     content: " \25E2";
     font-family: Symbola;
+    color: transparent;
+    background-color: var(--tomato-color);
+    mask-image: var(--icon-up);
+    mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-image: var(--icon-up);
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
 }
 
 table.tomato-grid tr td,
