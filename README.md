@@ -1,11 +1,8 @@
-A quick edit of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
-Modified to a condensed dark/light theme for use with Fresh Tomato.
+A deep rework  [brandonongzy's custom css](https://github.com/brandonongzy/tomato-css). 
 
 ## Screenshots
-Dark Theme
-![Screenshot](https://raw.githubusercontent.com/theredhood13/tomato-css-dark/master/Screenshot.png)
 Light Theme
-![Screenshot](https://raw.githubusercontent.com/theredhood13/tomato-css-dark/master/Screenshot_light.png)
+![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light.png)
 
 ## Installation
 
@@ -14,7 +11,7 @@ Light Theme
 #### 1. Upload script
 1. Navigate to __Administration__ > __Scripts__
 2. Choose __WAN Up__
-3. Paste the contents of [tomato_wanup_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_dark) or [tomato_wanup_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_light)
+3. Paste the contents of [tomato_wanup_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_light)
 4. Save changes
 
 #### 2. Enable Custom CSS
