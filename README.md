@@ -1,4 +1,5 @@
-A deep rework  [brandonongzy's custom css](https://github.com/brandonongzy/tomato-css). 
+A deep rework of [brandonongzy's custom css](https://github.com/brandonongzy/tomato-css). 
+It's an attempt to reimplement AdvancedTomato's look and feel on vanilla Tomato firmware
 
 ## Screenshots
 Light Theme
