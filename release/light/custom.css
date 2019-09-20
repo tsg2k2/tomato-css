@@ -586,8 +586,8 @@ table.fields {
 }
 
 td {
-    font: revert;
-    font-family: revert;
+    font: inherit;
+    font-family: inherit;
 }
 
 .fields input[type="button"] {
