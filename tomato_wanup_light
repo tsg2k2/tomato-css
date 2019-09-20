@@ -1,1 +1,1 @@
-wget https://raw.githubusercontent.com/theredhood13/tomato-css/master/release/light/custom.css -P /var/wwwext/
+wget https://raw.githubusercontent.com/tsg2k2/tomato-css/master/release/light/custom.css -P /var/wwwext/
