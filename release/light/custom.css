@@ -1026,7 +1026,7 @@ ul.tabs a, #tabs a {
 }
 
 input[size] {
-    max-width: 40%;
+    max-width: 300px;
 }
 
 img[src^="rp"] {
