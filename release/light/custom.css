@@ -1127,9 +1127,9 @@ td.co2 small a[href*=":addEx"]::before {
 
 
 
-td.co1 small a::before:hover,
-td.co2 small a::before:hover {
-    background-color: white !important;;
+td.co1 small a:hover:before,
+td.co2 small a:hover:before {
+    background-color: white;
 }
 
 td.co1 small a::before,
