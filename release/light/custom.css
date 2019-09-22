@@ -1514,3 +1514,7 @@ td#content > div.section {
 #content table.fields td.content select{
     min-width: 120px;
 }
+
+body > div[style] {
+    display: none;
+}
