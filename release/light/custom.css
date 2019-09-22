@@ -351,7 +351,7 @@ div.section-title {
 
 div.section {
     padding-right: 20px;
-    padding-top: 10px;
+    padding-top: 0;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     margin: 0 40px 10px;
@@ -568,6 +568,7 @@ span#dtime {
 #ports .section-title {
     margin: 0;
     padding: 0;
+    padding-top: 20px;
     box-shadow: none;
     color: var(--tomato-accent-color);
     margin-bottom: 20px;
@@ -1159,7 +1160,7 @@ td.co2 small a::before {
 
 #ports td.indent1 a {
   position: absolute;
-  top: 5px;
+  top: 10px;
   right: 24px;
   margin: 10px;
   width: 0px;
