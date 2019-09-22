@@ -1405,6 +1405,7 @@ td#content {
     display: block;
     column-count: 2; 
     column-gap: 20px; 
+    colhumn-fill: auto;
 }
 td#content > div {
     min-width: 760px;
@@ -1434,7 +1435,7 @@ td#content > div.section {
 
 #bwm-controls
 {
-    display: flex;
+    /*! display: flex; */
     width: 200px;
     flex-wrap: wrap;
 }
