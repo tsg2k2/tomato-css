@@ -810,6 +810,21 @@ input[type="text"], input[type="password"], textarea {
     width: 100px;
 }
 
+#ports td.title.indent2 {
+    position: relative;
+}
+#ports td.title.indent2:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 1.5em;
+    background-color: white;
+    content: " ";
+    opacity: 0.3;   
+    
+}
+
 td#navi a {
     height: unset !important;
     line-height: 25px !important;
