@@ -1519,6 +1519,10 @@ body > div[style] {
     display: none;
 }
 
+ul.tabs a:not(.active) small,
+#tabs a:not(.active) small {
+    color: var(--tomato-color) ;
+}
 
 ul.tabs a, #tabs a {
     height: auto;
