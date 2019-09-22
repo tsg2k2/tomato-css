@@ -340,8 +340,8 @@ div.section div.tomato-grid {
 div.section-title {
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    padding-top: 14px;
-    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     border-bottom: none;
     color: var(--tomato-accent-color);
     font-weight: bolder;
@@ -591,6 +591,7 @@ table.fields {
     width: 100%;
     max-width: 1100px;
     margin-bottom: 10px;
+    border-collapse: collapse;
 }
 
 .fields:last-child {
