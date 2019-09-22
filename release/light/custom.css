@@ -1528,7 +1528,7 @@ ul.tabs a, #tabs a {
     line-height: 1;
 }
 
-ul.tabs a:hover, #tabs a:hover
+ul.tabs a:hover:not(.active), #tabs a:hover:not(.active)
 {
     font-weight: normal !important;
 }
