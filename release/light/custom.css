@@ -309,6 +309,7 @@ div#webmon-controls {
     margin: 0px;
 }
 
+div#att1,
 pre#stats:not(:empty),
 div#webmon-controls,
 div#status_table, 
@@ -326,10 +327,11 @@ td#content > small{
     border: none;
 }
 
-div.cstats > dic.section,
-div.cstats > dic.section_title {
+div.cstats > div.section,
+div#att1 > div.section-title,
+div.cstats > div.section-title {
    padding: 0px;
-    box-shadow: none;
+   box-shadow: none;
 }
 
 div.section div.tomato-grid {
@@ -1595,6 +1597,14 @@ div[id^='wl']:before {
 }
 
 
-
+div#ident {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: inherit;
+    height: 60px;
+    vertical-align: middle;
+    line-height: 60px;
+}
 
 
