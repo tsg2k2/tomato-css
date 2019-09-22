@@ -1060,8 +1060,10 @@ div#cstats > div.section-title {
 }
 
 td.co2 small a[href*="api"],
+td.co1 small a[href*=":add"],
 td.co2 small a[href*=":add"],
-td.co2 small a[href*=":view"]
+td.co2 small a[href*=":view"],
+td.co1 small a[href*=":view"]
 {
     display: inline-block;
     overflow: hidden;
@@ -1095,24 +1097,28 @@ td.co2 small a[href*=":addWF"]::before {
 }
 
 
+td.co1 small a[href*=":viewQosDe"]::before,
 td.co2 small a[href*=":viewQosDe"]::before {
     content: '\1F511';
     mask-image:var(--icon-key);
     -webkit-mask-image:var(--icon-tag);
 }
 
+td.co1 small a[href*=":viewQosCT"]::before,
 td.co2 small a[href*=":viewQosCT"]::before {
     content: '\1F511';
     mask-image:var(--icon-graph);
     -webkit-mask-image:var(--icon-graph);
 }
 
+td.co1 small a[href*=":viewIpt"]::before,
 td.co2 small a[href*=":viewIpt"]::before {
     content: '\1F511';
     mask-image:var(--icon-freq);
     -webkit-mask-image:var(--icon-freq);
 }
 
+td.co1 small a[href*=":addEx"]::before,
 td.co2 small a[href*=":addEx"]::before {
     content: '\1F511';
     mask-image:var(--icon-filter);
@@ -1121,15 +1127,12 @@ td.co2 small a[href*=":addEx"]::before {
 
 
 
-
+td.co1 small a::before:hover,
 td.co2 small a::before:hover {
     background-color: white !important;;
 }
 
-td.co2 small a:hover::before {
-    background-color: white;
-}
-
+td.co1 small a::before,
 td.co2 small a::before {
     font-family: Symbola;
     background-color: var(--tomato-color);
