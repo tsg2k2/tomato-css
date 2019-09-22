@@ -1563,6 +1563,7 @@ tr[id^='last-'] small {
     
 }
 
+div#att1 + div.section-title:before,
 #ports > div.section-title:before,
 div[id^='wl']:before,
 div#wan-title:before {
@@ -1594,6 +1595,11 @@ div#wan-title:before {
 div[id^='wl']:before {
     mask-image: var(--icon-signal);
     -webkit-mask-image: var(--icon-signal);
+}
+
+div#att1 + div.section-title:before {
+    mask-image: var(--icon-system);
+    -webkit-mask-image: var(--icon-system);
 }
 
 
