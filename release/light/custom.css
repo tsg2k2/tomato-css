@@ -112,8 +112,9 @@ input, select, option, textarea {
     padding-right: 22px !important;
 }
 
-.section-title small {
+.section-title > small {
     float: right;
+    color: transparent;
 }
 
 a[href*="toggle"]::before {
