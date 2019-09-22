@@ -1518,3 +1518,17 @@ td#content > div.section {
 body > div[style] {
     display: none;
 }
+
+
+ul.tabs a, #tabs a {
+    height: auto;
+    font-size: 1rem !important;;
+    margin: 1px;
+    padding: 8px !important;;
+    line-height: 1;
+}
+
+ul.tabs a:hover, #tabs a:hover
+{
+    font-weight: notmal !important;
+}
