@@ -289,6 +289,7 @@ td#content > *:last-child {
     margin-bottom: 0px;
 }
 
+div#sesdiv > div:last-of-type,
 div.section > div.section:last-of-type,
 div#bwlimit > div:last-of-type,
 div#qosstats > div:last-of-type,
@@ -296,6 +297,10 @@ td#content > div:last-of-type {
     margin-bottom: 0px;
 }
 
+
+div#sesdivnotes {
+    margin-bottom: 0px;
+}
 
 div#webmon-controls {
     float: none;
@@ -690,7 +695,7 @@ div.section-title {
 .section .section-title {
     padding: 0px;
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     color: var(--tomato-accent-color) !important;
     box-shadow: none;
 }
