@@ -1623,6 +1623,8 @@ div#ident {
     height: 60px;
     vertical-align: middle;
     line-height: 60px;
+    color: white;
+    opacity: 0.5;
 }
 
 
