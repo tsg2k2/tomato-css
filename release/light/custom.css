@@ -67,6 +67,11 @@ small a:hover {sp
     padding-left: 0.5em;
 }
 
+div[id^='sesdiv_wl'] .content > small {
+    font-size: 1rem;
+    padding-left: 0;
+}
+
 body,
 html {
     background-color: var(--tomato-background);
