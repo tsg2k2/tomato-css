@@ -1084,8 +1084,8 @@ td.co1 small a[href*=":view"]
 {
     display: inline-block;
     overflow: hidden;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
 }
 
 td.co2 small a[href*="api"]::before {
