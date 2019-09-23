@@ -70,6 +70,7 @@ small a:hover {sp
 div[id^='sesdiv_wl'] .content > small {
     font-size: 1rem;
     padding-left: 0;
+    opacity: 0.5;
 }
 
 body,
