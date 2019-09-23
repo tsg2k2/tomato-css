@@ -170,6 +170,7 @@ table#container {
 
 td#content a {
     color: var(--tomato-accent-color);
+    border-radius: 1px;
 }
 
 td#content a:hover {
@@ -1563,6 +1564,7 @@ tr[id^='last-'] small {
     
 }
 
+div#sesdiv_wan + div.section-title:before,
 div#att1 + div.section-title:before,
 #ports > div.section-title:before,
 div[id^='wl']:before,
@@ -1602,6 +1604,10 @@ div#att1 + div.section-title:before {
     -webkit-mask-image: var(--icon-system);
 }
 
+div#sesdiv_wan + div.section-title:before {
+    mask-image: var(--icon-lan);
+    -webkit-mask-image: var(--icon-lan);
+}
 
 div#ident {
     position: absolute;
