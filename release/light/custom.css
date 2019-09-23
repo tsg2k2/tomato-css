@@ -1630,3 +1630,7 @@ div#ident {
 div#graph embed {
     width: 100% !important;;
 }
+
+div.tomato-grid {
+    margin: 0px;
+}
