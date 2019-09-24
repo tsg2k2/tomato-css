@@ -1162,12 +1162,14 @@ td.co2 small a::before {
     -webkit-mask-size: contain; 
     -webkit-mask-repeat: no-repeat;
 
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     display: block;
 }
 
-td.co1 small a {
+td small a[href*="viewQos"],
+td small a[href*="viewIptHi"]
+{
     margin-right: 5px;
 }
 
