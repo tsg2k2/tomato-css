@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700'); */
-@import url('https://fontlibrary.org/face/symbola');
 @import url('https://fonts.googleapis.com/css?family=Play:400'); 
 
 :root {
@@ -130,7 +128,7 @@ input, select, option, textarea {
 }
 
 a[href*="toggle"]::before {
-    font-family: Symbola;
+    /*font-family: Symbola;*/
     content: '\23F7';
     background-color: var(--tomato-color);
     mask-image: var(--icon-down);
@@ -403,7 +401,7 @@ table.tomato-grid tr.header td {
     font-size: small;
     float: right;
     content: " \25E5";
-    font-family: Symbola;
+    /*font-family: Symbola;*/
     color: transparent;
     background-color: var(--tomato-color);
     mask-image: var(--icon-triangle-down);
@@ -420,7 +418,7 @@ table.tomato-grid tr.header td {
     font-size: small;
     float: right;
     content: " \25E2";
-    font-family: Symbola;
+    /*font-family: Symbola;*/
     color: transparent;
     background-color: var(--tomato-color);
     mask-image: var(--icon-triangle-up);
@@ -860,7 +858,7 @@ td#navi a[href*="logout"] {
 
 td#navi a::before
 {
-    font-family: Symbola !important;
+    /*font-family: Symbola !important;*/
     font-size: larger;
     padding-right: 3px;
     /*! filter: grayscale(); */
@@ -1151,7 +1149,7 @@ td.co2 small a:hover:before {
 
 td.co1 small a::before,
 td.co2 small a::before {
-    font-family: Symbola;
+    /*font-family: Symbola;*/
     background-color: var(--tomato-color);
     color: transparent;
 
@@ -1188,7 +1186,7 @@ div#ports {
 }
 
 #ports td.indent1 a:before {
-  font-family: Symbola;
+  /*font-family: Symbola;*/
   content: '\2699';
   color: transparent;
   background-color: var(--tomato-color);
