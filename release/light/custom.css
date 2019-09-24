@@ -1208,8 +1208,8 @@ div#ports {
 
 input[type='checkbox'],
 input[type='radio']{
-  -moz-appearance: none;
   appearance: none;
+  -moz-appearance: none;
   -webkit-appearance: none;
   width: var(--tomato-controls-size) !important;
   height: var(--tomato-controls-size) !important;
@@ -1231,14 +1231,11 @@ input[type='radio']:focus {
 }
 
 input[type='checkbox']:checked {
-  background-image: var(--tomato-accent-check);
+    background-image: var(--tomato-accent-check);
 }
 
 input[type='radio']:checked {
     background-image: var(--tomato-accent-radio);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 
