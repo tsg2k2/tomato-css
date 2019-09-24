@@ -669,14 +669,17 @@ div#cstats
     padding-bottom: 0px;
     width: unset;
 }
+
 div.section {
    margin: 0px;
    margin-bottom: 20px;
+   margin-top: -20px; 
 }
 
 div.section-title {
    border-bottom: none;
-   margin: 0px 0px 0;
+   margin: 0;
+   margin-bottom: 20px; 
 }
 
 #survey-msg {
@@ -1183,6 +1186,7 @@ td small a[href*="viewIpt"]
 
 div#ports {
     position: relative;
+    margin-top: 20px;
 }
 
 #ports td.indent1 a:before {
