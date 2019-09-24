@@ -1168,7 +1168,7 @@ td.co2 small a::before {
 }
 
 td small a[href*="viewQos"],
-td small a[href*="viewIptHi"]
+td small a[href*="viewIpt"]
 {
     margin-right: 5px;
 }
