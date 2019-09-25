@@ -4,6 +4,7 @@
   --tomato-background: #2b323a;
 #  --tomato-panel-background: #fbfbfb;
   --tomato-panel-background: #fff;
+  --tomato-container-background: #f0f1f4;  
   --tomato-color: #76838f;
 #  --tomato-accent-color: #ea3201;
   --tomato-accent-color: #27ae60;
@@ -293,7 +294,7 @@ td#navi a.indent2.active {
 
 #container {
     width: auto;
-    background-color: #f0f1f4;
+    background-color: var(--tomato-container-background);
     /*! padding-bottom: 20px; */
 }
 
@@ -389,7 +390,8 @@ table.tomato-grid tr.header td {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 5px;
-    border-bottom: 1px solid #f0f1f4;
+    border-bottom: 1px solid;
+    border-bottom-color: var(--tomato-container-background);
 }
 
 table.tomato-grid tr.even,
@@ -1670,4 +1672,16 @@ input#backup-name {
 }
 
 
+td#navi a.active {
+    position: relative;
+}
 
+td#navi a.indent2.active:after {
+    content: "";
+    border: 13px solid transparent;
+    border-right-color: transparent;
+    border-right-color: var(--tomato-container-background);
+    position: absolute;
+    height: inherit;
+    right: 0px;
+}
