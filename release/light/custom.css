@@ -629,6 +629,7 @@ small a {
     border: none;
     margin: 0px;
     width: auto;
+    margin-top: -20px;
 }
 
 .note-disabled b {
