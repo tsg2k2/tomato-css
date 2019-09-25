@@ -710,10 +710,11 @@ div.section-title {
 
 .section .section-title {
     padding: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    color: var(--tomato-accent-color) !important;
+    padding-top: 0;
+    padding-bottom: 15px;
+    /*! color: var(--tomato-accent-color) !important; */
     box-shadow: none;
+    margin-top: 15px;
 }
 .section .section{
     padding: 0px;
