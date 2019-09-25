@@ -691,6 +691,10 @@ div.section-title {
    margin-bottom: 20px; 
 }
 
+div.section-title:empty {
+    display: none;
+}
+
 #survey-msg {
    position: unset;
    padding: 0px !important;
@@ -823,6 +827,12 @@ input[type="text"], input[type="password"], textarea {
     border-radius: var( --tomato-controls-border-radius);
     min-height: var(--tomato-controls-size);
     vertical-align: middle;
+}
+
+input[type="file"] {
+    border: var(--tomato-controls-border);
+    border-radius: var( --tomato-controls-border-radius);
+    box-sizing: border-box;
 }
 
 .tomato-grid .controls input {
@@ -1646,3 +1656,14 @@ div#graph embed {
 div.tomato-grid {
     margin: 0px;
 }
+
+input#restore-name,
+select#restore-mode
+{
+    min-width: 400px;
+}
+
+input#backup-name {
+    min-width: calc(400px - 20px)
+}
+
