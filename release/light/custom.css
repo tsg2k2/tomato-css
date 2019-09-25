@@ -308,6 +308,9 @@ td#content > div:last-of-type {
     margin-bottom: 0px;
 }
 
+div#status-tab div.section {
+    padding-top: 20px;
+}
 
 div#webmon-controls {
     float: none;
