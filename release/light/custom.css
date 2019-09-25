@@ -679,7 +679,7 @@ div#cstats
 div.section {
    margin: 0px;
    margin-bottom: 20px;
-   margin-top: 0; 
+   margin-top: -20px; 
 }
 
 div.section-title {
