@@ -310,6 +310,7 @@ td#content > div:last-of-type {
 
 div#status-tab div.section {
     padding-top: 20px;
+    margin-bottom: 0px;
 }
 
 div#webmon-controls {
@@ -678,7 +679,7 @@ div#cstats
 div.section {
    margin: 0px;
    margin-bottom: 20px;
-   margin-top: -20px; 
+   margin-top: 0; 
 }
 
 div.section-title {
@@ -1341,7 +1342,8 @@ br:last-child,
 #bwlimit > br,
 #content > br,
 .content > br,
-div#loading > br {
+div#loading > br,
+div#status-tab > br {
     display: none;
 }
 
