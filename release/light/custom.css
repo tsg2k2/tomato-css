@@ -312,6 +312,9 @@ div#status-tab div.section {
     padding-top: 20px;
     margin-bottom: 0px;
 }
+div#status-tab {
+    margin-top: 20px;
+}
 
 div#webmon-controls {
     float: none;
