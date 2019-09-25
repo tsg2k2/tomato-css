@@ -1363,6 +1363,8 @@ td#content > i {
     background-color: var(--tomato-panel-background);
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+    margin-top: -20px;
 }
 
 .qg tr.editor > td:first-child {
