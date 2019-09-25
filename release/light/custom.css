@@ -880,6 +880,11 @@ td#navi a[href*="logout"] {
     top: 0px !important;
     color: white;
     line-height: 60px !important;
+    height: 60px !important;
+    background-color: var(--tomato-accent-color);
+    max-height: 60px;
+    overflow: hidden;
+    z-index: 2;
 }
 
 td#navi a::before
@@ -1650,6 +1655,7 @@ div#ident {
     line-height: 60px;
     color: white;
     opacity: 0.5;
+    padding-left: 20px;
 }
 
 div#graph embed {
