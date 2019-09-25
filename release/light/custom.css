@@ -833,6 +833,7 @@ input[type="file"] {
     border: var(--tomato-controls-border);
     border-radius: var( --tomato-controls-border-radius);
     box-sizing: border-box;
+    height: unset !important;
 }
 
 .tomato-grid .controls input {
@@ -1658,7 +1659,8 @@ div.tomato-grid {
 }
 
 input#restore-name,
-select#restore-mode
+select#restore-mode,
+input[type="file"][name="file"]
 {
     min-width: 400px;
 }
@@ -1666,4 +1668,6 @@ select#restore-mode
 input#backup-name {
     min-width: calc(400px - 20px)
 }
+
+
 
