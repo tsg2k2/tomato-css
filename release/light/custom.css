@@ -282,9 +282,7 @@ td#navi a.indent1.active {
 
 td#navi a.indent2 {
     margin-left: 0;
-    height: 25px;
-    line-height: 25px;
-    padding: 0 0 0 50px;
+    padding: 0 20px 0 50px;
 }
 
 td#navi a.indent2.active {
@@ -869,7 +867,7 @@ input[type="file"] {
 
 td#navi a {
     height: unset !important;
-    line-height: 25px !important;
+    line-height: 26px !important;
 }
 
 td#navi a[href*="shutdown"],
@@ -1688,7 +1686,6 @@ td#navi a.indent2.active:after {
     border-right-color: transparent;
     border-right-color: var(--tomato-container-background);
     position: absolute;
-    height: inherit;
     right: 0px;
 }
 
