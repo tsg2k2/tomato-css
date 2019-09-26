@@ -1309,7 +1309,7 @@ input[type=button][disabled] {
 }
 
 input + input, select + input {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #spin {
