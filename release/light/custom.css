@@ -250,7 +250,7 @@ td#navi {
     width: 210px!important;
     max-width: 210px;
     background-color: var(--tomato-accent-color-dark);
-    padding: 15px 0 0 0;
+    padding: 10px 0 0 0;
     border: 0;
     height: 100% !important;
 }
@@ -868,7 +868,7 @@ input[type="file"] {
 
 td#navi a {
     height: unset !important;
-    line-height: 26px !important;
+    line-height: 30px !important;
 }
 
 td#navi a[href*="shutdown"],
@@ -889,18 +889,17 @@ td#navi a[href*="logout"] {
 td#navi a::before
 {
     /*font-family: Symbola !important;*/
-    font-size: larger;
-    padding-right: 3px;
     /*! filter: grayscale(); */
     background-color: white;
     mask-position: center;
     mask-repeat: no-repeat;
-    mask-size: 60%;
+    mask-size: 80%;
     -webkit-mask-position: center;
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 60%;
+    -webkit-mask-size: 80%;
     color: transparent;
     opacity: 0.5;  
+    margin-right: 3px;
 }
 
 td#navi a[href*="about"]::before {
@@ -1683,11 +1682,13 @@ td#navi a.active {
 
 td#navi a.indent2.active:after {
     content: "";
-    border: 13px solid transparent;
+    border: 15px solid transparent;
     border-right-color: transparent;
     border-right-color: var(--tomato-container-background);
     position: absolute;
     right: 0px;
+    display: block;
+    top: 0px;
 }
 
 ::selection {
