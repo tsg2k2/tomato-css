@@ -188,6 +188,7 @@ td#navi a.indent1::before {
     min-width: 1.3em;
     display: inline-block;
     text-align: center;
+    vertical-align:   top;
 }
 
 td#navi a.active.indent1::before {
