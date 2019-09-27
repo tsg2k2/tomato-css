@@ -1537,8 +1537,10 @@ td#content > div.section {
 #bwm-controls
 {
     /*! display: flex; */
-    width: 200px;
+    width: 180px;
     flex-wrap: wrap;
+    margin-top: 0px !important;;
+    margin-right: 0px !important;;
 }
 
 #bwm-controls > * {
@@ -1550,8 +1552,9 @@ td#content > div.section {
 }
 
 #bwm-controls small:first-child {
-    font-size: smaller;
+    font-size: x-small;
     flex: 0 0 100%;
+    display: block;
 }
 
 #dev-grid .co6 > * {
@@ -1694,4 +1697,36 @@ td#navi a.indent2.active:after {
 ::selection {
     background-color: var(--tomato-accent-color);
     color: white;
+}
+
+#txt {
+    border-spacing: 5px !important;
+    border-collapse: collapse;
+    width: auto !important;
+}
+#txt td {
+    width: auto !important;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+#txt #rx-name:after,
+#txt #tx-name:after{
+    content: '\00a0\00a0';
+    display: inline block; 
+    width: 18px;
+    filter: brightness(0.8);
+    opacity: 0.6;
+    border-bottom-style: solid !important;;    
+    border-bottom-width: 17px !important;;
+    border-color:inherit;
+    position: absolute;
+    left: 0px;
+}
+
+#txt #rx-name,
+#txt #tx-name{
+    position: relative;
+    border-width: 0px !important;;
 }
