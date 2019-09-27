@@ -330,6 +330,7 @@ div.section-title,
 div.tomato-grid, 
 div.bwmg,
 td#content > i,
+td#content > ul,
 td#content > small{
     background-color: var(--tomato-panel-background);
     padding: 20px;
@@ -1730,4 +1731,10 @@ td#navi a.indent2.active:after {
 #txt #tx-name{
     position: relative;
     border-width: 0px !important;;
+}
+
+#content > ul {
+    display: block;
+    margin-top: -20px;
+    height: 10px;
 }
