@@ -549,8 +549,8 @@ div#tabs-bottom {
 }
 
 ul#tabs li a {
-    background: var(--tomato-accent-color-dark);
-    color:#fff;
+    /*! background: var(--tomato-accent-color-dark); */
+    /*! color:#fff; */
     border-radius: 0px;
     padding: 8px;
 }
