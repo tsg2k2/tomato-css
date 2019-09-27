@@ -1736,5 +1736,5 @@ td#navi a.indent2.active:after {
 #content > ul {
     display: block;
     margin-top: -20px;
-    height: 10px;
+    height: 20px;
 }
