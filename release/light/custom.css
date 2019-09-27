@@ -1703,12 +1703,14 @@ td#navi a.indent2.active:after {
     border-spacing: 5px !important;
     border-collapse: collapse;
     width: auto !important;
+    margin-bottom: 20px;
 }
 #txt td {
     width: auto !important;
     padding: 5px;
     padding-left: 0px;
     padding-right: 10px;
+    
 }
 
 #txt #rx-name:after,
