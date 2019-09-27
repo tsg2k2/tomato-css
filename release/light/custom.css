@@ -1575,8 +1575,8 @@ body > div[style] {
     display: none;
 }
 
-ul.tabs a:not(.active) small,
-#tabs a:not(.active) small {
+ul.tabs a:not(.active):not(:hover) small,
+#tabs a:not(.active):not(:hover) small {
     color: var(--tomato-color) ;
 }
 
