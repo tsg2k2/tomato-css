@@ -1713,13 +1713,12 @@ td#navi a.indent2.active:after {
 
 #txt #rx-name:after,
 #txt #tx-name:after{
-    content: '\00a0\00a0';
+    content: '\00a0';
     display: inline block; 
     width: 18px;
-    filter: brightness(0.8);
-    opacity: 0.6;
+    opacity: 0.7;
     border-bottom-style: solid !important;;    
-    border-bottom-width: 17px !important;;
+    border-bottom-width: 18px !important;;
     border-color:inherit;
     position: absolute;
     left: 0px;
