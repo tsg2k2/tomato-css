@@ -518,6 +518,7 @@ input[type=button] {
     border-radius: var( --tomato-controls-border-radius);
     min-width: 70px;
     vertical-align: middle;
+    font-weight: bolder;
 }
 
 input[type=button]:hover {
