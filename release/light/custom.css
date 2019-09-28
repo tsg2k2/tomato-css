@@ -1753,7 +1753,7 @@ td#navi a.active {
     display: inline block; 
     width: 18px;
     opacity: 0.7;
-    border-bottom-style: solid !important;;    
+    border-bottom-style: solid !important;
     border-bottom-width: 18px !important;;
     border-color:inherit;
     position: absolute;
@@ -1763,6 +1763,9 @@ td#navi a.active {
 #txt #rx-name,
 #txt #tx-name{
     position: relative;
-    border-width: 0px !important;;
+    border-width: 0px !important;
 }
 
+div#graph {
+    border: none !important;
+}
