@@ -1730,6 +1730,7 @@ td#navi a.active {
     border-collapse: collapse;
     width: auto !important;
     margin-bottom: 20px;
+    margin-top: 7px;
 }
 #txt td {
     width: auto !important;
@@ -1745,8 +1746,6 @@ td#navi a.active {
 #txt td:last-child {
     display: none;
 }
-
-
 
 #txt #rx-name:after,
 #txt #tx-name:after{
