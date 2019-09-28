@@ -67,7 +67,11 @@
   --icon-button-measure: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M19 0h-14c-2.762 0-5 2.239-5 5v14c0 2.761 2.238 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm3 19c0 1.302-.839 2.401-2 2.816v-2.816h-1v3h-2v-3h-1v3h-2v-3h-1v3h-2v-3h-1v3h-2v-3h-1v3h-2v-3h-1v2.815c-1.161-.414-2-1.513-2-2.815v-14c0-1.302.839-2.401 2-2.816v2.816h1v-3h2v6h1v-6h2v3h1v-3h2v3h1v-3h2v6h1v-6h2v3h1v-2.816c1.161.415 2 1.514 2 2.816v14zm-14.141-9h1.141v6h-1.354v-3.889h-1.488v-1c.893-.041 1.701-.201 1.701-1.111zm8.315 4.667h1.826v1.306h-3.922v-.958c1.529-1.491 2.379-2.244 2.389-3.018 0-.462-.268-.717-.754-.717-.453 0-.816.245-1.168.524l-.424-1.148c.545-.452 1.191-.656 1.833-.656 1.179 0 1.941.74 1.941 1.885.001 1.155-.899 2.043-1.721 2.782z'/%3e%3c/svg%3e");    
   --icon-button-find: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M13 8h-8v-2h8v2zm0 4h-8v-2h8v2zm8.172 12l-7.387-7.387c-1.388.874-3.024 1.387-4.785 1.387-4.971 0-9-4.029-9-9s4.029-9 9-9 9 4.029 9 9c0 1.761-.514 3.398-1.387 4.785l7.387 7.387-2.828 2.828zm-12.172-8c3.859 0 7-3.14 7-7s-3.141-7-7-7-7 3.14-7 7 3.141 7 7 7z'/%3e%3c/svg%3e");    
   --icon-button-wakeup: url("data:image/svg+xml;charset=UTF-8,%3csvg width='24' height='24'  fill='white' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd'%3e%3cpath d='M23 0v20h-8v-2h6v-16h-18v16h6v2h-8v-20h22zm-12 13h-4l5-6 5 6h-4v11h-2v-11z'/%3e%3c/svg%3e");    
-      
+  --icon-button-add: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M24 10h-10v-10h-4v10h-10v4h10v10h4v-10h10z'/%3e%3c/svg%3e");    
+  --icon-button-save: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M7 2v-2h10v2h-10zm0 4h10v-2h-10v2zm10 7v-5h-10v5h-6l11 11 11-11h-6z'/%3e%3c/svg%3e");
+  --icon-button-cancel: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z'/%3e%3c/svg%3e");    
+  --icon-button-random: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M18 9v-3c-1 0-3.308-.188-4.506 2.216l-4.218 8.461c-1.015 2.036-3.094 3.323-5.37 3.323h-3.906v-2h3.906c1.517 0 2.903-.858 3.58-2.216l4.218-8.461c1.356-2.721 3.674-3.323 6.296-3.323v-3l6 4-6 4zm-9.463 1.324l1.117-2.242c-1.235-2.479-2.899-4.082-5.748-4.082h-3.906v2h3.906c2.872 0 3.644 2.343 4.631 4.324zm15.463 8.676l-6-4v3c-3.78 0-4.019-1.238-5.556-4.322l-1.118 2.241c1.021 2.049 2.1 4.081 6.674 4.081v3l6-4z'/%3e%3c/svg%3e");    
+  --icon-button-scan: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M13.895 15.875l-.895-.447v-11c6.65 2.217 9 2.363 9 5.162v9.41h-7v-1.336c0-.758-.428-1.45-1.105-1.789zm-4.895-15.875h-4v4.292l4-1.292v-3zm10 0h-4v3l4 1.292v-4.292zm-10 17.664c0-.757.428-1.45 1.105-1.789l.895-.447v-11c-6.523 2.175-9 2.307-9 5.162v9.41h7v-1.336zm6 6.336h7v-3h-7v3zm-13 0h7v-3h-7v3z'/%3e%3c/svg%3e");
     
     
 }
@@ -1786,7 +1790,11 @@ input#refreshb {
     left: -0.5em;
 }
 
-
+input[type='button'][value='Scan'],
+input[type='button'][value='Random'],
+input[type='button'][value='Cancel'],
+input[type='button'][value='Save'],
+input[type='button'][value='Add'],
 input[type='button'][value='Wake Up'],
 input[type='button'][value='Find'],
 input[type='button'][value='Measure'],
@@ -1801,7 +1809,6 @@ input[type='button'][value='Refresh']{
     background-size: 15%;
     background-origin: border-box;
     padding-left: 2em;
-    min-width: 110px;
 }
 
 input[type='button'][value='Stop'] {
@@ -1831,3 +1838,21 @@ input[type='button'][value='Find']{
 input[type='button'][value='Wake Up']{
     background-image: var(--icon-button-wakeup);
 }
+input[type='button'][value='Add']{
+    background-image: var(--icon-button-add);
+    min-width: 90px;
+}
+input[type='button'][value='Save']{
+    background-image: var(--icon-button-save);
+}
+input[type='button'][value='Cancel']{
+    background-image: var(--icon-button-cancel);
+}
+input[type='button'][value='Random']{
+    background-image: var(--icon-button-random);
+}
+input[type='button'][value='Scan']{
+    background-image: var(--icon-button-scan);
+}
+
+
