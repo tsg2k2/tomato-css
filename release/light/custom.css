@@ -236,7 +236,7 @@ table#container td#header div.title {
 }
 
 table#container td#header div.title:before {
-    content: "\  ";
+    content: "*";
     display: inline-block;
     width: 40px;
     margin-right:10px;
