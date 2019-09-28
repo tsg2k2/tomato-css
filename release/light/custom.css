@@ -286,7 +286,8 @@ td#navi a.indent2 {
     padding: 0 20px 0 50px;
 }
 
-td#navi a.indent2.active {
+td#navi a.indent2.active,
+td#navi a.indent1 + a.indent1.active {
     background-color: var(--tomato-accent-color);
     color: #fff;
 }
@@ -1683,7 +1684,8 @@ td#navi a.active {
     position: relative;
 }
 
-td#navi a.indent2.active:after {
+td#navi a.indent2.active:after,
+td#navi a.indent1 + a.indent1.active:after {
     content: "";
     border: 15px solid transparent;
     border-right-color: transparent;
