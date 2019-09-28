@@ -1735,9 +1735,18 @@ td#navi a.active {
     width: auto !important;
     padding: 5px;
     padding-left: 0px;
-    padding-right: 10px;
-    
+    padding-right: 5px;  
 }
+
+#txt td:nth-child(2n) {
+    padding-right: 10px;  
+}
+
+#txt td:last-child {
+    display: none;
+}
+
+
 
 #txt #rx-name:after,
 #txt #tx-name:after{
