@@ -306,11 +306,24 @@ td#navi a.indent2 {
     padding: 0 20px 0 50px;
 }
 
-td#navi a.indent2.active
-/* td#navi a.indent1 + a.indent1.active */
+td#navi a.indent2.active,
+td#navi a.indent1.active[href*='bwlimit'],
+td#navi a.indent1.active[href*='restrict']
 {
     background-color: var(--tomato-accent-color);
     color: #fff;
+}
+
+td#navi a.indent2.active:after,
+td#navi a.indent1.active[href*='bwlimit']:after,
+td#navi a.indent1.active[href*='restrict']:after{
+    content: "";
+    border: 15px solid transparent;
+    border-right-color: var(--tomato-container-background);
+    position: absolute;
+    right: 0px;
+    display: block;
+    top: 0px;
 }
 
 #container {
@@ -1705,17 +1718,7 @@ td#navi a.active {
     position: relative;
 }
 
-td#navi a.indent2.active:after
-/* td#navi a.indent1 + a.indent1.active:after */ {
-    content: "";
-    border: 15px solid transparent;
-    border-right-color: transparent;
-    border-right-color: var(--tomato-container-background);
-    position: absolute;
-    right: 0px;
-    display: block;
-    top: 0px;
-}
+
 
 ::selection {
     background-color: var(--tomato-accent-color);
