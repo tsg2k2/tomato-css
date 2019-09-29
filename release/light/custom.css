@@ -615,11 +615,11 @@ div#tabs-bottom {
     border: none;
 }
 
-ul#tabs li {
+ul#tabs li,
+ul.tabs li{
     float: unset;
     display: inline-block;
 }
-
 
 ul#tabs li a {
     /*! background: var(--tomato-accent-color-dark); */
