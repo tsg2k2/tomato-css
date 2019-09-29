@@ -1681,7 +1681,7 @@ tr[id^='last-'] small {
 div#sesdiv_wan + div.section-title:before,
 div#att1 + div.section-title:before,
 #ports > div.section-title:before,
-div[id^='wl']:before,
+div.section-title[id^='wl']:before,
 div#wan-title:before {
     content: "*";
     color: transparent;
@@ -1708,7 +1708,7 @@ div#wan-title:before {
     -webkit-mask-image: var(--icon-wan);
 }
 
-div[id^='wl']:before {
+div.section-title[id^='wl']:before {
     mask-image: var(--icon-signal);
     -webkit-mask-image: var(--icon-signal);
 }
