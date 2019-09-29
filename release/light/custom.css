@@ -328,7 +328,7 @@ td#navi a.indent1.active {
 
 td#navi a.indent2 {
     margin-left: 0;
-    padding: 0 20px 0 50px;
+    padding: 0 10px 0 45px;
 }
 
 td#navi a.indent2.active,
@@ -1826,7 +1826,6 @@ input[type='button'][value='Clone PC'],
 input[type='button'][value='Drop Idle'],
 input[type='button'][value='OK'],
 input[type='button'][value='Delete'],
-input[type='button'][value='Delete All'],
 input[type='button'][value='Scan'],
 input[type='button'][value='Random'],
 input[type='button'][value='Cancel'],
@@ -1895,8 +1894,7 @@ input[type='button'][value='Random']{
 input[type='button'][value='Scan']{
     background-image: var(--icon-button-scan);
 }
-input[type='button'][value='Delete'],
-input[type='button'][value='Delete All']{
+input[type='button'][value='Delete']{
     background-image: var(--icon-button-delete);
 }
 input[type='button'][value='OK']{
