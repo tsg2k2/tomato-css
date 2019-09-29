@@ -736,8 +736,6 @@ div#cstats
     margin-top:  -20px;
 }
 
-
-
 .fields td.title {
     width: 200px;
 }
@@ -763,6 +761,10 @@ div.section-title {
    border-bottom: none;
    margin: 0;
    margin-bottom: 20px; 
+}
+
+.fields select[id*='channel'] {
+    width: 250px;
 }
 
 #survey-msg {
@@ -1159,7 +1161,7 @@ ul.tabs a, #tabs a {
 }
 
 input[size] {
-    max-width: 300px;
+    max-width: 250px;
 }
 
 img[src^="rp"] {
