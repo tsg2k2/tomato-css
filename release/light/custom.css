@@ -621,10 +621,15 @@ ul.tabs li{
     display: inline-block;
 }
 
+ul#tabs li:first-child a,
+ul.tabs li:first-child a{
+    margin-left: 0px;
+}
+
+
 ul#tabs li a {
     /*! background: var(--tomato-accent-color-dark); */
     /*! color: white; */
-    border-radius: 0px;
     padding: 8px;
 }
 
