@@ -597,6 +597,10 @@ span#footer-msg {
     float: left;
 }
 
+#footer input {
+    width: unset;
+}
+
 div#tab-area {
     margin-bottom: 10px;
 }
