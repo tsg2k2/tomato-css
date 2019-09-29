@@ -656,7 +656,7 @@ span#dtime {
 #ports .section-title {
     margin: 0;
     padding: 0;
-    padding-top: 20px;
+    padding-top: 15px;
     box-shadow: none;
     color: var(--tomato-accent-color);
     margin-bottom: 20px;
@@ -1279,7 +1279,7 @@ td small a[href*="viewIpt"]
 
 #ports td.indent1 a {
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 24px;
   margin: 10px;
   width: 0px;
