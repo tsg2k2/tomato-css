@@ -1799,6 +1799,10 @@ input#refreshb {
     left: -0.5em;
 }
 
+input#refresh-button {
+    width: unset;
+}
+
 input[type='button'][value='Start Now'],
 input[type='button'][value='Default'],
 input[type='button'][value='Clone PC'],
