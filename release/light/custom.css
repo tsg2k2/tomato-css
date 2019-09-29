@@ -697,6 +697,11 @@ td {
     margin-right: 0px;
 }
 
+
+.fields input[type='text'][id^='_f_w'][id*='hwaddr']{
+    width: 140px;    
+}
+
 small a {
  color: gray !important;
  padding: 0px !important;
