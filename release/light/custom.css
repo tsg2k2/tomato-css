@@ -378,6 +378,7 @@ div#webmon-controls {
     margin: 0px;
 }
 
+
 div#att1,
 pre#stats:not(:empty),
 div#webmon-controls,
@@ -387,6 +388,7 @@ div.section-title,
 div.tomato-grid, 
 div.bwmg,
 td#content > i,
+td#content > ul#tabs,
 td#content > small{
     background-color: var(--tomato-panel-background);
     padding: 20px;
@@ -610,9 +612,15 @@ div#tabs-bottom {
     border: none;
 }
 
+ul#tabs li {
+    float: unset;
+    display: inline-block;
+}
+
+
 ul#tabs li a {
     /*! background: var(--tomato-accent-color-dark); */
-    /*! color:#fff; */
+    /*! color: white; */
     border-radius: 0px;
     padding: 8px;
 }
@@ -1640,11 +1648,12 @@ ul.tabs a:not(.active):not(:hover) small,
 }
 
 ul.tabs a, #tabs a {
-    height: auto;
+    height: auto !important;
     font-size: 1rem !important;;
     margin: 1px;
-    padding: 8px !important;;
+    padding: 5px !important;;
     line-height: 1;
+    float: unset !important;
 }
 
 ul.tabs a:hover:not(.active), #tabs a:hover:not(.active)
@@ -1657,7 +1666,6 @@ tr[id^='last-'] small {
     font-weight: bold;
     padding: 0px;
     padding-right: 10px;
-    
 }
 
 div#sesdiv_wan + div.section-title:before,
