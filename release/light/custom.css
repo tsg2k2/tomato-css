@@ -1830,6 +1830,7 @@ input[type='button'][value='Disable'],
 input[type='button'][value='Renew'],
 input[type='button'][value='Release'],
 input[type='button'][value='Stop'],
+input[type='button'][value='Stop Now'],
 input[type='button'][value='Refresh']{
     background-position: 10px;
     background-repeat: no-repeat;
@@ -1838,7 +1839,8 @@ input[type='button'][value='Refresh']{
     padding-left: 30px;
 }
 
-input[type='button'][value='Stop'] {
+input[type='button'][value='Stop'],
+input[type='button'][value='Stop Now']{
     background-image: var(--icon-button-stop);
 }
 input[type='button'][value='Refresh']{
