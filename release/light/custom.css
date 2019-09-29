@@ -74,6 +74,7 @@
   --icon-button-scan: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M13.895 15.875l-.895-.447v-11c6.65 2.217 9 2.363 9 5.162v9.41h-7v-1.336c0-.758-.428-1.45-1.105-1.789zm-4.895-15.875h-4v4.292l4-1.292v-3zm10 0h-4v3l4 1.292v-4.292zm-10 17.664c0-.757.428-1.45 1.105-1.789l.895-.447v-11c-6.523 2.175-9 2.307-9 5.162v9.41h7v-1.336zm6 6.336h7v-3h-7v3zm-13 0h7v-3h-7v3z'/%3e%3c/svg%3e");
   --icon-button-delete: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M0 9h24v6h-24z'/%3e%3c/svg%3e");
   --icon-button-ok: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M20 12.194v9.806h-20v-20h18.272l-1.951 2h-14.321v16h16v-5.768l2-2.038zm.904-10.027l-9.404 9.639-4.405-4.176-3.095 3.097 7.5 7.273 12.5-12.737-3.096-3.096z'/%3e%3c/svg%3e");  
+  --icon-button-dropidle:url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3e%3cpath d='M18.513 7.119c.958-1.143 1.487-2.577 1.487-4.036v-3.083h-16v3.083c0 1.459.528 2.892 1.487 4.035l3.086 3.68c.567.677.571 1.625.009 2.306l-3.13 3.794c-.936 1.136-1.452 2.555-1.452 3.995v3.107h16v-3.107c0-1.44-.517-2.858-1.453-3.994l-3.13-3.794c-.562-.681-.558-1.629.009-2.306l3.087-3.68zm-4.639 7.257l3.13 3.794c.652.792.996 1.726.996 2.83h-1.061c-.793-2.017-4.939-5-4.939-5s-4.147 2.983-4.94 5h-1.06c0-1.104.343-2.039.996-2.829l3.129-3.793c1.167-1.414 1.159-3.459-.019-4.864l-3.086-3.681c-.66-.785-1.02-1.736-1.02-2.834h12c0 1.101-.363 2.05-1.02 2.834l-3.087 3.68c-1.177 1.405-1.185 3.451-.019 4.863z'/%3e%3c/svg%3e");    
     
 }
 small a,
@@ -1791,6 +1792,7 @@ input#refreshb {
     left: -0.5em;
 }
 
+input[type='button'][value='Drop Idle'],
 input[type='button'][value='OK'],
 input[type='button'][value='Delete'],
 input[type='button'][value='Scan'],
@@ -1862,6 +1864,10 @@ input[type='button'][value='Delete']{
 }
 input[type='button'][value='OK']{
     background-image: var(--icon-button-ok);
+}
+
+input[type='button'][value='Drop Idle']{
+    background-image: var(--icon-button-dropidle);
 }
 
 
