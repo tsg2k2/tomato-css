@@ -1814,6 +1814,7 @@ input#refresh-button {
 
 input[type='button'][value='Backup'],
 input[type='button'][value='Restore'],
+input[type='button'][value='Upgrade'],
 input[type='button'][value='Start Now'],
 input[type='button'][value='Default'],
 input[type='button'][value='Clone PC'],
@@ -1840,6 +1841,7 @@ input[type='button'][value='Refresh']{
     background-size: 15%;
     background-origin: border-box;
     padding-left: 30px;
+    padding-right: 15px;
 }
 
 input[type='button'][value='Stop'],
@@ -1908,7 +1910,8 @@ input[type='button'][value='Backup']{
     background-image: var(--icon-button-backup);
 }
 
-input[type='button'][value='Restore']{
+input[type='button'][value='Restore'],
+input[type='button'][value='Upgrade']{
     background-image: var(--icon-button-restore);
 }
 
