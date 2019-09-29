@@ -1836,12 +1836,13 @@ input[type='button'][value='Release'],
 input[type='button'][value='Stop'],
 input[type='button'][value='Stop Now'],
 input[type='button'][value='Refresh']{
-    background-position: 10px;
+    background-position: 12px;
     background-repeat: no-repeat;
-    background-size: 15%;
+    background-size: 18px 18px;
     background-origin: border-box;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-right: 15px;
+    width: auto;
 }
 
 input[type='button'][value='Stop'],
