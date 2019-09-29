@@ -1688,7 +1688,7 @@ div#wan-title:before {
     background-color: var(--tomato-color);
     display: inline-block;
     width: 1rem;
-    margin-right: 5px;
+    margin-right: 10px;
     mask-position: center center;
     mask-repeat: no-repeat;
     mask-size: contain;
