@@ -1924,12 +1924,12 @@ input[type='button'][value='Default']{
     background-image: var(--icon-button-default);
 }
 input[type='button'][value='Start Now'],
-input[type='button'][value='Ping'],
-input[type='button'][value='Trace']
 {
     background-image: var(--icon-button-startnow);
 }
-input[type='button'][value='Start test']{
+input[type='button'][value='Start test'],
+input[type='button'][value='Ping'],
+input[type='button'][value='Trace']{
     background-image: var(--icon-button-starttest);
 }
 
@@ -1941,6 +1941,3 @@ input[type='button'][value='Restore'],
 input[type='button'][value='Upgrade']{
     background-image: var(--icon-button-restore);
 }
-
-
-
