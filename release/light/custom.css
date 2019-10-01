@@ -659,7 +659,7 @@ span#dtime {
     display: none;
 }
 
-#ports .section-title {
+div#ports .section-title {
     margin: 0;
     padding: 0;
     padding-top: 15px;
@@ -669,7 +669,7 @@ span#dtime {
     border-bottom: none;
 }		
 
-#ports .title.indent1 {
+div#ports .title.indent1 {
     padding: 0px;
 }
 
@@ -683,13 +683,32 @@ div#ports:-moz-only-whitespace{
     display: none;
 }
 
+div#ports tr:hover {
+    background: none;
+    transition: none;
+}
 
-[id^="eth"] {
+div#ports td.title {
+    width: 100px;
+}
+
+div#ports td.title:first-child {
+    padding-right: 30px;
+}
+
+
+div#ports td.title.indent2 {
+    position: relative;
+}
+
+
+div#ports img[id^="eth"] {
     display: block;
     float: inherit;
     margin: auto;
     margin-bottom: auto;
     margin-bottom: 5px;
+    opacity: 0.7;
 }
 
 table.fields {
@@ -942,29 +961,6 @@ input[type="file"] {
    min-width: 90px;
 }
 
-#ports tr:hover {
-    background: none;
-    transition: none;
-}
-
-#ports td.title {
-    width: 100px;
-}
-
-#ports td.title.indent2 {
-    position: relative;
-}
-#ports td.title.indent2:after {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 1.5em;
-    background-color: white;
-    content: " ";
-    opacity: 0.3;   
-    
-}
 
 td#navi a {
     height: unset !important;
