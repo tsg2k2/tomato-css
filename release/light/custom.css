@@ -1947,3 +1947,6 @@ input[type='button'][value^='Format']{
     background-image: var(--icon-button-erase);
 }
 
+div.section-title + div.fields {
+    margin-top: -20px;
+}
