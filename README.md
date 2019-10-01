@@ -10,7 +10,7 @@ It's an attempt to re-implement AdvancedTomato's look and feel on vanilla Tomato
 * parametrized to make different accent color easy to apply, etc. 
 
 
-Tampermonkey script is provided to make graphs dynamically resizable.  
+Tampermonkey ![script](https://github.com/tsg2k2/tomato-css/raw/master/release/FreshTomatoGraphResizer.user.js) is provided to make graphs dynamically resizable.  
 
 
 ## Screenshots
