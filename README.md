@@ -2,7 +2,7 @@ A deep rework of [brandonongzy's custom css](https://github.com/brandonongzy/tom
 It's an attempt to re-implement AdvancedTomato's look and feel on vanilla Tomato firmware (i.e. css only). Includes 
 * uniform panel-based UI
 * custom-drawn controls 
-* svg-based icons in main menu, all buttons, some panel titles (embedded, no external dependencies)
+* svg-based icons in main menu, on all buttons, and some panel titles (embedded, no external dependencies)
 * uniform alignment and indents across all the pages. 
 * uniform text styles
 * multi-column for wide monitors (WiP)
