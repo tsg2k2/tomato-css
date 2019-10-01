@@ -23,6 +23,10 @@ Light Theme - Blue - Basic
 
 ![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light-basic-blue.png)
 
+Light Theme - Red - Graphs
+
+![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light-traffic-red.png)
+
 
 
 ## Installation
