@@ -21,7 +21,7 @@ Light Theme - Default - Overview
 
 Light Theme - Blue - Basic
 
-![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light-blue-basic.png)
+![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light-basic-blue.png)
 
 
 
