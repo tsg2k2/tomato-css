@@ -673,6 +673,17 @@ span#dtime {
     padding: 0px;
 }
 
+div#ports:blank,
+div#ports:empty
+{
+    display: none;
+}
+
+div#ports:-moz-only-whitespace{
+    display: none;
+}
+
+
 [id^="eth"] {
     display: block;
     float: inherit;
