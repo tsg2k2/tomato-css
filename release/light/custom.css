@@ -631,7 +631,7 @@ ul.tabs li:first-child a{
 ul#tabs li a {
     /*! background: var(--tomato-accent-color-dark); */
     /*! color: white; */
-    padding: 8px;
+    padding: 8px !important;;
 }
 
 ul#tabs li a.active {
