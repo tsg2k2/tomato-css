@@ -706,6 +706,10 @@ td {
     margin-left: 0px;
 }
 
+.fields .content select + input {
+    margin-left: 20px !important;
+}
+
 
 .fields input[type='text'][id^='_f_w'][id*='hwaddr']{
     width: 140px;    
