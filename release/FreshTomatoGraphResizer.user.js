@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @name         Graph resizing script for Tomato firmware. 
+// @namespace    https://github.com/tsg2k2
+// @version      0.2
+// @description  Workaround for hardcoded graph width 
+// @author       tsg2k2
 // @include      http*/bwm-graph.svg*
 // @grant        none
 // ==/UserScript==
