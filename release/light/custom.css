@@ -1923,7 +1923,7 @@ input[type='button'][value='Clone PC']{
 input[type='button'][value='Default']{
     background-image: var(--icon-button-default);
 }
-input[type='button'][value='Start Now'],
+input[type='button'][value='Start Now']
 {
     background-image: var(--icon-button-startnow);
 }
