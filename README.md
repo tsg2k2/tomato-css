@@ -14,8 +14,16 @@ Tampermonkey script is provided to make graphs dynamically resizable.
 
 
 ## Screenshots
-Light Theme
+
+Light Theme - Default - Overview
+
 ![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light.png)
+
+Light Theme - Blue - Basic
+
+![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light-blue-basic.png)
+
+
 
 ## Installation
 
