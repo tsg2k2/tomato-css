@@ -1,10 +1,13 @@
 A deep rework of [brandonongzy's custom css](https://github.com/brandonongzy/tomato-css). 
 It's an attempt to re-implement AdvancedTomato's look and feel on vanilla Tomato firmware (i.e. css only). Includes 
+* uniform panel-based UI
 * custom-drawn controls 
 * svg-based icons
 * uniform alignment and indents across all the pages. 
 * uniform text styles
+* multi-column for wide monitors (WiP)
 * css-only animation for spinners, etc. 
+
 
 Tampermonkey script is provided to make graphs dynamically resizable.  
 
