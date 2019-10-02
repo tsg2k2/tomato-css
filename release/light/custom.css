@@ -1633,11 +1633,12 @@ td#content > div.section {
 
 #bwm-controls
 {
-    /*! display: flex; */
-    width: 180px;
+    display: flex;
+    width: 165px;
     flex-wrap: wrap;
-    margin-top: 0px !important;;
-    margin-right: 0px !important;;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    text-align: left !important;
 }
 
 #bwm-controls > * {
@@ -1645,13 +1646,41 @@ td#content > div.section {
 }
 
 #bwm-controls > br {
-    width: 81px;
+    width: 53px;
 }
 
 #bwm-controls small:first-child {
     font-size: x-small;
     flex: 0 0 100%;
     display: block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#bwm-controls .selected {
+    padding: 0px;
+    font-weight: unset;
+    color: var(--tomato-accent-color) !important;
+    text-decoration: none
+}
+
+#bwm-controls a {
+    color: var(--tomato-color) !important;
+    padding-left: 1px !important;
+}
+
+#bwm-controls a#draw1 {
+    margin-right: 20px;
+}
+
+#bwm-controls a#drawcolor {
+    min-width: 60px;
+}
+
+
+
+#bwm-controls a[href^='admin'] {
+    margin-left: 55px;
 }
 
 #dev-grid .co6 > * {
