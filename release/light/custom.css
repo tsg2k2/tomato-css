@@ -1634,7 +1634,7 @@ td#content > div.section {
 #bwm-controls
 {
     display: flex;
-    width: 165px;
+    width: 185px;
     flex-wrap: wrap;
     margin-top: 0px !important;
     margin-right: 0px !important;
@@ -1674,7 +1674,7 @@ td#content > div.section {
 }
 
 #bwm-controls a#drawcolor {
-    min-width: 60px;
+    min-width: 80px;
 }
 
 
