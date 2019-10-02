@@ -1851,6 +1851,27 @@ td#navi a.active {
     left: 0px;
 }
 
+#txt #rx-name:before,
+#txt #tx-name:before{
+    content: '\00a0';
+    display: inline block; 
+    width: 18px;
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+}
+
+#txt #rx-name:before{
+    background-image: var(--icon-button-backup);
+}
+#txt #tx-name:before{
+    background-image: var(--icon-button-restore);
+}
+
 #txt #rx-name,
 #txt #tx-name{
     position: relative;
