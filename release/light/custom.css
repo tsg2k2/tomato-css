@@ -1876,6 +1876,7 @@ td#navi a.active {
 #txt #tx-name{
     position: relative;
     border-width: 0px !important;
+    transition: all ease-in-out 0.2s;
 }
 
 div#graph {
