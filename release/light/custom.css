@@ -1467,11 +1467,13 @@ div#status-tab > br {
     display: none;
 }
 
+.about > br,
 .tomato-grid br {
     display: inline;
 }
 
-#rstats hr {
+#rstats hr,
+.about > hr {
     display: none;
 }
 
