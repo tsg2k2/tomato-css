@@ -1686,6 +1686,7 @@ td#content > div.section {
 
 #bwm-controls a#drawcolor {
     margin-left: 13px;
+    position: relative;
 }
 
 #bwm-controls a#drawrev {
@@ -1696,6 +1697,17 @@ td#content > div.section {
     border-left: 50px solid white;
     left: -10px;
     position: relative;
+}
+
+#bwm-controls a#drawcolor:after {
+    background-color: white;
+    content: " ";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: inline-block; 
+    width: 8px;
 }
 
 #dev-grid .co6 > * {
