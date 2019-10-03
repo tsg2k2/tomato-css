@@ -911,6 +911,8 @@ td#navi a.indent2 {
     padding: 0 10px 0 45px;
 }
 
+
+
 td#navi a.indent2.active,
 td#navi a.indent1.active[href*='bwlimit'],
 td#navi a.indent1.active[href*='restrict']
@@ -1107,6 +1109,28 @@ td#navi a.indent1[href*="advanced"]::before {
     content: '\1F5AE';
     mask-image: var(--icon-advanced);
     -webkit-mask-image: var(--icon-advanced);
+}
+
+td#navi a.indent2 {
+    position: relative;
+}
+
+td#navi a.indent1 + a.indent2 {
+    overflow: hidden;
+}
+
+td#navi a.indent2:before {
+    content: "";
+    display: inline-block;
+    border-left: 1px dotted var(--tomato-color);
+    border-bottom: 1px dotted var(--tomato-color);
+    border-bottom-left-radius: 3px;
+    width: 1em;
+    height: 2em;
+    position: absolute;
+    top: -13px;
+    left: 25px;
+    z-index: 0;
 }
 
 
