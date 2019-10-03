@@ -965,10 +965,10 @@ td#navi a {
     line-height: 30px !important;
 }
 
-td#navi a[href*="shutdown"],
-td#navi a[href*="about"],
-td#navi a[href*="reboot"],
-td#navi a[href*="logout"] {
+td#navi a.indent1[href*="shutdown"],
+td#navi a.indent1[href*="about"],
+td#navi a.indent1[href*="reboot"],
+td#navi a.indent1[href*="logout"] {
     position: absolute;
     top: 0px !important;
     color: white;
@@ -980,7 +980,7 @@ td#navi a[href*="logout"] {
     z-index: 2;
 }
 
-td#navi a::before
+td#navi a.indent1::before
 {
     /*font-family: Symbola !important;*/
     /*! filter: grayscale(); */
@@ -996,31 +996,33 @@ td#navi a::before
     margin-right: 3px;
 }
 
-td#navi a[href*="about"]::before {
+td#navi a.indent1[href*="about"]::before {
     content: '\2139';
     mask-image: var(--icon-about);
     -webkit-mask-image: var(--icon-about);
     opacity: 1;
 }
 
-td#navi a[href*="shutdown"]::before {
+td#navi a.indent1[href*="shutdown"]::before {
     content: '\23FB';
     mask-image: var(--icon-shutdown);
     -webkit-mask-image: var(--icon-shutdown);
     opacity: 1;
 }
-td#navi a[href*="logout"]::before {
+td#navi a.indent1[href*="logout"]::before {
     content: '\1F80A';
     mask-image: var(--icon-logout);
     -webkit-mask-image: var(--icon-logout);
     opacity: 1;
 }
-td#navi a[href*="reboot"]::before {
+td#navi a.indent1[href*="reboot"]::before {
     content: '\1F504';
     mask-image: var(--icon-reboot);
     -webkit-mask-image: var(--icon-reboot);
     opacity: 1;
 }
+
+
 td#navi a.indent1[href="/"]::before,
 td#navi a.indent1[href^="status"]::before {
     content: '\1F6C8';
@@ -1029,78 +1031,74 @@ td#navi a.indent1[href^="status"]::before {
     -webkit-mask-image: var(--icon-home);
 }
 
-td#navi a[href*="bwm"]::before {
+td#navi a.indent1[href*="bwm"]::before {
     content: '\1F4CA';
     mask-image: var(--icon-bandwidth);
     -webkit-mask-image: var(--icon-bandwidth);
 }
 
-
-td#navi a[href*="ipt-"]::before {
+td#navi a.indent1[href*="ipt-"]::before {
     content: '\1F5A7';
     mask-image: var(--icon-iptraffic);
     -webkit-mask-image: var(--icon-iptraffic);
 }
-td#navi a[href*="tools"]::before {
+td#navi a.indent1[href*="tools"]::before {
     content: '\2692';
     mask-image: var(--icon-tools);
     -webkit-mask-image: var(--icon-tools);
 }
 
-
-td#navi a[href*="qos"]::before {
+td#navi a.indent1[href*="qos"]::before {
     content: '\2696';
     mask-image: var(--icon-qos);
     -webkit-mask-image: var(--icon-qos);
 }
-td#navi a[href*="bwlimit"]::before {
+td#navi a.indent1[href*="bwlimit"]::before {
     content: '\2700';
     mask-image: var(--icon-bwlimiter);
     -webkit-mask-image: var(--icon-bwlimiter);
 }
-td#navi a[href^="web"]::before {
+td#navi a.indent1[href^="web"]::before {
     content: '\1F578';
     mask-image: var(--icon-webserver);
     -webkit-mask-image: var(--icon-webserver);
 }
-td#navi a[href*="nas"]::before {
+td#navi a.indent1[href*="nas"]::before {
     content: '\1F5BF';
     mask-image: var(--icon-usb);
     -webkit-mask-image: var(--icon-usb);
 }
-td#navi a[href*="vpn"]::before {
+td#navi a.indent1[href*="vpn"]::before {
     content: '\1F575';
     mask-image: var(--icon-vpn);
     -webkit-mask-image: var(--icon-vpn);
 }
-td#navi a[href*="admin"]::before {
+td#navi a.indent1[href*="admin"]::before {
     content: '\2699';
     mask-image: var(--icon-admin);
     -webkit-mask-image: var(--icon-admin);
 }
-td#navi a[href*="forward"]::before {
+td#navi a.indent1[href*="forward"]::before {
     content: '\1F500';
     mask-image: var(--icon-portforward);
     -webkit-mask-image: var(--icon-portforward);
 }
-td#navi a[href*="restrict"]::before {
+td#navi a.indent1[href*="restrict"]::before {
     content: '\1F512';
     mask-image: var(--icon-access);
     -webkit-mask-image: var(--icon-access);
 }
-td#navi a[href^="basic"]::before {
+td#navi a.indent1[href^="basic"]::before {
     content: '\1F5B0';
     mask-image: var(--icon-basic);
     -webkit-mask-image: var(--icon-basic);
 }
-td#navi a[href*="advanced"]::before {
+td#navi a.indent1[href*="advanced"]::before {
     content: '\1F5AE';
     mask-image: var(--icon-advanced);
     -webkit-mask-image: var(--icon-advanced);
 }
-td#navi a.indent2::before {
-    content: unset;
-}
+
 
 .fields > .about,
 #content > .about {
