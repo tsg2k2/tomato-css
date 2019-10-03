@@ -1701,7 +1701,7 @@ td#content > div.section {
 
 #bwm-controls a#drawcolor:after {
     background-color: white;
-    content: " ";
+    content: " ";
     position: absolute;
     right: 0px;
     top: 0px;
@@ -1919,6 +1919,7 @@ input#refresh-button {
     width: unset;
 }
 
+input[type='button'][value='Start'],
 input[type='button'][value^='Format'],
 input[type='button'][value='Backup'],
 input[type='button'][value='Restore'],
@@ -2021,6 +2022,8 @@ input[type='button'][value='Start Now']
 {
     background-image: var(--icon-button-startnow);
 }
+
+input[type='button'][value='Start'],
 input[type='button'][value='Start test'],
 input[type='button'][value='Ping'],
 input[type='button'][value='Trace']{
