@@ -622,12 +622,6 @@ ul.tabs li{
     display: inline-block;
 }
 
-ul#tabs li:first-child a,
-ul.tabs li:first-child a{
-    margin-left: 0px;
-}
-
-
 ul#tabs li a {
     /*! background: var(--tomato-accent-color-dark); */
     /*! color: white; */
@@ -1765,9 +1759,10 @@ ul.tabs a:not(.active):not(:hover) small,
 
 ul.tabs a, #tabs a {
     height: auto !important;
-    font-size: 1rem !important;;
-    margin: 1px;
-    padding: 5px !important;;
+    font-size: 1rem !important;
+    margin: 0px;
+    margin-right:2px;
+    margin-top: 2px;
     line-height: 1;
     float: unset !important;
 }
