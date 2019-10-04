@@ -2103,3 +2103,29 @@ input[type='button'][value^='Format']{
 div.section-title + div.fields {
     margin-top: -20px;
 }
+
+
+tr[id] td.content[style*='--data-percent'] {
+    position: relative;
+    max-width: 300px;
+}
+
+tr[id] td.content[style*='--data-percent']:before,
+tr[id] td.content[style*='--data-percent']:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height:2px;
+    display: inline-block;
+    left: 0px;
+    background-color: var(--tomato-container-background);
+    
+    width: 300px;
+    --factor: 3;
+}
+
+tr#memory td.content:after {
+    background-color: var(--tomato-accent-color);
+    width: calc(var(--data-percent) * var(--factor));
+}
+
