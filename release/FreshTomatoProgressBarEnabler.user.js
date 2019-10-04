@@ -29,11 +29,6 @@
                 mutationsList.forEach( (m, i) => {
                     update(m.target);
                 } );
-
-
-            }
-            else if (mutation.type === 'characterData') {
-                console.log('The ' + mutation + ' attribute was modified.');
             }
         }
     };
