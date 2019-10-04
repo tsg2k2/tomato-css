@@ -882,7 +882,7 @@ td#navi a {
 }
 
 td#navi a:hover {
-    background-color: var(--tomato-accent-color) !important;
+    background-color: rgba(255,255,255,0.05) !important;
     color: white;
     transition: background-color 0.5s, color 0.5s;
 }
@@ -917,7 +917,7 @@ td#navi a.indent2.active,
 td#navi a.indent1.active[href*='bwlimit'],
 td#navi a.indent1.active[href*='restrict']
 {
-    background-color: var(--tomato-accent-color);
+    /*! background-color: var(--tomato-accent-color); */
     color: white;
 }
 
