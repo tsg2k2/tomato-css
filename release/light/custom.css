@@ -2129,5 +2129,6 @@ div.section-title + div.fields {
 .fields tr > td.content[style*='--data-percent']:after {
     background-color: var(--tomato-accent-color);
     width: calc(var(--data-percent) * var(--factor));
+    transition: width 0.5s ease-in-out;
 }
 
