@@ -2105,26 +2105,28 @@ div.section-title + div.fields {
 }
 
 
-tr[id] td.content[style*='--data-percent'] {
+.fields tr > td.content[style*='--data-percent'] {
     position: relative;
-    max-width: 300px;
 }
 
-tr[id] td.content[style*='--data-percent']:before,
-tr[id] td.content[style*='--data-percent']:after {
+.fields tr > td.content[style*='--data-percent']:before,
+.fields tr > td.content[style*='--data-percent']:after {
     content: "";
     position: absolute;
     bottom: 0px;
-    height:2px;
+    height: 1px;
     display: inline-block;
     left: 0px;
     background-color: var(--tomato-container-background);
-    
     width: 300px;
-    --factor: 3;
+    --factor: 3;   
 }
 
-tr[id] td.content[style*='--data-percent']:after {
+.fields tr#temps > td.content:after {
+    --factor: 1.4218; /* 300px/211F */;
+}
+
+.fields tr > td.content[style*='--data-percent']:after {
     background-color: var(--tomato-accent-color);
     width: calc(var(--data-percent) * var(--factor));
 }
