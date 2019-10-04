@@ -2124,7 +2124,7 @@ tr[id] td.content[style*='--data-percent']:after {
     --factor: 3;
 }
 
-tr#memory td.content:after {
+tr[id] td.content[style*='--data-percent']:after {
     background-color: var(--tomato-accent-color);
     width: calc(var(--data-percent) * var(--factor));
 }
