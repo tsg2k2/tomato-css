@@ -10,7 +10,9 @@ It's an attempt to re-implement AdvancedTomato's look and feel on vanilla Tomato
 * parametrized to make different accent color easy to apply, etc. 
 
 
-Tampermonkey (![Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), ![Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)) ![script](https://github.com/tsg2k2/tomato-css/raw/master/release/FreshTomatoGraphResizer.user.js) is provided to make graphs dynamically resizable.  
+Tampermonkey (![Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), ![Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)) scripts provided:
+ * ![script](https://github.com/tsg2k2/tomato-css/raw/master/release/FreshTomatoGraphResizer.user.js) to make graphs dynamically resizable.  
+ * [script](https://github.com/tsg2k2/tomato-css/raw/master/release/FreshTomatoProgressBarEnabler.user.js) to add dynamically updated graphs on the overview page. Note that only https://192.168.1.1/ or http://freshtomato/ are enabled by default
 
 
 ## Screenshots
