@@ -1124,12 +1124,12 @@ td#navi a.indent2:before {
     display: inline-block;
     border-left: 1px dotted var(--tomato-color);
     border-bottom: 1px dotted var(--tomato-color);
-    border-bottom-left-radius: 3px;
-    width: 1em;
+    border-bottom-left-radius: 1px;
+    width: 1.1em;
     height: 2em;
     position: absolute;
     top: -13px;
-    left: 25px;
+    left: 24px;
     z-index: 0;
 }
 
