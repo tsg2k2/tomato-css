@@ -629,19 +629,16 @@ table.fields:last-child {
 
 .fields td.title.indent1 {
     padding: unset;
+    padding-right: 10px;
 }
 
-table.fields tr td{
-    padding-top: 4px !important;
-    padding-bottom:4px !important;
+table.fields tr td {
+    padding-top: 8px !important;
+    padding-bottom:0px !important;
 }
 
 table.fields tr:first-of-type td {
     padding-top: 0px !important;
-}
-
-table.fields tr:last-of-type td{
-    padding-bottom: 0px !important;
 }
 
 td {
@@ -2122,19 +2119,38 @@ div.section-title + div.fields {
 .fields tr > td.content[style*='--data-percent']:after {
     content: "";
     position: absolute;
-    bottom: 2px;
+    bottom: -1px;
     height: 1.9px;
     border-radius: 1px;
     display: inline-block;
     left: 0px;
     background-color: var(--tomato-container-background);
+
     width: 300px;
+    max-width: 300px;
     --factor: 3;   
-    
 }
 
 .fields tr#temps > td.content:after {
     --factor: 1.4218; /* 300px/211F */;
+}
+
+.fields tr#rate0  > td.content:after {
+    --factor: 0.5; /* 300px/600Mbps max */;
+}
+
+.fields tr#rate1  > td.content:after,
+.fields tr#rate2  > td.content:after{
+    --factor: 0.2307; /* 300px/1300Mbps max */;
+}
+
+.fields tr#nbw0  > td.content:after {
+    --factor: 7.5; /* 300px/40MHz max */;
+}
+
+.fields tr#nbw1  > td.content:after,
+.fields tr#nbw2  > td.content:after{
+    --factor: 1.875; /* 300px/160MbHz max */;
 }
 
 .fields tr > td.content[style*='--data-percent']:after {
