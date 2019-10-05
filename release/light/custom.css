@@ -295,7 +295,7 @@ div#webmon-controls {
     margin: 0px;
 }
 
-
+div#noHWKeyHelperDiv,
 div#att1,
 pre#stats:not(:empty),
 div#webmon-controls,
@@ -863,8 +863,6 @@ input[type="file"] {
    width: 90px;
    min-width: 90px;
 }
-
-
  
 td#navi {
     width: 210px!important;
@@ -1775,6 +1773,14 @@ td#content > div.section {
     margin-left: 45px;
 }
 
+div#noHWKeyHelperDiv input.helperButton {
+    margin-bottom: 20px;
+    width: calc(50% - 12px);
+}
+
+div#noHWKeyHelperDiv > input#icommandsFromMobile {
+    width: 100%;
+}
 
 #content table.fields td.content input[type="text"],
 #content table.fields td.content select{
