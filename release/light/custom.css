@@ -1415,6 +1415,8 @@ td.term,
 textarea.as-script{
     background-color: var(--tomato-background);
     color: white;
+    margin-bottom: 20px !important;
+    padding: 5px !important;
 }
 
 select:hover, input:hover, textarea:hover,
