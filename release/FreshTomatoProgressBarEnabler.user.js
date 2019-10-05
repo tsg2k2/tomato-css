@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dynamic Progress Bars for Tomato Status page
 // @namespace    https://github.com/tsg2k2
-// @version      0.1
+// @version      0.2
 // @description  Makes progress bars visible by tracking the relevant value updates
 // @author       tsg2k2
 // @include      http://192.168.1.1/
