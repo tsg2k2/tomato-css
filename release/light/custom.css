@@ -628,12 +628,12 @@ table.fields:last-child {
 }
 
 .fields td.title.indent1 {
-    padding:unset;
+    padding: unset;
 }
 
 table.fields tr td{
-    padding-top: 5px !important;
-    padding-bottom:5px !important;
+    padding-top: 4px !important;
+    padding-bottom:4px !important;
 }
 
 table.fields tr:first-of-type td {
