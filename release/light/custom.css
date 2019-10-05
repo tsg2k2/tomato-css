@@ -655,6 +655,10 @@ small a {
  padding: 0px !important;
 }
 
+#jwarn {
+    margin-top: 0px;
+}
+
 .note-disabled, .note-disabledw, .note-warning {
     background: var(--tomato-panel-background);
     padding: 20px;
