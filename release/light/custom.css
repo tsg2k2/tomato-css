@@ -959,8 +959,12 @@ td#navi a.indent1[href*="javascript:logout()"] {
     right: 15px;
 }
 
-#navi br {
+td#navi br {
     display: none;
+}
+
+td#navi a {
+    outline: none;
 }
 
 td#navi a.indent1::before
