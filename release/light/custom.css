@@ -620,11 +620,24 @@ table.fields {
     width: 100%;
     max-width: 1100px;
     margin-bottom: 15px;
-    border-spacing: 0px 5px;
+    border-collapse: collapse;
 }
 
-.fields:last-child {
+table.fields:last-child {
     margin-bottom: 0px;
+}
+
+table.fields tr td{
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+table.fields tr:first-of-type td {
+    padding-top: 0px;
+}
+
+table.fields tr:last-of-type td{
+    padding-bottom: 0px;
 }
 
 td {
@@ -727,20 +740,6 @@ div.section-title {
 #survey-msg {
    position: unset;
    padding: 0px !important;
-}
-
-.fields tr:hover {
-    background: rgba(127,127,127,0.1);
-    transition: ease-in-out 0.1s;
-    transition-property: all;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-}
-
-#ports tr:hover {
-    background: none;
-    transition: none;
 }
 
 #ports td.title {
