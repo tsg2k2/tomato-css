@@ -620,7 +620,7 @@ table.fields {
     width: 100%;
     max-width: 1100px;
     margin-bottom: 20px;
-    border-collapse: collapse;
+    border-spacing: 0px 5px;
 }
 
 .fields:last-child {
@@ -2120,12 +2120,14 @@ div.section-title + div.fields {
     content: "";
     position: absolute;
     bottom: 0px;
-    height: 1px;
+    height: 1.9px;
+    border-radius: 1px;
     display: inline-block;
     left: 0px;
     background-color: var(--tomato-container-background);
     width: 300px;
     --factor: 3;   
+    
 }
 
 .fields tr#temps > td.content:after {
