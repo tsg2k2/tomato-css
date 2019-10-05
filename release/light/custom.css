@@ -1334,13 +1334,11 @@ td small a[href*="viewIpt"]
 
 #ports td.indent1 a {
   position: absolute;
-  top: 4px;
-  right: 10px;
+  top: 5px;
+  right: 24px;
   margin: 10px;
-  width: 12px;
+  width: 0px;
   color: transparent !important;
-  overflow: hidden;
-  background-color: transparent !important;
 }
 
 div#ports {
