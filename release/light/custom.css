@@ -9,7 +9,7 @@
   --tomato-panel-background: white;
   --tomato-container-background: #f0f1f4;  
   --tomato-color: #76838f;
-  --tomato-accent-color: #4CAF50;
+  --tomato-accent-color: #27ae60;
 
   --tomato-controls-border: 0.7px solid var(--tomato-container-background);
 
@@ -1128,8 +1128,8 @@ td#navi a.indent1 + a.indent2 {
 td#navi a.indent2:before {
     content: "";
     display: inline-block;
-    border-left: 1px dotted var(--tomato-color);
-    border-bottom: 1px dotted var(--tomato-color);
+    border-left: 0.7px dotted var(--tomato-color);
+    border-bottom: 0.7px dotted var(--tomato-color);
     border-bottom-left-radius: 1px;
     width: 1.1em;
     height: 2em;
@@ -1138,7 +1138,6 @@ td#navi a.indent2:before {
     left: 24px;
     z-index: 0;
 }
-
 
 .fields > .about,
 #content > .about {
