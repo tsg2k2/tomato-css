@@ -619,7 +619,7 @@ div#ports img[id*="off"] {
 table.fields {
     width: 100%;
     max-width: 1100px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-spacing: 0px 5px;
 }
 
