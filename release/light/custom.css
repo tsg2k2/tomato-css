@@ -493,8 +493,15 @@ td#footer > div {
     min-width: 350px;
 }
 
+td#footer select {
+    margin-left: 20px;
+}
 td#footer {
      padding: 20px;
+}
+
+td.#footer input {
+    width: unset;
 }
 
 span#footer-msg {
@@ -506,19 +513,6 @@ span#footer-msg {
     float: none;
     padding: 10px 15px;
     color: unset !important;
-}
-
-#footer::before {
-    /*! content: ''; */
-    width: 210px;
-    height: 55px;
-    display: block;
-    background-color: var(--tomato-background);
-    float: left;
-}
-
-#footer input {
-    width: unset;
 }
 
 div#tab-area {
@@ -1213,6 +1207,7 @@ div#wait {
 
 pre#stats {
     white-space: normal;
+    margin-top: 20px;
 }
 
 ul.tabs a, #tabs a {
