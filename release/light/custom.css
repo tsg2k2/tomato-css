@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Play:400'); 
 
 :root {
-#  --tomato-panel-background: #fbfbfb;
-#  --tomato-accent-color: #ea3201;
-#  --tomato-accent-color: #2180de;
+/*  --tomato-panel-background: #fbfbfb; */
+/*  --tomato-accent-color: #ea3201; */
+/*  --tomato-accent-color: #2180de; */
   
   --tomato-background: #2b323a;
   --tomato-panel-background: white;
@@ -87,7 +87,7 @@
     
 }
 small a,
-small a:hover {sp
+small a:hover {
     color: #fff!important;
 }
 
@@ -424,9 +424,9 @@ table.tomato-grid tr td {
     font-size: inherit !important;
 }
 
-table.tomato-grid tr td small {
- #   display: block;
-}
+/* table.tomato-grid tr td small {
+    display: block;
+} */
 
 table.tomato-grid tr td small a {
     display: inline-block;
@@ -500,7 +500,7 @@ td#footer {
      padding: 20px;
 }
 
-td.#footer input {
+td#footer input {
     width: unset;
 }
 
@@ -1227,7 +1227,7 @@ img[src^="rp"] {
 
 div#cstats > div.section,
 div#cstats > div.section-title {
-    padding-right: : 0px;
+    padding-right: 0px;
     box-shadow: none;
 }
 
