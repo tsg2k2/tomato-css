@@ -1658,6 +1658,7 @@ td#content > div.section-title {
     column-break-after: avoid;
 }
 
+td#content > div.tile,
 td#content > div.section {
     break-before:avoid;
     break-inside: avoid;
