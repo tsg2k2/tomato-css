@@ -1630,39 +1630,40 @@ input[id*='_f_nr']:first-child {
     margin-right: 10px;
 }
 
-/* 
-td#content {
-    column-width: 800px;
+ 
+td#content.tiles {
+    column-width: 600px;
     display: block;
-    column-count: 2; 
+    column-count: 3; 
     column-gap: 20px; 
-    column-fill: auto;
-}
-td#content > div {
-    min-width: 760px;
-}
-    
-
-td#content > div.section-title {
-    break-after: avoid !important;
-    break-inside: avoid;
-    -webkit-column-break-after: avoid;
 }
 
-td#content > div.section-title:after {
+td#content.tiles > div {
+    min-width: 560px;
+}    
+
+/* this is a hack*/
+td#content.tiles > div.section-title:after {
     content: " ";
     display: block;
     height: 200px;
     margin-bottom: -200px;
 }
 
-td#content > div.section {
-    break-before:avoid !important;
+/* those are not supported by browsers */
+td#content > div.section-title {
+    break-after: avoid;
     break-inside: avoid;
-    -webkit-column-break-before: avoid;
+    -webkit-column-break-after: avoid;
+    column-break-after: avoid;
 }
 
-*/
+td#content > div.section {
+    break-before:avoid;
+    break-inside: avoid;
+    -webkit-column-break-before: avoid;
+    column-break-before: avoid;
+}
 
 #bwm-controls
 {
