@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Column-based layout helper
 // @namespace    https://github.com/tsg2k2
-// @version      0.2
+// @version      0.3
 // @description  Enables column-based layout and and applies DOM fixes
 // @author       tsg2k2
 // @include      http://192.168.1.1/
@@ -16,11 +16,14 @@
     'use strict';
     const wrap = function(title) {
         var wrapper = document.createElement('div');
-        var nextSibling = title.nextSibling;
+        var nextSibling = title.nextElementSibling;
         wrapper.classList.add('tile');
         title.parentNode.insertBefore(wrapper, title);
         wrapper.appendChild(title);
         wrapper.appendChild(nextSibling);
+        if (nextSibling.id) {
+            wrapper.id = nextSibling.id + '-tile';
+        }
     };
 
     let targetNode = document.getElementById('content');
