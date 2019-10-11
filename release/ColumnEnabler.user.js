@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Column-based layout helper
 // @namespace    https://github.com/tsg2k2
-// @version      0.6
-// @description  Enables column-based layout and and applies DOM fixes
+// @version      0.7
+// @description  Enables column-based layout and applies DOM fixes
 // @author       tsg2k2
-// @include      http*://192.168.1.*/$
-// @include      http*://freshtomato/
-// @include      http*://homerouter/
+// @include      /^https?://192\.168\.1\.\d/?$/
+// @include      /^https?://freshtomato/?$/
+// @include      /^https?://homerouter/?$/
 // @include      */basic-network.asp
 // @include      */advanced-wireless.asp
 // @include      */advanced-ctnf.asp
