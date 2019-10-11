@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Column-based layout helper
 // @namespace    https://github.com/tsg2k2
-// @version      0.3
+// @version      0.4
 // @description  Enables column-based layout and and applies DOM fixes
 // @author       tsg2k2
 // @include      http://192.168.1.1/
 // @include      http://freshtomato/
 // @include      http://homerouter/
+// @include      */basic-network.asp
 // @grant        none
 // ==/UserScript==
 
