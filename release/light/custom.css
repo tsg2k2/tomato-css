@@ -272,7 +272,7 @@ table#container td#header div.version {
 }
 
 td#content > *:last-child,
-td#content > *:last-child > div.section{
+td#content > div.tile:last-child > div.section {
     margin-bottom: 0px;
 }
 
