@@ -1826,9 +1826,8 @@ tr[id^='last-'] small {
     padding-right: 10px;
 }
 
-div#sesdiv_lan-tile > div.section-title:before,
-div#sesdiv_wan + div.section-title:before,
-div#att1 + div.section-title:before,
+div#sesdiv_lan-tile > div.section-title:before, div#sesdiv_wan + div.section-title:before,
+div#sesdiv_system-tile > div.section-title:before, div#att1 + div.section-title:before,
 #ports > div.section-title:before,
 div.section-title[id^='wl']:before,
 div#wan-title:before {
@@ -1862,6 +1861,7 @@ div.section-title[id^='wl']:before {
     -webkit-mask-image: var(--icon-signal);
 }
 
+div#sesdiv_system-tile > div.section-title:before, 
 div#att1 + div.section-title:before {
     mask-image: var(--icon-system);
     -webkit-mask-image: var(--icon-system);
