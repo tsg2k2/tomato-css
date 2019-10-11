@@ -1523,7 +1523,9 @@ td#content > i {
     display: block;
     background-color: var(--tomato-panel-background);
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
-    padding: 0 20px 0 20px;
+    padding: 20px;
+    margin-top: -40px;
+    margin-bottom: 20px;
 }
 
 .qg tr.editor > td:first-child {
@@ -1644,12 +1646,12 @@ td#content.tiles > div {
 }    
 
 /* this is a hack*/
-td#content.tiles > div.section-title:after {
+/* td#content.tiles > div.section-title:after {
     content: " ";
     display: block;
     height: 200px;
     margin-bottom: -200px;
-}
+} */
 
 /* those are not supported by browsers */
 td#content > div.section-title {
