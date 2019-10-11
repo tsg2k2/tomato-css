@@ -1826,6 +1826,7 @@ tr[id^='last-'] small {
     padding-right: 10px;
 }
 
+div#sesdiv_lan-tile > div.section-title:before,
 div#sesdiv_wan + div.section-title:before,
 div#att1 + div.section-title:before,
 #ports > div.section-title:before,
@@ -1866,6 +1867,7 @@ div#att1 + div.section-title:before {
     -webkit-mask-image: var(--icon-system);
 }
 
+div#sesdiv_lan-tile > div.section-title:before,
 div#sesdiv_wan + div.section-title:before {
     mask-image: var(--icon-lan);
     -webkit-mask-image: var(--icon-lan);
@@ -1882,6 +1884,7 @@ div#ident {
     color: white;
     opacity: 0.5;
     padding-left: 20px;
+    text-align: left;
 }
 
 div#graph embed {
