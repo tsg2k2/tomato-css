@@ -613,9 +613,9 @@ div#ports img{
     background-image: var(--icon-ethernet-port);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -25px -20px;
+    background-position: -25px -30px;
     width: 100px;
-    height: 80px;
+    height: 60px;
 }
 
 div#ports img[id*="off"] {
