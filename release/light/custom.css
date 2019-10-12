@@ -1933,6 +1933,7 @@ td#navi a.active {
     padding: 5px;
     padding-left: 0px;
     padding-right: 5px;  
+    height: 2em;
 }
 
 #txt td:nth-child(2n) {
