@@ -773,12 +773,10 @@ ul.tabs a {
 ul.tabs a.active, #tabs a.active {
     background: var(--tomato-accent-color);
     color: #fff !important;
-    font-weight: bolder;
+    font-weight: bolder !important;
 }
 .section ul {
     padding-left: 0px;
-    /*! padding-top:  0px; */
-    /*! padding-bottom: 0px; */    
     margin: 0px;
 }
 
@@ -1216,6 +1214,7 @@ pre#stats {
 ul.tabs a, #tabs a {
     width: unset !important;
     min-width: 70px;
+    font-weight: normal !important;
 }
 
 input[size] {
