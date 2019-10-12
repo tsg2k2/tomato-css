@@ -199,7 +199,7 @@ table#container {
 
 td#content a {
     color: var(--tomato-accent-color);
-    border-radius: 1px;
+    border-radius: var(----tomato-controls-border-radius);
 }
 
 td#content a:hover {
@@ -433,7 +433,7 @@ table.tomato-grid tr td small a {
     display: inline-block;
     background-color: var(--tomato-panel-background);
     font-size: smaller;
-    border-radius: 2px;
+    border-radius: var(----tomato-controls-border-radius);
     padding: 3px;
 }
 
