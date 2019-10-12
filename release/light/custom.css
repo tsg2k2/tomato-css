@@ -1129,11 +1129,11 @@ td#navi a.indent2:before {
     border-bottom: 0.7px dotted var(--tomato-color);
     border-bottom-left-radius: 1px;
     width: 1.1em;
-    height: 2em;
     position: absolute;
-    top: -13px;
+    bottom: 14px;
     left: 24px;
     z-index: 0;
+    top: -14px;
 }
 
 .fields > .about,
