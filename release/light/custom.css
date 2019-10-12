@@ -598,6 +598,9 @@ div#ports td.title.indent2 {
     position: relative;
 }
 
+div#ports td {
+    padding-top: 0px !important;
+}
 
 div#ports img[id^="eth"] {
     display: block;
