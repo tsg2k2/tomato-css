@@ -613,10 +613,10 @@ div#ports img[id^="eth"] {
 
 div#ports img{
     object-position: -1000px -1000px;
-    background-image: var(--icon-ethernet-port);
+    background-image: linear-gradient(to left, transparent, var(--tomato-panel-background)), var(--icon-ethernet-port) ;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -25px -30px;
+    background-size: 20px, cover;
+    background-position: left, -25px -30px;
     width: 100px;
     height: 60px;
 }
