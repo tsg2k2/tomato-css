@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name         Graph resizing script for Tomato firmware. 
 // @namespace    https://github.com/tsg2k2
-// @version      0.3
+// @version      0.4
 // @description  Workaround for hardcoded graph width 
 // @author       tsg2k2
 // @include      http*/bwm-graph.svg*
+// @include      http*/bwm-realtime.asp*
+// @include      http*/bwm-24.asp*
+// @include      http*/ipt-realtime.asp*
+// @include      http*/ipt-24.asp*
 // @grant        none
 // ==/UserScript==
 
