@@ -1912,8 +1912,8 @@ div#ident {
     text-align: left;
 }
 
-div#graph embed {
-    width: 100% !important;;
+td#content.dynamic div#graph embed {
+    width: 100% !important;
 }
 
 div.tomato-grid {
