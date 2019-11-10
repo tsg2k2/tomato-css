@@ -39,7 +39,7 @@ Light Theme - Red - Graphs
 #### 1. Upload script
 1. Navigate to __Administration__ > __Scripts__
 2. Choose __WAN Up__
-3. Paste the contents of [tomato_wanup_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_light)
+3. Paste the contents of [tomato_wanup_light](https://github.com/tsg2k2/tomato-css/blob/master/tomato_wanup_light)
 4. Save changes
 
 #### 2. Enable Custom CSS
