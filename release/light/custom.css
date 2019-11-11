@@ -1551,6 +1551,15 @@ td#content > i {
     margin-bottom: 20px;
 }
 
+td#content > p:first-of-type{
+    display: block;
+    background-color: var(--tomato-panel-background);
+    box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
 .qg tr.editor > td:first-child {
     display: flex;
     flex-wrap: wrap;       
