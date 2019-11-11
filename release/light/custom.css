@@ -327,6 +327,7 @@ div.cstats > div.section-title {
 div.section div.tomato-grid {
     padding: 0px;
     box-shadow: none;
+    overflow: auto;  
 }
 
 div.section-title {
