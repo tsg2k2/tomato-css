@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Graph resizing script for Tomato firmware. 
 // @namespace    https://github.com/tsg2k2
-// @version      0.4
+// @version      0.5
 // @description  Workaround for hardcoded graph width 
 // @author       tsg2k2
 // @include      http*/bwm-graph.svg*
@@ -14,18 +14,23 @@
 
 (function() {
     'use strict';
-    const element = top.document.getElementsByTagName("embed")[0];
-    const observer = new ResizeObserver(entries => {
-        if( vWidth && svgDocument) {
-            vWidth = svgDocument.rootElement.clientWidth - 10;
-            top.showDraw();
-            top.showCTab();
-        }
-    });
-    observer.observe(element);
+    if (top.document != window.document)
+    {
+        const element = top.document.getElementsByTagName("embed")[0];
+        const observer = new ResizeObserver(entries => {
+            if( vWidth && svgDocument) {
+                vWidth = svgDocument.rootElement.clientWidth - 10;
+                top.showDraw();
+                top.showCTab();
+            }
+        });
+        observer.observe(element);
 
-    let targetNode = document.getElementById('content');
-    if (targetNode && targetNode.tagName === 'TD') {
-        targetNode.classList.add('dynamic'); // enables related css styling
+    }
+    else {
+        let targetNode = document.getElementById('content');
+        if (targetNode && targetNode.tagName === 'TD') {
+            targetNode.classList.add('dynamic'); // enables related css styling
+        }
     }
 })();
