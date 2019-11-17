@@ -843,11 +843,9 @@ select {
 select::-ms-expand {
     display: none;
 }
-select:hover {
-    border-color: #888;
-}
+
 select:focus {
-    border-color: #aaa;
+    border-color: white;
     outline: none;
 }
 select option {
@@ -856,8 +854,9 @@ select option {
 }
 
 select[disabled] {
-    color: lightgray;
+    /*! color: lightgray; */
     filter: grayscale();
+    opacity: 0.5;
 }
 textarea {
     width: 100% !important;
@@ -1444,11 +1443,11 @@ textarea.as-script{
     padding: 5px !important;
 }
 
-select:hover, input:hover, textarea:hover,
+select:hover:not([disabled]), input:hover:not([disabled]), textarea:hover:not([disabled]),
 select:focus, input:focus, textarea:focus  {
     border-color: var( --tomato-accent-color);
     border-width: 0.7px;
-    transition: border-color ease-in-out 0.5s;
+    transition: border-color ease-out 1s;
     outline: none;
 }
 
