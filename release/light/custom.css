@@ -1266,7 +1266,7 @@ img[src^="bar"] {
     background-color: var(--tomato-color);
     /*! opacity: 0.6; */
     transform: rotate(-45deg);
-    margin-left: 10px;
+    margin-left: 2px;
     float: right;
 }
 
@@ -1890,7 +1890,7 @@ td#content > div.section {
 
 
 #dev-grid .co6{
-    text-align: right !important;
+    /*! text-align: right !important; */
 }
 
 
