@@ -1201,6 +1201,8 @@ div#loading b {
     vertical-align: middle;
     padding-right: 1em;
 }
+
+#footer #footer-msg:before,
 div#loading:before {
     content: " ";
     width: var(--tomato-controls-size);
@@ -1208,9 +1210,17 @@ div#loading:before {
     margin: 0px !important;
 }
 
+#footer #footer-msg:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px !important;
+}
+
+
 .content > #fmsg:before,
 div#loading:before,
 #refresh-spinner,
+#footer #footer-msg:before,
 img[src^='spin'] {
     object-position: -100px -100px;
     border-radius: 50%;
@@ -1219,6 +1229,7 @@ img[src^='spin'] {
     animation: dual-ring 1.2s linear infinite;
     margin: 4px;
 }
+
 
 img[src^="bar"] {
     filter: grayscale();
