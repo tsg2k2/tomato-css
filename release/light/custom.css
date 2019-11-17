@@ -1640,58 +1640,10 @@ td#content > p:first-of-type{
     margin-bottom: 20px;
 }
 
-.qg tr.editor > td:first-child {
-    display: flex;
-    flex-wrap: wrap;       
-    padding: 0px !important;
-    margin: 0px;
-}
-
 tr.editor > td > div {
-    flex-grow: 00;
-    flex-basis: calc(30% - 10px);
-    flex-shrink: 1;
     padding: 0px !important;
-    margin: 5px !important;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    /*! justify-items: stretch; */
-    justify-content: end;
-}
-
-tr.editor > td {
-    vertical-align: middle !important;
-}
-
-tr.editor > td > div > * {
-    width: 100%;
-}
-
-tr.editor > td > div.x1b,
-tr.editor > td > div.x3b,
-tr.editor > td > div.x4b {
-    flex-basis:  calc(70% - 10px);
-    justify-content: sss;
-} 
-
-tr.editor > td > div.x2c {
-    flex-basis:  calc(40% - 10px);
-} 
-
-tr.editor > td > div.x5b
-{
-    flex-basis: calc(10% - 10px);
-}
-
-tr.editor > td > div.x5b {
-    justify-content: center;
-}
-
-tr.editor > td > div.x1c >.fi5,
-tr.editor > td > div.x1c >.fi8 {
-    width: calc(80% - 7px); 
-    margin-left: 5px !important;
+    margin-bottom: 5px !important;
+    width: unset !important;
 }
 
 .about b {
