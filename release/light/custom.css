@@ -1268,10 +1268,8 @@ img[src^="bar"] {
     -webkit-mask-size: contain;    
     
     background-color: var(--tomato-color);
-    /*! opacity: 0.6; */
     transform: rotate(-45deg);
-    margin-left: 2px;
-    float: right;
+    margin-left: 5px;
 }
 
 img[src^="bar1"] {
@@ -1840,8 +1838,10 @@ td#content > div.section {
     bottom: 0px;
 }
 
-#dev-grid .co6 > * {
-    vertical-align: middle;
+#dev-grid .co6 > small {
+    min-width: 25px;
+    display: inline-block;
+    text-align: right;
 }
 
 
