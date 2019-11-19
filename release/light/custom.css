@@ -1838,7 +1838,8 @@ td#content > div.section {
     bottom: 0px;
 }
 
-#dev-grid .co6 > small {
+#dev-grid .co6 > small,
+#survey-grid .co5 > small{
     min-width: 25px;
     display: inline-block;
     text-align: right;
