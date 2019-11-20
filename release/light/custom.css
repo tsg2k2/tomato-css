@@ -1474,7 +1474,7 @@ input[type='radio']{
   -webkit-appearance: none;
   width: var(--tomato-controls-size) !important;
   height: var(--tomato-controls-size) !important;
-  background-color: white; 
+  background-color: unset; 
     
   -webkit-mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
