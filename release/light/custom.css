@@ -12,7 +12,7 @@
   --tomato-accent-color: #27ae60;
     
 
-  --tomato-controls-border: 0.7px solid var(--tomato-container-background);
+  --tomato-controls-border: 1px solid var(--tomato-container-background);
 
   --tomato-controls-border-radius: 1px;     
   --tomato-controls-size: 22px;
@@ -1476,20 +1476,17 @@ input[type='radio']{
   -webkit-appearance: none;
   width: var(--tomato-controls-size) !important;
   height: var(--tomato-controls-size) !important;
-  background-color: unset; 
-    
-  -webkit-mask-size: 100% 100%;
+  background-color: unset;
+  -webkit-mask-size: 99.95% 99.95%;
   -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;  
+  -webkit-mask-position: 50% 50%;
   -webkit-mask-image: none;
-  -webkit-mask-origin: border-box;  
-    
+  -webkit-mask-origin: border-box;
   mask-size: 100% 100%;
   mask-repeat: no-repeat;
-  mask-position: center;  
+  mask-position: center;
   mask-image: none;
-  mask-origin: border-box;  
-    
+  mask-origin: border-box;
   border: var(--tomato-controls-border);
   border-radius: var( --tomato-controls-border-radius);
   margin: 0px;
