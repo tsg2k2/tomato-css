@@ -1666,8 +1666,11 @@ td#content > p:first-of-type{
 
 tr.editor > td > div {
     padding: 0px !important;
-    margin-bottom: 5px !important;
     width: unset !important;
+}
+
+tr.editor > td > div:not(:last-of-type) {
+    margin-bottom: 5px !important;
 }
 
 .about b {
