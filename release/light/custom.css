@@ -12,7 +12,7 @@
   --tomato-accent-color: #27ae60;
     
 
-  --tomato-controls-border: 0.7px solid lightgrey;
+  --tomato-controls-border: 0.7px solid var(--tomato-container-background);
 
   --tomato-controls-border-radius: 1px;     
   --tomato-controls-size: 22px;
