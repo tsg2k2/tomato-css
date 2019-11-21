@@ -837,7 +837,7 @@ select {
     padding: 1px;
     padding-right: 1.5em;
     padding-left: 0.4em;
-    min-width: 100px;
+    min-width: 40px;
     box-sizing: border-box;
     margin: 0;
     border: var(--tomato-controls-border);
@@ -1548,7 +1548,7 @@ textarea.as-script{
 select:hover:not([disabled]), input:hover:not([disabled]), textarea:hover:not([disabled]),
 select:focus, input:focus, textarea:focus  {
     border-color: var( --tomato-accent-color);
-    border-width: 0.7px;
+    border-width: 1px;
     transition: all ease-out 0.3s;
     outline: none;
 }
