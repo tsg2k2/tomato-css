@@ -1499,10 +1499,9 @@ input[type='radio']:focus {
 
 input[type='checkbox'] {
     background-image: var(--tomato-accent-check);
-    
 }
 
-input[type='radio']:checked {
+input[type='radio'] {
     background-image: var(--tomato-accent-radio);
 }
 
