@@ -20,8 +20,8 @@
   --tomato-accent-select: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" width="292.4" height="292.4"><path d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/></svg>');
   --tomato-accent-error: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='%2327ae60' viewBox='-2 -2 28 28'%3e%3cpath d='M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.351 6.493c-.08-.801.55-1.493 1.351-1.493s1.431.692 1.351 1.493l-.801 8.01c-.029.282-.266.497-.55.497s-.521-.215-.55-.498l-.801-8.009zm1.351 12.757c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z'/%3e%3c/svg%3e");
   
-  --tomato-accent-check: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='-2 -2 28 28'%3e%3crect x='-2' y='-2' width='28' height='28' rx='1' stroke='black' fill='none' stroke-width='1' vector-effect='non-scaling-stroke'/%3e%3cpath d='M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z'/%3e%3c/svg%3e"); 
-  --tomato-accent-radio: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3ccircle cx='12' cy='12' r='12' fill='none' stroke-width='1' stroke='black' vector-effect='non-scaling-stroke'/%3e%3ccircle cx='12' cy='12' r='7'/%3e%3c/svg%3e");
+  --tomato-accent-check: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2327ae60' width='24' height='24' viewBox='-2 -2 28 28'%3ee%3cpath d='M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z'/%3e%3c/svg%3e"); 
+  --tomato-accent-radio: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%2327ae60' width='24' height='24' viewBox='0 0 24 24'%3e%3ccircle cx='12' cy='12' r='7'/%3e%3c/svg%3e");
     
   --icon-home: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M20 7.093l-3-3v-2.093h3v5.093zm4 5.907h-3v10h-18v-10h-3l12-12 12 12zm-10 2h-4v6h4v-6z'/%3e%3c/svg%3e");
   --icon-bandwidth: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3e%3cpath d='M7 19h-6v-11h6v11zm8-18h-6v18h6v-18zm8 11h-6v7h6v-7zm1 9h-24v2h24v-2z'/%3e%3c/svg%3e");    
@@ -556,7 +556,7 @@ ul#tabs li a.active {
 ul#tabs li a:hover {
     background-color: var(--tomato-accent-color);
     color:#fff;
-    transition: background-color 0.5s;
+    transition: background-color 0.3s;
 }
 
   
@@ -919,12 +919,12 @@ td#navi a {
 td#navi a:hover {
     background-color: rgba(255,255,255,0.05) !important;
     color: white;
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 td#navi a.indent1:hover:before {
     background-color: white;
-    transition: background-color 0.5s;
+    transition: background-color 0.3s;
 }
 
 
@@ -1476,27 +1476,20 @@ input[type='radio']{
   -webkit-appearance: none;
   width: var(--tomato-controls-size) !important;
   height: var(--tomato-controls-size) !important;
-  background-color: unset;
-  -webkit-mask-size: 99.95% 99.95%;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: 50% 50%;
-  -webkit-mask-image: none;
-  -webkit-mask-origin: border-box;
-  mask-size: 100% 100%;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-image: none;
-  mask-origin: border-box;
+  background-color: white;
+  background-size: 0% 0%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: none;
   border: var(--tomato-controls-border);
   border-radius: var( --tomato-controls-border-radius);
   margin: 0px;
   vertical-align: middle;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.3s;
 }
 
 input[type='radio'] {
     border-radius: 50%;
-    border-width: 2px;
 }
 
 input[type='checkbox']::focus,
@@ -1505,31 +1498,28 @@ input[type='radio']:focus {
 }
 
 input[type='checkbox'] {
-    mask-image: var(--tomato-accent-check);
-    -webkit-mask-image: var(--tomato-accent-check);
+    background-image: var(--tomato-accent-check);
+    
 }
 
-input[type='radio'] {
-    mask-image: var(--tomato-accent-radio);
-    -webkit-mask-image: var(--tomato-accent-radio);
-    
+input[type='radio']:checked {
+    background-image: var(--tomato-accent-radio);
 }
 
 input[type='checkbox']:checked,
 input[type='radio']:checked {
-    background-color:  var(--tomato-accent-color);
+    background-size: 100% 100%;
 }
 
 input[type='checkbox']:disabled,
 input[type='radio']:disabled {
-    background-color: var(--tomato-color);
     opacity: unset;
+    filter: grayscale(1);
 }
 
 input[type='checkbox']:not(:checked):disabled,
 input[type='radio']:not(:checked):disabled {
     background-color: lightgrey;
-    mask-image: none;
     opacity: unset;
 }
 
@@ -2269,6 +2259,6 @@ div.section-title + div.fields {
 .fields tr > td.content[style*='--data-percent']:after {
     background-color: var(--tomato-accent-color);
     width: calc(var(--data-percent) * var(--factor));
-    transition: width 0.5s ease-in-out;
+    transition: width 0.3s ease-in-out;
 }
 
