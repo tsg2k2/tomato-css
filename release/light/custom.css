@@ -508,6 +508,7 @@ td#footer > div {
 
 td#footer select {
     margin-left: 20px;
+    background-color: white;
 }
 td#footer {
      padding: 20px;
