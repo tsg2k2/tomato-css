@@ -1164,6 +1164,11 @@ td#navi a.indent1[href*="advanced"]::before {
     mask-image: var(--icon-advanced);
     -webkit-mask-image: var(--icon-advanced);
 }
+td#navi a.indent1[href*="splashd"]::before {
+    content: '\1F5D4';
+    mask-image: var(--icon-captive);
+    -webkit-mask-image: var(--icon-captive);
+}
 
 td#navi a.indent2 {
     position: relative;
