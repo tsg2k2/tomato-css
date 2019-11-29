@@ -907,24 +907,26 @@ input[type="file"] {
     div#ident {
         display: none;
     }  
-  td#navi:not(:hover) a.indent1 {
-    width: 20px; 
-    white-space: nowrap;
-    overflow: hidden;  
-    color: transparent !important;
-  }
-  td#navi:not(:hover) a.indent2 {
-    display: none;
-  }
-  td#navi a.indent1[href*="shutdown"],
-  td#navi a.indent1[href*="about"],
-  td#navi a.indent1[href*="reboot"],
-  td#navi a.indent1[href*="logout"] {
-   color: white !important;
-   width: unset;
-  }
+    td#navi:not(:hover) {
+       width: 50px !important;
+    }
+    td#navi:not(:hover) a.indent1 {
+       width: 20px; 
+       white-space: nowrap;
+       overflow: hidden;  
+       color: transparent !important;
+    }
+    td#navi:not(:hover) a.indent2 {
+       display: none;
+    }
+    td#navi a.indent1[href*="shutdown"],
+    td#navi a.indent1[href*="about"],
+    td#navi a.indent1[href*="reboot"],
+    td#navi a.indent1[href*="logout"] {
+        color: white !important;
+        width: unset;
+    }
 }
-
 
 td#navi {
     width: 210px!important;
