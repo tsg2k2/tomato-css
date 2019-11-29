@@ -903,6 +903,29 @@ input[type="file"] {
    min-width: 90px;
 }
  
+@media only screen and (max-width: 800px) {
+    div#ident {
+        display: none;
+    }  
+  td#navi:not(:hover) a.indent1 {
+    width: 20px; 
+    white-space: nowrap;
+    overflow: hidden;  
+    color: transparent !important;
+  }
+  td#navi:not(:hover) a.indent2 {
+    display: none;
+  }
+  td#navi a.indent1[href*="shutdown"],
+  td#navi a.indent1[href*="about"],
+  td#navi a.indent1[href*="reboot"],
+  td#navi a.indent1[href*="logout"] {
+   color: white !important;
+   width: unset;
+  }
+}
+
+
 td#navi {
     width: 210px!important;
     max-width: 210px;
@@ -1037,7 +1060,7 @@ td#navi a.indent1[href*=about]:hover,
 td#navi a.indent1[href*="javascript:reboot()"]:hover,
 td#navi a.indent1[href*="javascript:shutdown()"]:hover,
 td#navi a.indent1[href*="javascript:logout()"]:hover {
-    background-color: transparent !important;
+    background-color: var(--tomato-accent-color)  !important;
     color: white;
 }
 
@@ -1973,7 +1996,7 @@ div#ident {
     position: absolute;
     display: block;
     top: 0;
-    left: inherit;
+    left: 210px;
     height: 60px;
     vertical-align: middle;
     line-height: 60px;
