@@ -113,6 +113,7 @@ div[id^='sesdiv_wl'] .content > small {
     opacity: 0.5;
 }
 
+
 body,
 html {
     background-color: var(--tomato-background);
@@ -1657,6 +1658,15 @@ div#status-tab > br {
 label > br {
     display: initial !important;
 }
+
+div#sesdiv_lan td.content{
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-column-gap: 5px;
+    grid-template-rows: 16px;
+    align-items: center;
+}
+
 
 #sesdiv_system small {
     opacity: 0.5;
