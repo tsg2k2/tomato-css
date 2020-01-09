@@ -986,6 +986,7 @@ td#navi a.indent1.active[href*='restrict']
 
 td#navi a.indent2.active:after,
 td#navi a.indent1.active[href*='bwlimit']:after,
+td#navi a.indent1.active[href*='splashd']:after,
 td#navi a.indent1.active[href*='restrict']:after{
     content: "";
     border: 15px solid transparent;
