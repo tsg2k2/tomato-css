@@ -1674,8 +1674,10 @@ div#sesdiv_lan td.content{
     padding: 0px;
 }
 
-td#content > i {
+td#content > i,
+td#content > span{
     display: block;
+    color: var(--tomato-color) !important;
     background-color: var(--tomato-panel-background);
     box-shadow: rgba(0, 0, 0, .2) 0px 1px 1px;
     padding: 20px;
