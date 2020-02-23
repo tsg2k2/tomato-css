@@ -4,7 +4,7 @@
 // @version      0.7
 // @description  Enables column-based layout and applies DOM fixes
 // @author       tsg2k2
-// @include      /^https?://192\.168\.1\.\d/?$/
+// @include      /^https?://192\.168\.\d+\.\d/?$/
 // @include      /^https?://freshtomato/?$/
 // @include      /^https?://homerouter/?$/
 // @include      */basic-network.asp
