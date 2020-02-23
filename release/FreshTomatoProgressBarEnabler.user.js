@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dynamic Progress Bars for Tomato Status page
 // @namespace    https://github.com/tsg2k2
-// @version      0.2
+// @version      0.3
 // @description  Makes progress bars visible by tracking the relevant value updates
 // @author       tsg2k2
 // @include      /^https?://192\.168\.\d+\.\d/?$/
@@ -22,9 +22,7 @@
             .map( n => n.textContent.split(" ")).flat()
             .map( t => Number(t.replace(/[^\d.-]/g, ''))).filter( n => n > 0)
             .slice(-1)[0];
-
-            //var value = element.childNodes[element.childNodes.length - 1].textContent.split(" ");
-            //value = value[value.length - 1];
+ 
             element.style = '--data-percent:' + value + 'px';
         }
     }
