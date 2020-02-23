@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  Makes progress bars visible by tracking the relevant value updates
 // @author       tsg2k2
-// @include      http://192.168.1.1/
+// @include      /^https?://192\.168\.\d+\.\d/?$/
 // @include      http://freshtomato/
 // @include      http://homerouter/
 // @grant        none
