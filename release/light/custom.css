@@ -1972,6 +1972,7 @@ ul.tabs a, #tabs a {
     margin-top: 2px;
     line-height: 1;
     float: unset !important;
+    background-color: var(--tomato-container-background);
 }
 
 ul.tabs a:hover:not(.active), #tabs a:hover:not(.active)
