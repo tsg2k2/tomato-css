@@ -1,6 +1,6 @@
 A deep rework of [brandonongzy's custom css](https://github.com/brandonongzy/tomato-css). 
 It's an attempt to re-implement AdvancedTomato's look and feel on vanilla FreshTomato firmware (i.e. css only). Includes 
-* built-in light/dark theme switch 
+* (new) built-in light/dark theme switch 
 * uniform panel-based UI
 * custom-drawn controls 
 * svg-based icons in main menu, on all buttons, and some panel titles (embedded, no external dependencies)
@@ -10,6 +10,7 @@ It's an attempt to re-implement AdvancedTomato's look and feel on vanilla FreshT
 * css-only vector animations for spinners
 * collapsible menu for low-res screens
 * parametrized to make different accent color easy to apply, etc. 
+* (new) fully self-contained, including fonts
 
 Optional Tampermonkey (![Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), ![Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)) scripts are provided:
  * ![script](https://github.com/tsg2k2/tomato-css/raw/master/release/FreshTomatoGraphResizer.user.js) to make graphs dynamically resizable.  
