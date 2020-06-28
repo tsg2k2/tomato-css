@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Play:400'); 
 
-
-
-
 :root {
 /*  --tomato-panel-background: #fbfbfb; */
 /*  --tomato-accent-color: #ea3201; */
@@ -15,7 +12,6 @@
   --tomato-accent-color: #27ae60;
   --tomato-accent-front-color: white;  
 }
-
 
 @media (prefers-color-scheme: dark) {
     
@@ -911,6 +907,7 @@ input[type="text"], input[type="password"], textarea {
     border-radius: var( --tomato-controls-border-radius);
     min-height: var(--tomato-controls-size);
     vertical-align: middle;
+    background-color: var(--tomato-panel-background);
 }
 
 input[type="file"] {
@@ -1554,6 +1551,7 @@ input[type='radio']:focus {
 
 input[type='checkbox'] {
     background-image: var(--tomato-accent-check);
+    background-color: transparent;
 }
 
 input[type='radio'] {
@@ -1573,7 +1571,7 @@ input[type='radio']:disabled {
 
 input[type='checkbox']:not(:checked):disabled,
 input[type='radio']:not(:checked):disabled {
-    background-color: lightgrey;
+    background-color: var(--tomato-container-background);
     opacity: unset;
 }
 
