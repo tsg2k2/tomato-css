@@ -538,7 +538,7 @@ td#footer > div {
 
 td#footer select {
     margin-left: 20px;
-    background-color: white;
+    background-color: var(--tomato-panel-background);
 }
 td#footer {
      padding: 20px;
