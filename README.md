@@ -1,5 +1,7 @@
 A deep rework of [brandonongzy's custom css](https://github.com/brandonongzy/tomato-css). 
-It's an attempt to re-implement AdvancedTomato's look and feel on vanilla FreshTomato firmware (i.e. css only). Includes 
+It's an attempt to re-implement AdvancedTomato's look and feel on vanilla FreshTomato firmware (i.e. css only). 
+
+Includes 
 * (new) built-in light/dark theme switch 
 * uniform panel-based UI
 * custom-drawn controls 
