@@ -1861,13 +1861,15 @@ td#content > div.section {
 }
 
 #bwm-controls a[href^='admin'] {
-    border-left: 50px solid white;
+    border-left-width: 50px;
+    border-left-color: var(--tomato-panel-background);
+    border-left-style: solid;
     left: -10px;
     position: relative;
 }
 
 #bwm-controls a#drawcolor:after {
-    background-color: white !important;
+    background-color: var(--tomato-panel-color) !important;
     content: " ";
     position: absolute;
     right: 0px;
