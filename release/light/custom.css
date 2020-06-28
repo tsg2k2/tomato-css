@@ -1266,6 +1266,7 @@ td#navi a.indent2:before {
 .as-script {
     font: 12px monospace !important;
     overflow: auto !important;
+    border: var(--tomato-controls-border) !important;
 }
 
 @keyframes dual-ring {
@@ -1952,6 +1953,10 @@ td#content > div.section {
 
 #_nginxfp_button {
     margin-left: 45px;
+}
+
+input#as-wordwrap {
+    margin-bottom: 5px;
 }
 
 div#noHWKeyHelperDiv input.helperButton {
