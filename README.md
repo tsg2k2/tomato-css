@@ -6,13 +6,13 @@ Includes
 * uniform panel-based UI
 * custom-drawn controls 
 * svg-based icons in main menu, on all buttons, and some panel titles (embedded, no external dependencies)
+* (new) fully self-contained, including fonts
 * uniform alignment and indents across all the pages. 
 * uniform text styles
 * multi-column for wide monitors (needs script below )
-* css-only vector animations for spinners
 * collapsible menu for low-res screens
+* css-only vector animations for spinners
 * parametrized to make different accent color easy to apply, etc. 
-* (new) fully self-contained, including fonts
 
 Optional Tampermonkey (![Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en), ![Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)) scripts are provided:
  * ![script](https://github.com/tsg2k2/tomato-css/raw/master/release/FreshTomatoGraphResizer.user.js) to make graphs dynamically resizable.  
