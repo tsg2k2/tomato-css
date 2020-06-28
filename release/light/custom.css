@@ -1536,7 +1536,7 @@ input[type='radio']{
   -webkit-appearance: none;
   width: var(--tomato-controls-size) !important;
   height: var(--tomato-controls-size) !important;
-  background-color: white;
+  background-color: var(--tomato-panel-background);
   background-size: 0% 0%;
   background-repeat: no-repeat;
   background-position: center;
