@@ -28,6 +28,8 @@ input[type=button][disabled] {
     background-color: var(--tomato-container-background) !important;;
 }
 
+}
+
 :root {
   --tomato-controls-border: 1px solid var(--tomato-container-background);
 
@@ -563,14 +565,13 @@ ul.tabs li{
 }
 
 ul#tabs li a {
-    /*! background: var(--tomato-background); */
-    /*! color: white; */
+    background-color: var(--tomato-container-background); 
     padding: 8px !important;;
 }
 
 ul#tabs li a.active {
     background-color: var(--tomato-accent-color);
-    color: #fff!important;
+    color: var(--tomato-accent-front-color) !important;
 }
 
 ul#tabs li a:hover {
@@ -578,8 +579,6 @@ ul#tabs li a:hover {
     color:#fff;
     transition: background-color 0.3s;
 }
-
-  
 
 div#ident,
 table#container td#header div.title small,
