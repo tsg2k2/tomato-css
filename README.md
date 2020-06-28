@@ -22,6 +22,10 @@ Optional Tampermonkey (![Chrome](https://chrome.google.com/webstore/detail/tampe
 
 ## Screenshots
 
+Dark Theme - Default - Overview
+
+![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/dark-basic-green.png)
+
 Light Theme - Default - Overview
 
 ![Screenshot](https://raw.githubusercontent.com/tsg2k2/tomato-css/master/light.png)
