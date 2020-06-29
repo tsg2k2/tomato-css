@@ -8,6 +8,7 @@
 // @include      /^https?://freshtomato/?$/
 // @include      /^https?://homerouter/?$/
 // @grant        none
+// @run-at       document-body
 // ==/UserScript==
 
 
