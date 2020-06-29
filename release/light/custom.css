@@ -1114,6 +1114,9 @@ td#navi a.indent1[href*="logout"] {
     z-index: 2;
 }
 
+td#navi a.indent1.active::before {
+    background-color: var(--tomato-accent-color);
+}
 
 td#navi a.indent1[href*="about"]::before {
     content: '\2139';
