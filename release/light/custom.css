@@ -184,7 +184,7 @@ input, select, option, textarea {
     padding: 0px;
 }
 
-input.error {
+input:not([type="checkbox"]).error {
     border: 0.7px solid;
     background-color: unset;
     background-repeat: no-repeat; 
