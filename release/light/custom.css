@@ -194,6 +194,28 @@ input:not([type="checkbox"]).error {
     background-size: contain;
 }
 
+input[type="radio"].error,
+input[type="checkbox"].error {
+    background-color: revert;
+}
+input[type="radio"].error::after,
+input[type="checkbox"].error::after {
+    content: "";
+    position: relative;
+    z-index: 1;
+    display: block;
+    mask-repeat: no-repeat; 
+    mask-position: center center;
+    mask-image: var(--tomato-accent-error);
+    mask-size: 100%;
+    width: 66%;
+    height: 66%;
+    left: calc(100% - 7px);
+    top: 110%;
+    background-color: var(--tomato-accent-color);
+    pointer-events: none;
+}
+
 .section-title > small {
     float: right;
     color: transparent;
@@ -1582,8 +1604,8 @@ input[type='radio']:checked {
    mask-size: 100% 100%;
 }
 
-input[type='checkbox']:disabled,
-input[type='radio']:disabled {
+input[type='checkbox']:disabled::before,
+input[type='radio']:disabled::before {
     opacity: unset;
     filter: grayscale(1);
 }
