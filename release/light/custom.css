@@ -2352,12 +2352,13 @@ div.section-title + div.fields {
     content: "";
     position: absolute;
     bottom: -1px;
-    height: 1.9px;
+    height: 0px;
     border-radius: 1px;
     display: inline-block;
     left: 0px;
-    background-color: var(--tomato-container-background);
-
+    border-color: var(--tomato-container-background);
+    border-style: solid;
+    border-width: 1px;
     width: 300px;
     max-width: 300px;
     --factor: 3;   
@@ -2386,7 +2387,7 @@ div.section-title + div.fields {
 }
 
 .fields tr > td.content[style*='--data-percent']:after {
-    background-color: var(--tomato-accent-color);
+    border-color: var(--tomato-accent-color);
     width: calc(var(--data-percent) * var(--factor));
     transition: width 0.3s ease-in-out;
 }
