@@ -206,8 +206,8 @@ input[type="radio"].error,
 input[type="checkbox"].error {
     background-color: revert;
 }
-input[type="radio"].error::after,
-input[type="checkbox"].error::after {
+input[type="radio"]::after,
+input[type="checkbox"]::after {
     content: "";
     position: relative;
     z-index: 1;
@@ -215,14 +215,23 @@ input[type="checkbox"].error::after {
     mask-repeat: no-repeat; 
     mask-position: center center;
     mask-image: var(--tomato-accent-error);
-    mask-size: 100%;
+    mask-size: 0%;
     width: 66%;
     height: 66%;
     left: calc(100% - 7px);
-    top: 110%;
+    top: 115%;
     background-color: var(--tomato-accent-color);
     pointer-events: none;
+    transition: mask-size ease-in-out 0.3s;
 }
+
+input[type="radio"].error::after,
+input[type="checkbox"].error::after {
+    mask-size: 100%;
+    transition: mask-size ease-in-out 0.3s;
+}
+
+
 
 .section-title > small {
     float: right;
