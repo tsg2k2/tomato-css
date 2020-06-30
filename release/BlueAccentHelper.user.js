@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Blue accent helper
 // @namespace    https://github.com/tsg2k2
-// @version      0.4
-// @description  Enables column-based layout and applies DOM fixes
+// @version      0.6
+// @description  Enables blue color accent
 // @author       tsg2k2
 // @include      /^https?:\/\/192\.168\.\d+\.\d+.+$/
 // @include      /^https?://freshtomato/?$/
