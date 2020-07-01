@@ -1312,6 +1312,12 @@ td#navi a.indent2:before {
     width: 100%;
 }
 
+.term .termReverse {
+  color: var(--tomato-accent-color) !important;
+  background-color: var(--tomato-accent-front-color) !important;
+  
+}
+
 #survey-msg {
    background: unset !important;
    display: contents;
