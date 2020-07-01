@@ -1645,9 +1645,9 @@ input[type='radio']::before {
 
 input[type='checkbox']:checked,
 input[type='radio']:checked {
-   mask-size: 90% 90%;
-   -moz-mask-size: 90% 90%;
-   -webkit-mask-size: 90% 90%;
+   mask-size: 100% 100%;
+   -moz-mask-size: 100% 100%;
+   -webkit-mask-size: 100% 100%;
 }
 
 input[type='checkbox']:disabled::before,
