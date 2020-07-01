@@ -2399,6 +2399,7 @@ div.section-title + div.fields {
     border-radius: 1px;
     display: inline-block;
     left: 0px;
+    background-color: var(--tomato-container-background);
     border-color: var(--tomato-container-background);
     border-style: solid;
     border-width: 1px;
@@ -2431,6 +2432,7 @@ div.section-title + div.fields {
 
 .fields tr > td.content[style*='--data-percent']:after {
     border-color: var(--tomato-accent-color);
+    background-color: var(--tomato-accent-color);
     width: calc(var(--data-percent) * var(--factor));
     transition: width 0.3s ease-in-out;
 }
