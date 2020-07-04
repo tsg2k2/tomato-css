@@ -47,7 +47,7 @@ body.blue {
 :root {
   --tomato-controls-border: 1px solid var(--tomato-container-background);
 
-  --tomato-controls-border-radius: 1px;     
+  --tomato-controls-border-radius: 2px;     
   --tomato-controls-size: 22px;
   
   --tomato-accent-select: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="%2327ae60" width="292.4" height="292.4"><path d="M287 69.4a17.6 17.6 0 0 0-13-5.4H18.4c-5 0-9.3 1.8-12.9 5.4A17.6 17.6 0 0 0 0 82.2c0 5 1.8 9.3 5.4 12.9l128 127.9c3.6 3.6 7.8 5.4 12.8 5.4s9.2-1.8 12.8-5.4L287 95c3.5-3.5 5.4-7.8 5.4-12.8 0-5-1.9-9.2-5.5-12.8z"/></svg>');
@@ -202,12 +202,15 @@ input:not([type="checkbox"]).error {
     background-size: contain;
 }
 
-input[type="radio"].error,
-input[type="checkbox"].error {
+.input[type="checkbox"].error,
+input[type="radio"].error
+{
     background-color: var(--tomato-panel-background);
 }
-input[type="radio"]::after,
-input[type="checkbox"]::after {
+
+input[type="checkbox"]::after,
+input[type="radio"]::after
+{
     content: "";
     position: relative;
     display: block;
@@ -228,11 +231,11 @@ input[type="checkbox"]::after {
     -woz-mask-size: 0%;
     -webkit-mask-size: 0%;
 
-    width: 66%;
+    width: 33%;
     height: 66%;
 
-    left: calc(100% - 7px);
-    top: -33%;
+    left: calc(100% - 4px);
+    top: -25%;
     background-color: var(--tomato-accent-color);
     pointer-events: none;
     transition: all ease-in-out 0.3s;
@@ -245,6 +248,7 @@ input[type="checkbox"].error::after {
     -webkit-mask-size: 100%;
     transition: all ease-in-out 0.3s;
 }
+
 
 .section-title > small {
     float: right;
@@ -1584,7 +1588,7 @@ div#ports {
     font-size: 0px;
 }
 
-input[type='checkbox'],
+.input[type='checkbox'],
 input[type='radio'] {
   appearance: none;
   -moz-appearance: none;
@@ -1601,7 +1605,7 @@ input[type='radio'] {
   -webkit-mask-size: 0% 0%;
 }
 
-input[type='checkbox']::before,
+.input[type='checkbox']::before,
 input[type='radio']::before {
   background-color: var(--tomato-accent-color);  
   content: ""; 
@@ -1631,7 +1635,7 @@ input[type='radio']:focus {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
-input[type='checkbox']::before {
+.input[type='checkbox']::before {
     mask-image: var(--tomato-check);
     -moz-mask-image: var(--tomato-check);
     -webkit-mask-image: var(--tomato-check);
@@ -1653,13 +1657,64 @@ input[type='radio']:checked {
 input[type='checkbox']:disabled::before,
 input[type='radio']:disabled::before {
     opacity: unset;
-    filter: grayscale(1);
+    /*! filter: grayscale(1); */
 }
 
-input[type='checkbox']:not(:checked):disabled,
+.input[type='checkbox']:not(:checked):disabled,
 input[type='radio']:not(:checked):disabled {
     background-color: var(--tomato-container-background);
     opacity: unset;
+}
+
+input[type='checkbox'] {
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+ width: 44px;
+ height: 22px;
+ display: inline-block;
+ position: relative;
+ border: var(--tomato-controls-border);
+ border-radius: var(--tomato-controls-border-radius);
+ /*! overflow: hidden; */
+ /*! outline: none; */
+ /*! border: none; */
+ cursor: pointer;
+ background-color: var(--tomato-container-background);
+ transition: background-color ease 0.3s;
+ padding: 1px;
+ border-color: transparent;
+ vertical-align: middle;
+}
+input[type='checkbox']:before {
+ content: "off";
+ display: block;
+ /*! position: absolute; */
+ /*! z-index: 2; */
+ width: 20px;
+ height: 100%;
+ background: var(--tomato-accent-front-color);
+ /*! left: 1px; */
+ /*! top: 1px; */
+ border-radius: var(--tomato-controls-border-radius);
+ font: 9px/18px Play;
+ text-transform: uppercase;
+ font-weight: bold;
+ text-indent: 22px;
+ word-spacing: 24px;
+ color: var(--tomato-accent-front-color);
+ text-shadow: -1px -1px rgba(0,0,0,0.15);
+ white-space: nowrap;
+ box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+ transition: all ease 0.3s;
+}
+input[type='checkbox']:checked {
+ background-color: var(--tomato-accent-color);
+}
+input[type='checkbox']:checked:before {
+ margin-left: 20px;
+ text-indent: -17px;
+ content: "on";
 }
 
 .term {
