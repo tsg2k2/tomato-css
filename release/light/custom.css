@@ -231,18 +231,19 @@ input[type="radio"]::after
     -woz-mask-image: var(--tomato-accent-error);
     -webkit-mask-image: var(--tomato-accent-error);
 
-    mask-size: 0%;
-    -woz-mask-size: 0%;
-    -webkit-mask-size: 0%;
+    mask-size: 1%;
+    -woz-mask-size: 1%;
+    -webkit-mask-size: 1%;
  
-    width: 0%;
-    height: 0%;
-    
     left: calc(100% - 3px);
     top: -25%;
     background-color: var(--tomato-accent-color);
     pointer-events: none;
     transition: all ease-in-out 0.3s;
+
+    width: 33%;
+    height: 66%;
+
 }
 
 input[type="radio"].error::after,
@@ -254,8 +255,6 @@ input[type="checkbox"].error::after {
     
     transition: all ease-in-out 0.3s;
     
-    width: 33%;
-    height: 66%;
 }
 
 .section-title > small {
