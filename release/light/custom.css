@@ -636,9 +636,10 @@ ul.tabs li{
     display: inline-block;
 }
 
+ul.tabs li a,
 ul#tabs li a {
     background-color: var(--tomato-container-background); 
-    padding: 8px !important;;
+    padding: 8px !important;
 }
 
 ul#tabs li a.active {
