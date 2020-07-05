@@ -234,11 +234,11 @@ input[type="radio"]::after
     mask-size: 0%;
     -woz-mask-size: 0%;
     -webkit-mask-size: 0%;
-
-    width: 33%;
-    height: 66%;
-
-    left: calc(100% - 4px);
+ 
+    width: 0%;
+    height: 0%;
+    
+    left: calc(100% - 3px);
     top: -25%;
     background-color: var(--tomato-accent-color);
     pointer-events: none;
@@ -247,12 +247,16 @@ input[type="radio"]::after
 
 input[type="radio"].error::after,
 input[type="checkbox"].error::after {
+   
     mask-size: 100%;
     -moz-mask-size: 100%;
     -webkit-mask-size: 100%;
+    
     transition: all ease-in-out 0.3s;
+    
+    width: 33%;
+    height: 66%;
 }
-
 
 .section-title > small {
     float: right;
