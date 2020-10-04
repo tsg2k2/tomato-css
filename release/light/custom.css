@@ -1706,10 +1706,10 @@ input[type='checkbox']:before {
      height: 100%;
      background: var(--tomato-accent-front-color);
      border-radius: calc(var(--tomato-controls-border-radius) - 1px);
-     font: 9px/16px Play;
+     font: 9px/15px Play;
      text-transform: uppercase;
      font-weight: bold;
-     text-indent: 20px;
+     text-indent: 19px;
      word-spacing: 24px;
      color: var(--tomato-color);
      white-space: nowrap;
