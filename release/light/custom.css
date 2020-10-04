@@ -1984,8 +1984,8 @@ td#content > div.section {
     margin-top: 0px !important;
     margin-right: 0px !important;
     text-align: left !important;
+    float: right !important;
 }
-
 
 #bwm-controls small:first-child {
     font-size: x-small;
