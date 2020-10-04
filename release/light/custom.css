@@ -2269,8 +2269,8 @@ td#navi a.active {
     display: none;
 }
 
-#txt #rx-name:after,
-#txt #tx-name:after{
+#rx-name:after,
+#tx-name:after{
     content: '\00a0';
     display: inline block; 
     width: 18px;
@@ -2282,8 +2282,8 @@ td#navi a.active {
     left: 0px;
 }
 
-#txt #rx-name:before,
-#txt #tx-name:before{
+#rx-name:before,
+#tx-name:before{
     content: '\00a0';
     display: inline block; 
     width: 18px;
@@ -2296,15 +2296,15 @@ td#navi a.active {
     background-size: 10px 10px;
 }
 
-#txt #rx-name:before{
+#rx-name:before{
     background-image: var(--icon-button-backup);
 }
-#txt #tx-name:before{
+#tx-name:before{
     background-image: var(--icon-button-restore);
 }
 
-#txt #rx-name,
-#txt #tx-name{
+#rx-name,
+#tx-name{
     position: relative;
     border-width: 0px !important;
     transition: all ease-in-out 0.2s;
