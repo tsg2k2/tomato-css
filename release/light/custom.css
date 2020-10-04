@@ -586,6 +586,12 @@ div.section div {
     border-top:0;
 }
 
+div#footer {
+    border: none !important;
+    height: auto;
+    padding-bottom: 20px;
+}
+
 td#footer {
     border: none;
     text-align: right;
